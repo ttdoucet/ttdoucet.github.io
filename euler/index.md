@@ -2,6 +2,7 @@
 layout: default
 title: Euler papers translated to English.
 ---
+# Leonhard Euler
 I have translated into English several works of the great mathematician Leonhard Euler:
 
 * e170 [Investigations on the imaginary roots of equations.][e170] Plus a translator's [introduction][e170intro].
