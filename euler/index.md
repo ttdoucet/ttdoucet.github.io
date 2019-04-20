@@ -11,7 +11,7 @@ I have translated into English several works of the great mathematician Leonhard
 * e334 [General investigations on the mortality and the multiplication of man.][e334]
 * e335 [On life annuities.][e335]
 * e461 [Extract of a letter from Mr. Euler to Mr. Bernoulli.][e461]
-* e498 [Extract of a letter from the Mr. Euler to Mr. Beguelin.][e498]
+* e498 [Extract of a letter from Mr. Euler to Mr. Beguelin.][e498]
 * e807 [On the logarithms of negative and imaginary numbers.][e807]
 * e343 In progress: [Letters to a Princess.][e343]
 
