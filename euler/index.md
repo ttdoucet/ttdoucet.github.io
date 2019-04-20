@@ -4,7 +4,7 @@ title: Euler papers translated to English.
 ---
 I have translated into English several works of the great mathematician Leonhard Euler:
 
-* e170 [Investigations on the imaginary roots of equations.][e170] Plus a [translator's introduction][e170intro].
+* e170 [Investigations on the imaginary roots of equations.][e170] Plus a translator's [introduction][e170intro].
 * e175 [Discovery of a most extraordinary law of numbers, relating to the sum of their divisors.][e175]
 * e309 [A solution to a curious problem which seems not subjected to any analysis.][e309]
 * e310 [A new method for eliminating unknown quantities from equations.][e310]

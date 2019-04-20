@@ -17,7 +17,7 @@ of various computations, is [here][Repo].
 All of the computations below involve separable filter kernels and
 should be easily implementable at video speeds on embedded hardware.
 
-<table align="center" cellpadding="8" border="0" cellspacing="0">
+<table>
 <tr>
 
 <td>
