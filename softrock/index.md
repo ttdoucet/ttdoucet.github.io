@@ -8,12 +8,24 @@ title: SoftRock
 Tony Parks at [Five Dash] sells a wonderful software-defined radio kit, the SoftRock Ensemble II RX.
 I enjoyed building it and then analyzing in some depth the design of several aspects of the radio.
 
-* [Patent document][patent]
-* Motorola [app note][appnote]
-* Bandpass filter [notebook][bpf]
-* Quadrature sampling detector [notebook][qsd]
 
 ## Construction
+
+It is not too difficult to build.  The toroids took me a while, but I enjoyed doing them
+and also enjoyed doing the three broadband transformers on the bobbins.  It's nice to know
+that you can do all the inductance you need yourself for HF.
+
+There are about 18 surface mount bypass capacitors on the bottom of the board, which are pretty
+easy to do with only a little practice.  Most of the ICs are also surface mount.  Most are also
+easy, but a couple are tricky--the very small 3.3-volt regulator caused me the most trouble.  But
+there were no serious problems with them and it is a skill well worth developing.
+
+The rest of the parts are all through hole and easy to solder.  The part placement is surprisingly
+tight, especially in the filter section.  Most of the resistors are small 1/6-watt units and all
+resistors are mounted vertically.
+
+I found the quality of the circuit board, the parts, and the selection of parts to be very
+impressive.  I also like that there is not a polarized capacitor anywhere on the board.
 
 <img style="display:block;" width="100%" height="100%" src="docs/01-front.jpg" />
 
@@ -45,11 +57,62 @@ At each moment, one and only one path conducts through U10.
 The QSD clock signals at S0 and S1 cause the multiplexer to close one
 contact at a time in the following sequence: top of T3 to top
 capacitor C20, then top of T3 to bottom capacitor C21, then bottom of
-T3 to the top, then bottom of T3 to the bottom.
+T3 to the top capacitor, then bottom of T3 to the bottom capacitor.
 
-Because of the center tap of T3 and the biasing of the circuit, a
-sinusoidal....
+If the input is a sinusoid at a given frequency and the radio is to be tuned
+exactly to that center frequency, the local oscillator operates at four
+times this center frequency, so that one cycle of the desired signal is
+sampled four times, in the manner just described.
 
+If the top cap C20 sees the first peak, say, of the sinewave, then it
+will see it again half a cycle later, this time from the bottom half
+of T3.  Because of the center tap and biasing, these two quarters do not cancel,
+they reinforce.  Similarly, in this situation the bottom cap C21 would
+see the two zeros of the sinusoid, again additively.  In this case,
+the two outputs would converge in a few cycles to DC values for the
+two "I" and "Q" output of the detector.
+
+If the signal is 1 kHz away from the center frequency, say, then the I and Q
+outputs would be 1-kHz sinusoids, ninety-degrees out of phase ("in quadrature").
+
+
+In order to check my understanding and to see exactly what is happening at
+the sampling capacitors C20 and C21, I analyzed the circuit by writing some
+code in a [Python notebook for the QSD circuit][qsd].
+
+It traces the output of the sampling capacitors by applying first principles,
+the differential equations that describe the non-linear commutating RC circuit,
+fed by a voltage source with the above-indicated impedances.  The code ended
+up being pretty simple and it worked out well, and was a lot of fun.  The
+notebook shows the I & Q signals in quadrature, as expected, and also small
+amount of RF ripple present on them (which would tend to be further attenuated
+by the low-pass filter of the op amp gain stage).  It also shows the transient
+responses and settling time for the circuit.  Also, I was able to analyze
+the approximate bandwidth of the sampling system directly, which can be a little
+tricky in a nonlinear circuit.
+
+There is also a second [Python Notebook to analyze the bandpass filters][bpf]
+used in the receiver front end.
+
+I encourage you to clone the repo and run it for yourself if you're interested--lots
+of fun!
+
+## Reading
+
+To gain more insight into how a quadrature detector works, it is worthwhile to
+read the informative [patent document][patent] for the Tayloe detector, now
+expired.  Additional insight can be had by reading this often-cited but
+very hard to find Motorola app note, [AN-534][appnote], Commutating Filter Techniques.
+
+## Plans
+
+One reason I learned KiCad and did the schematic of the radio is that that, ultimately,
+I'd like to investigate variations on this circuit.  I plan to learn the PC board layout
+part of KiCad, and then do a board spin on a simplified version of the circuit, which I could
+then build and experiment with.  If that comes to pass I will update this page.
+
+<br>
+Todd, AE3K
 
 [front]: docs/01-front.jpg
 [top]: docs/02-top.jpg
