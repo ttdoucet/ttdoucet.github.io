@@ -93,12 +93,14 @@ amount of RF ripple present on them (which would be further attenuated
 by the low-pass filter of the op amp gain stage).  It also shows the transient
 responses and settling time for the circuit.  I was able to analyze
 the approximate bandwidth of the sampling system directly, which can be a little
-tricky in a nonlinear circuit.
+tricky in a nonlinear circuit.  The notebook also investigates how the QSD
+behaves when the LO is operated at 1/3 the normal frequency, which is done
+sometimes.  (I believe Tony's SoftRock Lite kits do this.)
 
 There is also a second [Python Notebook to analyze the bandpass filters][bpf]
 used in the receiver front end.
 
-I encourage you to clone the repo and run it for yourself if you're interested--lots
+I encourage you to clone the repos and run them for yourself if you're interested--lots
 of fun!
 
 ## Reading
