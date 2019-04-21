@@ -18,21 +18,21 @@ All of the computations below involve separable filter kernels and
 should be easily implementable at video speeds on embedded hardware.
 
 <figure>
-  <img src="pics/input.png" width="100%" height="100%" />
+  <img src="pics/input.png" border="1" width="100%" height="100%" />
   <figcaption>Original snapshot of finger showing fingerprint.</figcaption>
 </figure>
 
 
 <br>
 <figure>
-  <img src="pics/gradient.png" width="100%" height="100%" />
+  <img src="pics/gradient.png" border="1" width="100%" height="100%" />
   <figcaption>Gradient computation showing tangents & normals.</figcaption>
 </figure>
 
 
 <br>
 <figure>
-  <img src="pics/output.png" width="100%" height="100%" />
+  <img src="pics/output.png" border="1" width="100%" height="100%" />
   <figcaption>Gaussian blur followed by Laplacian, then
               a specialized thresholding.
   </figcaption>
@@ -41,7 +41,7 @@ should be easily implementable at video speeds on embedded hardware.
 
 <br>
 <figure>
-  <img src="pics/fmask.png" width="100%" height="100%" />
+  <img src="pics/fmask.png" border="1" width="100%" height="100%" />
   <figcaption>Strength of computed orientation field
               allows us to mask off areas of the
               image that are not of interest.
@@ -51,7 +51,7 @@ should be easily implementable at video speeds on embedded hardware.
 
 <br>
 <figure>
-  <img src="pics/zebra.png" width="100%" height="100%" />
+  <img src="pics/zebra.png" border="1" width="100%" height="100%" />
   <figcaption>
     This stable image results from repeatedly
     feeding back the output image as input.
