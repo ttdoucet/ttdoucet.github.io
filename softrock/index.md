@@ -75,19 +75,23 @@ two "I" and "Q" output of the detector.
 If the signal is 1 kHz away from the center frequency, say, then the I and Q
 outputs would be 1-kHz sinusoids, ninety-degrees out of phase ("in quadrature").
 
-
 In order to check my understanding and to see exactly what is happening at
-the sampling capacitors C20 and C21, I analyzed the circuit by writing some
-code in a [Python notebook for the QSD circuit][qsd].
+the sampling capacitors C20 and C21, I created a [Python notebook][qsd]
+to analyze the circuit.
+
+<img style="display:block;" width="100%" height="100%" src="docs/qsd-nb-1.png" />
 
 It traces the output of the sampling capacitors by applying first principles,
 the differential equations that describe the non-linear commutating RC circuit,
 fed by a voltage source with the above-indicated impedances.  The code ended
-up being pretty simple and it worked out well, and was a lot of fun.  The
-notebook shows the I & Q signals in quadrature, as expected, and also small
-amount of RF ripple present on them (which would tend to be further attenuated
+up being pretty simple and it worked out well, and was a lot of fun.
+
+<img style="display:block;" width="100%" height="100%" src="docs/qsd-nb-2.png" />
+
+The notebook shows the I & Q signals in quadrature, as expected, and also the small
+amount of RF ripple present on them (which would be further attenuated
 by the low-pass filter of the op amp gain stage).  It also shows the transient
-responses and settling time for the circuit.  Also, I was able to analyze
+responses and settling time for the circuit.  I was able to analyze
 the approximate bandwidth of the sampling system directly, which can be a little
 tricky in a nonlinear circuit.
 
