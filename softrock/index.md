@@ -70,7 +70,7 @@ of T3.  Because of the center tap and biasing, these two quarters do not cancel,
 they reinforce.  Similarly, in this situation the bottom cap C21 would
 see the two zeros of the sinusoid, again additively.  In this case,
 the two outputs would converge in a few cycles to DC values for the
-two "I" and "Q" output of the detector.
+two "I" and "Q" outputs of the detector.
 
 If the signal is 1 kHz away from the center frequency, say, then the I and Q
 outputs would be 1-kHz sinusoids, ninety-degrees out of phase ("in quadrature").
@@ -81,7 +81,7 @@ to analyze the circuit.
 
 <img style="display:block;" src="docs/qsd-nb-1.png" />
 
-It traces the output of the sampling capacitors by applying first principles,
+It traces the voltage at the sampling capacitors by applying first principles,
 the differential equations that describe the non-linear commutating RC circuit,
 fed by a voltage source with the above-indicated impedances.  The code ended
 up being pretty simple and it worked out well, and was a lot of fun.
