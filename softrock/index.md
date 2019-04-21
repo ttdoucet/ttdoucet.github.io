@@ -111,7 +111,6 @@ I'd like to investigate variations on this circuit.  I plan to learn the PC boar
 part of KiCad, and then do a board spin on a simplified version of the circuit, which I could
 then build and experiment with.  If that comes to pass I will update this page.
 
-<br>
 Todd, AE3K
 
 [front]: docs/01-front.jpg
