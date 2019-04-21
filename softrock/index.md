@@ -79,14 +79,14 @@ In order to check my understanding and to see exactly what is happening at
 the sampling capacitors C20 and C21, I created a [Python notebook][qsd]
 to analyze the circuit.
 
-<img style="display:block;" width="100%" height="100%" src="docs/qsd-nb-1.png" />
+<img style="display:block;" src="docs/qsd-nb-1.png" />
 
 It traces the output of the sampling capacitors by applying first principles,
 the differential equations that describe the non-linear commutating RC circuit,
 fed by a voltage source with the above-indicated impedances.  The code ended
 up being pretty simple and it worked out well, and was a lot of fun.
 
-<img style="display:block;" width="100%" height="100%" src="docs/qsd-nb-2.png" />
+<img style="display:block;" src="docs/qsd-nb-2.png" />
 
 The notebook shows the I & Q signals in quadrature, as expected, and also the small
 amount of RF ripple present on them (which would be further attenuated
