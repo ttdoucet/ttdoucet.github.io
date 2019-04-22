@@ -1,0 +1,35 @@
+---
+layout: default
+title: Sum Angle Formulas
+---
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<h4 align="center">Sum angle formulas </h4>
+
+<div style="border: ridge grey ;">
+<p>
+\begin{multline}
+\shoveleft
+\begin{aligned}
+e^\alpha e^\beta = e^{\alpha+\beta} = \cos(\alpha+\beta) + i\sin(\alpha+\beta)
+\end{aligned}
+\end{multline}
+
+\begin{multline}
+\shoveleft
+\begin{aligned}
+e^\alpha e^\beta & = (\cos\alpha + i\sin\alpha)(\cos\beta + i\sin\beta) & \\
+                 & = \cos\alpha\cos\beta - \sin\alpha\sin\beta + i(\sin\alpha\cos\beta + \sin\beta\cos\alpha)
+\end{aligned}
+\end{multline}
+
+\begin{multline}
+\shoveleft
+\begin{aligned}
+\cos(\alpha+\beta) &= \cos\alpha\cos\beta - \sin\alpha\sin\beta & \\
+\sin(\alpha+\beta) &= \sin\alpha\cos\beta + \sin\beta\cos\alpha
+\end{aligned}
+\end{multline}
+</p>
+</div>

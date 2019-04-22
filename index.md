@@ -3,7 +3,10 @@ layout: default
 title: Projects
 ---
 
-Some of my projects:
+
+
+
+Projects:
   * [Euler translations](/euler)
   * [Image Processing](/fingerprints)
   * [Machine Learning](https://github.com/ttdoucet/mnist/blob/master/mnist.ipynb)
@@ -11,5 +14,7 @@ Some of my projects:
 
 Jottings:
   * [Color](/color)
-
+  * [Doppler](/doppler)
+  * [Sum angle](/sumangle)
+  
 
