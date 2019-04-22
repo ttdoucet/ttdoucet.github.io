@@ -13,8 +13,9 @@ Projects:
   * [SoftRock](/softrock)
 
 Jottings:
+  * [Direction-finding](/df)
   * [Color](/color)
   * [Doppler](/doppler)
   * [Sum angle](/sumangle.html)
-  * [Direction-finding](/df)
+
 
