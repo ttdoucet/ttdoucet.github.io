@@ -49,7 +49,7 @@ for me.
 <img src="docs/azel-notes-1.jpg" style="float:left; margin-right:1em">
 The wavefront travels distance \(d\) from B to A.  If the wavelength is \(\lambda\),
 then the phase difference between A and B would be \(d/\lambda\) of a full wavelength,
-or \(d/\lambda\cdot 360\deg\).
+or \((d/\lambda)\cdot 360\deg\).
 </p>
 
 <p>We measure azimuth, \(\alpha\), relative to the A/B axis with A as
@@ -73,7 +73,7 @@ the distance the wavefront must travel between the time it encounters B, until i
 encounters A.
 
 \begin{equation}
-\cos\alpha=l/d \quad l=d\cdot\cos\alpha
+\cos\alpha=l/d \quad\hbox{or}\quad l=d\cdot\cos\alpha
 \end{equation}
 
 Given that, the phase difference will be
@@ -85,7 +85,7 @@ Given that, the phase difference will be
 
 <p>
 <img src="docs/azel-notes-3.jpg" style="float:left; margin-right:1em; clear:left;" />
-Now \(\alpha=0\), and we vary the elevation \(\epsilon\).  As before,
+Now \(\alpha=0\), and we vary the elevation \(\epsilon\).  Similar to before,
 \begin{equation}
 l=d\cdot\cos\epsilon.
 \end{equation}
@@ -109,7 +109,7 @@ d\cdot\cos\alpha\cos\epsilon
 <p>and the expression
 
 \begin{equation}
-\boxed{l = d\cdot\cos\alpha\cos\epsilon}
+\boxed{\;\strut l = d\cdot\cos\alpha\cos\epsilon\;}
 \end{equation}
 
 <p>includes all of the previous results as special cases.  I believe
@@ -288,13 +288,13 @@ feasible azimuth elevation pairs is given by
 
 Here is a plot of the set of feasible pairs:
 
-  <img src="docs/dfplot1.png" />
+  <p><img src="docs/dfplot1.png" />
 
 
 <p>That general shape is always what such a solution set looks like.  Here is a set of
 feasibilities for various shrinkage factors between 0 and 1:
 
-  <img src="docs/dfplot2.png" />
+  <p><img src="docs/dfplot2.png" />
 
 
 <p>Now suppose we make another phase measurement between a different pair
@@ -340,13 +340,13 @@ measurements, and is the answer.
 <p>For example, suppose we have
 
 \begin{equation}
-  \cos(a) \cos(e) = 0.70
+  \cos(a) \cos(e) = 0.70 \\
   \cos(a - 30) \cos(e) = 0.53
 \end{equation}
 
 <p>Here they are plotted together:
 
-  <img src="docs/dfplot3.png" />
+  <p><img src="docs/dfplot3.png" />
 
 <p>We see graphically that they intersect at one point.
 
@@ -390,7 +390,7 @@ too far away).  Do the simple calculation, and get the answer.
 
 <p>Interestingly, you can then use all your other antennas, even ones that are
 "too far" from each other, to reinforce the answer you got.  You just
-compute the expected phase between an *arbitrary* pair of antennas, and
+compute the expected phase between an <i>arbitrary</i> pair of antennas, and
 verify that's what you measured.
 
 <p>But notice that the core result needs only three, or maybe four antennas.
