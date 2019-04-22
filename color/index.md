@@ -11,6 +11,6 @@ title: Color
 
 <img src="docs/chroma2.jpg" border="1" width="100%" height="100%" />
 
-Here's a [great article][Land] on human color perception.
+Here's a [great article][Land] by Edwin Land on human color perception.
 
 [Land]: docs/LandRetinex.pdf

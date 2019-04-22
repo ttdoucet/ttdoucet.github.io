@@ -16,5 +16,5 @@ Jottings:
   * [Color](/color)
   * [Doppler](/doppler)
   * [Sum angle](/sumangle)
-  
+  * [Direction-finding](/df)
 
