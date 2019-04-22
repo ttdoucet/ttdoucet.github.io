@@ -41,12 +41,85 @@ relationships among the received signals at several omnidirectional
 antennas.  I've enjoyed thinking about this problem, which is a new one
 for me.
 
-<p>Since it is somewhat awkward to express math and figures via email,
-I've scanned in a couple sheets of notes I made while thinking about
-this problem:
+<p>Here are some notes I took while initially thinking about the problem:
 
-  <img src="docs/azel1.jpg" border="1" />
-  <img src="docs/azel2.jpg" border="1" />
+<div style="background-color: #ECD144; border: 1px solid black; padding: 1em; font-size: 0.8em">
+
+<p>
+<img src="docs/azel-notes-1.jpg" style="float:left; margin-right:1em">
+The wavefront travels distance \(d\) from B to A.  If the wavelength is \(\lambda\),
+then the phase difference between A and B would be \(d/\lambda\) of a full wavelength,
+or \(d/\lambda\cdot 360\deg\).
+</p>
+
+<p>We measure azimuth, \(\alpha\), relative to the A/B axis with A as
+  the origin.  We measure elevation, \(\epsilon\), also with origin A,
+  as an angle of lift off the horizontal plane.  These local coordinates
+  result in simple expressions.
+
+<p>We assume the wave source is far enough away so that the wavefront can be
+  considered flat, or planar, when it reaches us.  So the wavefront is a plane
+  that moves perpendicularly to itself.  As a consequence, the az/el heading into
+  the wavefront (perpendicularly) is exactly the same for all our receivers, including
+  A and B.
+
+<div style="clear:both;">
+</div>
+
+<p>
+<img src="docs/azel-notes-2.jpg" style="float:left; margin-right:1em;" />
+Here \(\epsilon=0\) and azimuth is \(\alpha\).  The quantity of interest is \(l\),
+the distance the wavefront must travel between the time it encounters B, until it
+encounters A.
+
+\begin{equation}
+\cos\alpha=l/d \quad l=d\cdot\cos\alpha
+\end{equation}
+
+Given that, the phase difference will be
+\((l/\lambda)\cdot 360\deg\).
+</p>
+
+<div style="clear:both;">
+</div>
+
+<p>
+<img src="docs/azel-notes-3.jpg" style="float:left; margin-right:1em; clear:left;" />
+Now \(\alpha=0\), and we vary the elevation \(\epsilon\).  As before,
+\begin{equation}
+l=d\cdot\cos\epsilon.
+\end{equation}
+</p>
+<p>Note that the signals are in phase whenever \(\alpha=90\deg\), and also
+  whenever \(\epsilon=90\deg\).  That's broadside and straight up, respectively.
+
+<div style="clear:both";>
+</div>
+<p>Now consider simultaneous azimuth and elevation.  What happens?  Well, in the
+  first case, the quantity \(l\) turns out to be the distance \(d\) projected onto
+  the axis of wave motion.  Same holds for the second case.  For simultaneous
+  \(\alpha\) and \(\epsilon\), the projection of the distance \(d\) onto the direction
+  of motion is simply
+  
+\begin{equation}
+d\cdot\cos\alpha\cos\epsilon
+\end{equation}
+
+
+<p>and the expression
+
+\begin{equation}
+\boxed{l = d\cdot\cos\alpha\cos\epsilon}
+\end{equation}
+
+<p>includes all of the previous results as special cases.  I believe
+  this \(l\) gives us the phase relationship between A and B, by
+  plugging it into \(\theta=(l/\lambda)\cdot 360\deg\).
+
+<p>This simple relation allows us to easily determine the expected phase
+  relationship between two antennas, given their positions, the wavelength,
+  and the az/el heading to the incoming wave.
+</div>
 
 <p>As I understand the problem, the core issue is to compute the expected
 phase relationship between two antennas, given that a signal comes from
@@ -77,7 +150,7 @@ Using these local coordinates, the expression for \(L\) is simply:
 <p>And then the phase angle between A and B is just
 
 \begin{equation}
-   (L/\lambda) \cdot 360 \hbox{ deg}
+   (L/\lambda) \cdot 360\deg
 \end{equation}
 
 <p>where lambda is the wavelength of the incoming signal.  (Omitting sign
@@ -158,7 +231,7 @@ elevation.  \(L\) is the distance the wavefront travels between the time it enco
 the two antennas.  The expected phase measurement is then
 
 \begin{equation}
-  \theta = (L / \lambda) \cdot 360 \hbox{ deg},
+  \theta = (L / \lambda) \cdot 360\deg,
 \end{equation}
 
 <p>where \(\lambda\) is the wavelength of the signal of interest.
