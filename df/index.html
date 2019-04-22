@@ -4,16 +4,16 @@ title: Direction finding
 ---
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-<b>
-<pre>
-Todd,
 
-The first problem we would like to attack is the case when we have an
+<div style="font-size: 0.7em; background-color: lightblue; border: 1px solid black; padding-left: 1em; padding-right: 1em;">
+<p>Todd,
+
+<p>The first problem we would like to attack is the case when we have an
 array of antennas randomly spread out in an area of about 1 to 3 acres.
 In this case we want to use the array to find the azimuth and elevation
 of incoming signals in the HF band.
 
-What we need is an algorithm that can quickly construct a correlation
+<p>What we need is an algorithm that can quickly construct a correlation
 table for the expected phase difference between the 3 to 10 different
 antennas (they are mounted on vehicles, one per vehicle). This table
 has to be usable from 1 to 30 MHz and for angles up to 85 degrees
@@ -21,19 +21,18 @@ elevation. All the vehicles have GPS so the relative positions are known
 to within a couple of feet.  The receive equipment can measure the
 phase difference fast between all the different antennas.
 
-With help of the correlation table the system can then look up the best
+<p>With help of the correlation table the system can then look up the best
 fit and output the result (which is of course a line of bearing as well
 as the elevation of the incoming signal). If any vehicle moves, then a
 new table has to be constructed.  So the algorithm must be able to take
 in new vehicle locations, and continually calculate the new correlation
 tables.
 
-- Lars
-</pre>
-</b>
-<hr />
+<p>- Lars
+</div>
 
-<p>Lars,
+<div style="font-size: 0.9em;">
+<p>Hi Lars,
 
 <p>It never occurred to me that you could determine the direction,
 including elevation, of an incoming wave by observing a set of phase
@@ -43,7 +42,7 @@ for me.
 
 <p>Here are some notes I took while initially thinking about the problem:
 
-<div style="background-color: #ECD144; border: 1px solid black; padding: 1em; font-size: 0.8em">
+<div style="background-color: cornsilk; border: 1px solid black; padding: 1em; font-size: 0.8em">
 
 <p>
 <img src="docs/azel-notes-1.jpg" style="float:left; margin-right:1em">
@@ -163,20 +162,6 @@ local coordinates, do the simple calculation, and fill up your table.
 <p>Of course I might have muffed the calculation.  If so, tell me!  (I don't mind having
 my early mistakes caught so that I don't go too far with bad results.)
 
-
-<hr />
-
-<p>I would like to know the desired accuracy of the system.  Then I might be able to work out
-how big these tables need to be.  Also, note that these tables I described depend
-on the wavelength.  So if you have 50 transmitters on different freqs, you'll need
-50 tables.
-
-<p>Note also that the stated gps accuracy of a couple feet might start to become
-problematical up around 30 MHz, where the wavelength is only 10 meters, or around
-30 feet.
-
-<p>Also, I'd really like to know how accurate the phase measurements are,
-and what the resolution is.
 
 <hr />
 
@@ -421,3 +406,4 @@ is potentially winning.  Please let me know what you think.
 
 <p>Todd  
 
+</div>
