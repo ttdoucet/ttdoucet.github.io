@@ -15,6 +15,6 @@ Projects:
 Jottings:
   * [Color](/color)
   * [Doppler](/doppler)
-  * [Sum angle](/sumangle)
+  * [Sum angle](/sumangle.html)
   * [Direction-finding](/df)
 
