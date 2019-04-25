@@ -45,7 +45,7 @@ for me.
 <div style="background-color: cornsilk; border: 1px solid black; padding: 1em; font-size: 0.8em">
 
 <p>
-<img src="docs/azel-notes-1.svg" style="float:left; margin-right:1em;">
+<img src="docs/azel-notes-1.svg" style="float:left; margin-right:1em; margin-left:1em;">
 The wavefront travels distance \(d\) from B to A.  If the wavelength is \(\lambda\),
 then the phase difference between A and B would be \(d/\lambda\) of a full wavelength,
 or \((d/\lambda)\cdot 360\deg\).
@@ -66,27 +66,27 @@ or \((d/\lambda)\cdot 360\deg\).
 </div>
 
 <p>
-<img src="docs/azel-notes-2.jpg" style="float:left; margin-right:1em;" />
-Here \(\epsilon=0\) and azimuth is \(\alpha\).  The quantity of interest is \(l\),
+<img src="docs/azel-notes-2.svg" style="float:left; margin-right:1em; margin-left:1em;" />
+<b>Top View: </b>\(\epsilon=0\) and azimuth is \(\alpha\).  The quantity of interest is \(\ell\),
 the distance the wavefront must travel between the time it encounters B, until it
-encounters A.
+encounters A.  Since \(\cos\alpha=\ell/d\) we have
 
 \begin{equation}
-\cos\alpha=l/d \quad\hbox{or}\quad l=d\cdot\cos\alpha
+\ell=d\cdot\cos\alpha
 \end{equation}
 
-Given that, the phase difference will be
-\((l/\lambda)\cdot 360\deg\).
+And so the phase difference will be
+\((\ell/\lambda)\cdot 360\deg\).
 </p>
 
 <div style="clear:both;">
 </div>
 
 <p>
-<img src="docs/azel-notes-3.jpg" style="float:left; margin-right:1em; clear:left;" />
-Now \(\alpha=0\), and we vary the elevation \(\epsilon\).  Similar to before,
+<img src="docs/azel-notes-3.svg" style="float:left; margin-right:1em; margin-left:1em; clear:left;" />
+<b>Side View:</b> now \(\alpha=0\), and we vary the elevation \(\epsilon\).  Similar to before,
 \begin{equation}
-l=d\cdot\cos\epsilon.
+\ell=d\cdot\cos\epsilon.
 \end{equation}
 </p>
 <p>Note that the signals are in phase whenever \(\alpha=90\deg\), and also
@@ -95,25 +95,18 @@ l=d\cdot\cos\epsilon.
 <div style="clear:both";>
 </div>
 <p>Now consider simultaneous azimuth and elevation.  What happens?  Well, in the
-  first case, the quantity \(l\) turns out to be the distance \(d\) projected onto
+  first case, the quantity \(\ell\) turns out to be the distance \(d\) projected onto
   the axis of wave motion.  Same holds for the second case.  For simultaneous
   \(\alpha\) and \(\epsilon\), the projection of the distance \(d\) onto the direction
-  of motion is simply
-  
-\begin{equation}
-d\cdot\cos\alpha\cos\epsilon
-\end{equation}
-
-
-<p>and the expression
+  of motion is simply \(d\cdot\cos\alpha\cos\epsilon\), and the expression
 
 \begin{equation}
-\boxed{\;\strut l = d\cdot\cos\alpha\cos\epsilon\;}
+\boxed{\;\strut \ell = d\cdot\cos\alpha\cos\epsilon\;}
 \end{equation}
 
 <p>includes all of the previous results as special cases.  I believe
-  this \(l\) gives us the phase relationship between A and B, by
-  plugging it into \(\theta=(l/\lambda)\cdot 360\deg\).
+  this \(\ell\) gives us the phase relationship between A and B, by
+  plugging it into \(\theta=(\ell/\lambda)\cdot 360\deg\).
 
 <p>This simple relation allows us to easily determine the expected phase
   relationship between two antennas, given their positions, the wavelength,
