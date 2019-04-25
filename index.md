@@ -9,7 +9,7 @@ title: Projects
 Projects:
   * [Euler translations](/euler)
   * [Image Processing](/fingerprints)
-  * [Machine Learning](https://github.com/ttdoucet/mnist/blob/master/mnist.ipynb)
+  * [Machine Learning](https://github.com/ttdoucet/mnist)
   * [SoftRock](/softrock)
 
 Jottings:
