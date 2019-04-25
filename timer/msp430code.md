@@ -4,6 +4,6 @@ title: Code
 ---
 ## MSP430 Interval Timer
 
-```C
+```c
 {% include_relative docs/msp430.c %}
 ```

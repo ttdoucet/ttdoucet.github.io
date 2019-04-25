@@ -11,7 +11,7 @@ Projects:
 
 Jottings:
   * [Direction-finding](/df)
-  * [Interval timer](/timer)
+  * [Speeding bullet](/timer)
   * [Color](/color)
   * [Doppler](/doppler)
   * [Sum angle](/sumangle.html)
