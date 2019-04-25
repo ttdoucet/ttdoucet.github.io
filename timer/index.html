@@ -45,8 +45,8 @@ measurements.
 
 <p>I don't have an AVR, so I used the MSP430 I have.  The development
 board consists of just a header board and a watch crystal (you can see it
-in one of the pics).  It is well-supported by open tools.  I used msp430gcc,
-and I included the <a href="pics/msp430.txt">C source</a> as an attachment.
+in one of the pictures).  It is well-supported by open tools.  I used msp430gcc,
+and I included the <a href="msp430code.html">C source</a> as an attachment.
 
 <p>So I will describe the test setup I used, my thinking on the
 precision issues, and the code that I wrote.
@@ -74,7 +74,7 @@ a Tektronix function generator to provide the pulses,
 ran the pulses through a flip-flop arranged as a divide-by-2,
 and took the two outputs from Q and Q-bar:
 
-<p><img border="0" src="pics/flipschem.png"/>
+<p><img border="0" src="docs/flipschem.png"/>
 
 <p>This gives me two separate pulses, out of phase, and I can
 conveniently vary the time between them with the function generator knob.  The
@@ -86,9 +86,9 @@ board from the function generator, so I am less likely to fry the former.
 
 <p>Here are some pictures of the setup:
 
-<p><img border="1" src="pics/ftngen.jpg" />
+<p><img border="1" src="docs/ftngen.jpg" />
 
-<p><img border="1" src="pics/flipflop2.jpg" />
+<p><img border="1" src="docs/flipflop2.jpg" />
 
 <p>The MSP430 has a flexible clock system.  You can use a real crystal, up to
 8 MHz I think.  But my board uses just a simple 32768 Hz watch
@@ -115,12 +115,12 @@ It draws its power from the serial port, via a circuit that I had already
 built up from a previous project.  This circuit also does the necessary
 level conversion from bipolar RS-232 to CMOS logic levels:
 
-<p><img border="1" src="pics/serconv.png" />
+<p><img border="1" src="docs/serconv.png" />
 
 <p>Picture of MCU and interface circuit hanging off the serial port of
 a linux machine:
 
-<p><img border="1" src="pics/mcu.jpg" />
+<p><img border="1" src="docs/mcu.jpg" />
 
 <p>To recap, the setup goes like this: Function generator to flip flop to
 get two outputs to measure, A/B.  Those A/B outputs go to the MSP430,
@@ -128,7 +128,7 @@ which hangs off the serial port via another circuit which powers it
 and level shifts.  (The MSP430 also connects to the parallel port, and
 that's how I download code to it.)
 
-<p>The attached <a href="pics/msp430.txt">C file</a>
+<p>The attached <a href="msp430code.html">C file</a>
 is the complete source code,
 except for a standard module which at
 startup initializes the clock (in this case, to 1.536 MHz), as sketched above.
