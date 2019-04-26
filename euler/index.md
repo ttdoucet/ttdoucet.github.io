@@ -16,6 +16,8 @@ I have translated into English several works of the great mathematician Leonhard
 * e807 [On the logarithms of negative and imaginary numbers.][e807]
 * e343 In progress: [Letters to a Princess.][e343]
 
+<hr width="50%" />
+
 I have also processed and uploaded to archive.org well over a hundred [scans][euler-orig]
 of original 18th-century articles published by Euler.
 
