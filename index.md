@@ -5,7 +5,7 @@ title: Projects
 
 Projects:
   * [Euler translations](/euler)
-  * [Machine Learning](https://github.com/ttdoucet/mnist)
+  * [Machine Learning](/mnist)
   * [Image Processing](/fingerprints)
   * [SoftRock](/softrock)
 
