@@ -17,7 +17,7 @@ My [model][code] ended up getting 99.82% accuracy on the test set, which I think
 Along the way I became a fan of PyTorch, and switched to it from TensorFlow.
 
 But I admit that the stuff I see in the alpha version of TensorFlow
-2.0 is pretty neat--in particular the explicit representation of
+2.0 is pretty neat---in particular the explicit representation of
 differentiation in tf.GradientTape and the economy of expression
 afforded by tf.function.
 

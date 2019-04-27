@@ -17,7 +17,7 @@ that you can do all the inductance you need yourself for HF.
 
 There are about 18 surface mount bypass capacitors on the bottom of the board, which are pretty
 easy to do with only a little practice.  Most of the ICs are also surface mount.  Most are also
-easy, but a couple are tricky--the very small 3.3-volt regulator caused me the most trouble.  But
+easy, but a couple are tricky---the very small 3.3-volt regulator caused me the most trouble.  But
 there were no serious problems with them and it is a skill well worth developing.
 
 The rest of the parts are all through hole and easy to solder.  The part placement is surprisingly
@@ -100,7 +100,7 @@ sometimes.  (I believe Tony's SoftRock Lite kits do this.)
 There is also a second [Python Notebook to analyze the bandpass filters][bpf]
 used in the receiver front end.
 
-I encourage you to clone the repos and run them for yourself if you're interested--lots
+I encourage you to clone the repos and run them for yourself if you're interested---lots
 of fun!
 
 ## Reading
