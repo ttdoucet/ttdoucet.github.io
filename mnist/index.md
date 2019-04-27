@@ -32,4 +32,4 @@ PS: My model thinks it is a three also.
 
 [MNIST]: http://yann.lecun.com/exdb/mnist/
 [model]: https://github.com/ttdoucet/mnist
-[Python notebook]: https://github.com/ttdoucet/mnist/blob/master/mnist.ipynb
+[Python notebook]: https://nbviewer.jupyter.org/github/ttdoucet/mnist/blob/master/mnist.ipynb

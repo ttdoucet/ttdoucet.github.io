@@ -127,7 +127,7 @@ Todd, AE3K
 [schematic]: docs/softrock-bw.pdf
 [softrock-kicad]: https://github.com/ttdoucet/softrock-schematic
 [QSD]: docs/QSD.png
-[bpf]: https://github.com/ttdoucet/impedance/blob/master/impedance.ipynb
-[qsd]: https://github.com/ttdoucet/qsd-mixer/blob/master/mixer_nb.ipynb
+[bpf]: https://nbviewer.jupyter.org/github/ttdoucet/impedance/blob/master/impedance.ipynb
+[qsd]: https://nbviewer.jupyter.org/github/ttdoucet/qsd-mixer/blob/master/mixer_nb.ipynb
 [Five Dash]: http://fivedash.com
 [KiCad]: http://kicad-pcb.org
