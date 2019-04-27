@@ -22,14 +22,14 @@ differentiation in tf.GradientTape and the economy of expression
 afforded by tf.function.
 
 Someday maybe I will be able to write machine learning models directly in
-NumPy, without the dialectical distractions of PyTorch, and gradients just where
+NumPy, without the dialectal distractions of PyTorch, and gradients just where
 I want them as with TF2.  Will it come to pass?
 
-The code for my [model], and a [Python notebook] which demonstrates it,
+The [code] for my model, and a [Python notebook] which demonstrates it,
 is freely available.  Comments are welcome!
 
 PS: My model thinks it is a three also.
 
 [MNIST]: http://yann.lecun.com/exdb/mnist/
-[model]: https://github.com/ttdoucet/mnist
+[code]: https://github.com/ttdoucet/mnist
 [Python notebook]: https://nbviewer.jupyter.org/github/ttdoucet/mnist/blob/master/mnist.ipynb
