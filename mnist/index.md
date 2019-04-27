@@ -26,7 +26,7 @@ NumPy, without the dialectal distractions of PyTorch, and gradients just where
 I want them as with TF2.  Will it come to pass?
 
 The [code] for my model, and a [Python notebook] which demonstrates it,
-is freely available.  Comments are welcome!
+are freely available.  Comments are welcome!
 
 PS: My model thinks it is a three also.
 
