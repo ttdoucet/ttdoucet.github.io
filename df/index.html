@@ -5,7 +5,7 @@ title: Direction finding
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 
-<div id="displaybox2">
+<div class="displaybox2">
 <p>Todd,
 
 <p>The first problem we would like to attack is the case when we have an
@@ -42,10 +42,10 @@ for me.
 
 <p>Here are some notes I took while initially thinking about the problem:
 
-<div id="displaybox">
+<div class="displaybox">
 
 <p>
-<img src="docs/azel-notes-1.svg" style="float:left; margin-right:1em; margin-left:1em;">
+<img src="docs/azel-notes-1.svg" style="float:left; margin-right:1em; margin-left:1em;" alt="wavefront">
 The wavefront travels distance \(d\) from B to A.  If the wavelength is \(\lambda\),
 then the phase difference between A and B would be \(d/\lambda\) of a full wavelength,
 or \((d/\lambda)\cdot 360\deg\).
@@ -62,11 +62,11 @@ or \((d/\lambda)\cdot 360\deg\).
   the wavefront (perpendicularly) is exactly the same for all our receivers, including
   A and B.
 
-<div style="clear:both;">
+<div style="clear:both">
 </div>
 
 <p>
-<img src="docs/azel-notes-2.svg" style="float:left; margin-right:1em; margin-left:1em;" />
+<img src="docs/azel-notes-2.svg" style="float:left; margin-right:1em; margin-left:1em;" alt="wavefront zero elevation"/>
 <b>Top View: </b>\(\epsilon=0\) and azimuth is \(\alpha\).  The quantity of interest is \(\ell\),
 the distance the wavefront must travel between the time it encounters B, until it
 encounters A.  Since \(\cos\alpha=\ell/d\) we have
@@ -79,11 +79,11 @@ And so the phase difference will be
 \((\ell/\lambda)\cdot 360\deg\).
 </p>
 
-<div style="clear:both;">
+<div style="clear:both">
 </div>
 
 <p>
-<img src="docs/azel-notes-3.svg" style="float:left; margin-right:1em; margin-left:1em; clear:left;" />
+<img src="docs/azel-notes-3.svg" style="float:left; margin-right:1em; margin-left:1em; clear:left;" alt="wavefront zero azimuth"/>
 <b>Side View:</b> now \(\alpha=0\), and we vary the elevation \(\epsilon\).  Similar to before,
 \begin{equation}
 \ell=d\cdot\cos\epsilon.
@@ -92,7 +92,7 @@ And so the phase difference will be
 <p>Note that the signals are in phase whenever \(\alpha=90\deg\), and also
   whenever \(\epsilon=90\deg\).  That's broadside and straight up, respectively.
 
-<div style="clear:both";>
+<div style="clear:both">
 </div>
 <p>Now consider simultaneous azimuth and elevation.  What happens?  Well, in the
   first case, the quantity \(\ell\) turns out to be the distance \(d\) projected onto
@@ -266,13 +266,13 @@ feasible azimuth elevation pairs is given by
 
 Here is a plot of the set of feasible pairs:
 
-  <p><img src="docs/dfplot1.png" />
+  <p><img src="docs/dfplot1.png" alt="feasible pairs"/>
 
 
 <p>That general shape is always what such a solution set looks like.  Here is a set of
 feasibilities for various shrinkage factors between 0 and 1:
 
-  <p><img src="docs/dfplot2.png" />
+  <p><img src="docs/dfplot2.png" alt="shrinkages"/>
 
 
 <p>Now suppose we make another phase measurement between a different pair
@@ -324,7 +324,7 @@ measurements, and is the answer.
 
 <p>Here they are plotted together:
 
-  <p><img src="docs/dfplot3.png" />
+  <p><img src="docs/dfplot3.png" alt="two feasibilities"/>
 
 <p>We see graphically that they intersect at one point.
 

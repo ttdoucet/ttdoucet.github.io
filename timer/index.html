@@ -2,7 +2,7 @@
 layout: default
 title: Interval timer
 ---
-<div id="displaybox2">
+<div class="displaybox2">
 <p>Hi Todd,
 
 <p>From your resume, we are definitely interested in your skill set.
@@ -74,7 +74,7 @@ a Tektronix function generator to provide the pulses,
 ran the pulses through a flip-flop arranged as a divide-by-2,
 and took the two outputs from Q and Q-bar:
 
-<p><img border="0" src="docs/flipschem.png"/>
+<p><img src="docs/flipschem.png" alt="flip-flop" style="border: 0"/>
 
 <p>This gives me two separate pulses, out of phase, and I can
 conveniently vary the time between them with the function generator knob.  The
@@ -86,9 +86,9 @@ board from the function generator, so I am less likely to fry the former.
 
 <p>Here are some pictures of the setup:
 
-<p><img border="1" src="docs/ftngen.jpg" />
+<p><img src="docs/ftngen.jpg" alt="function generator" style="border: 1px solid black"/>
 
-<p><img border="1" src="docs/flipflop2.jpg" />
+<p><img  src="docs/flipflop2.jpg" alt="board wiring" style="border: 1px solid black"/>
 
 <p>The MSP430 has a flexible clock system.  You can use a real crystal, up to
 8 MHz I think.  But my board uses just a simple 32768 Hz watch
@@ -115,12 +115,12 @@ It draws its power from the serial port, via a circuit that I had already
 built up from a previous project.  This circuit also does the necessary
 level conversion from bipolar RS-232 to CMOS logic levels:
 
-<p><img border="1" src="docs/serconv.png" />
+<p><img src="docs/serconv.png" style="border: 1px solid black" alt="schematic" />
 
 <p>Picture of MCU and interface circuit hanging off the serial port of
 a linux machine:
 
-<p><img border="1" src="docs/mcu.jpg" />
+<p><img src="docs/mcu.jpg" style="border: 1px solid black" alt="MCU"/>
 
 <p>To recap, the setup goes like this: Function generator to flip flop to
 get two outputs to measure, A/B.  Those A/B outputs go to the MSP430,
@@ -143,7 +143,7 @@ of interest.
 
 <p>Here is a typescript from a recent session.  At the slow end:
 
-<div id="displaybox">
+<div class="displaybox">
 <pre>AE3K interval timer for MSP430
     time -- measures and reports time elapsed between leading edges
     freq -- frequency, determined from measuring one cycle
@@ -168,7 +168,7 @@ Command>
 
 <p>Then I went to the function generator and cranked it up:
 
-<div id="displaybox">
+<div class="displaybox">
 <pre>AE3K interval timer for MSP430
     time -- measures and reports time elapsed between leading edges
     freq -- frequency, determined from measuring one cycle

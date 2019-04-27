@@ -3,7 +3,7 @@ layout: default
 title: MNIST
 ---
 
-<img src="docs/mnist.png" border="0" style="margin-left:1em;" />
+<img src="docs/mnist.png" style="margin-left:1em; border: 0" alt="ambiguous digit"/>
 
 Is it a five written in a hurry?  Or is it a three with a touch of Asian calligraphy?
 Inquiring minds want to know.

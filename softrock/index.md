@@ -27,11 +27,11 @@ resistors are mounted vertically.
 I found the quality of the circuit board, the parts, and the selection of parts to be very
 impressive.  I also like that there is not a polarized capacitor anywhere on the board.
 
-<img style="display:block;" width="100%" height="100%" src="docs/01-front.jpg" />
+<img style="display:block; width: 100%; height: 100%" src="docs/01-front.jpg" alt="front"/>
 
-<img style="display:block;" width="100%" height="100%" src="docs/02-top.jpg" />
+<img style="display:block; width: 100%; height: 100%" src="docs/02-top.jpg" alt="top" />
 
-<img style="display:block;" width="100%" height="100%" src="docs/03-bottom.jpg" />
+<img style="display:block; width: 100%; height: 100%" src="docs/03-bottom.jpg" alt="bottom" />
 <br>
 
 ## Circuit
@@ -45,7 +45,7 @@ The heart of the radio is the quadrature sampling detector.  In the circuit snip
 the QSD is formed by the operation of the multiplexer U10 and the sampling capacitors C20 and C21, in
 conjunction with the op amp gain and low-pass filter stage.
 
-<img style="display:block;" width="100%" height="100%" src="docs/QSD.png" />
+<img style="display:block; width: 100%; height: 100%" src="docs/QSD.png" alt="QSD" />
 
 The circuit is subtle and clever.  RF from the filtered 50-ohm system comes in at the
 left of transformer T3, and is transformed down to 12.5 ohms by the 2-to-1 transformer.
@@ -79,14 +79,14 @@ In order to check my understanding and to see exactly what is happening at
 the sampling capacitors C20 and C21, I created a [Python notebook][qsd]
 to analyze the circuit.
 
-<img style="display:block;" src="docs/qsd-nb-1.png" />
+<img style="display:block;" src="docs/qsd-nb-1.png" alt="QSD notebook 1" />
 
 It traces the voltage at the sampling capacitors by applying first principles,
 the differential equations that describe the non-linear commutating RC circuit,
 fed by a voltage source with the above-indicated impedances.  The code ended
 up being pretty simple and it worked out well, and was a lot of fun.
 
-<img style="display:block;" src="docs/qsd-nb-2.png" />
+<img style="display:block;" src="docs/qsd-nb-2.png" alt="QSD notebook 2"/>
 
 The notebook shows the I & Q signals in quadrature, as expected, and also the small
 amount of RF ripple present on them (which would be further attenuated
