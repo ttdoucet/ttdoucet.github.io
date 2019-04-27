@@ -12,7 +12,7 @@ To me it looks like a three, but I can flip a mental switch and it looks like no
 other than a five.
 
 I spent a good month working on the venerable [MNIST] problem to identify hand-written digits.
-My [model] ended up getting 99.82% accuracy on the test set, which I think is really good.
+My [model][code] ended up getting 99.82% accuracy on the test set, which I think is really good.
 
 Along the way I became a fan of PyTorch, and switched to it from TensorFlow.
 
