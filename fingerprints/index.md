@@ -17,47 +17,49 @@ of various computations, is in this [repo][Repo].
 All of the computations below involve separable filter kernels and
 should be easily implementable at video speeds on embedded hardware.
 
+<div class="imgfig">
 <figure>
-  <img src="pics/input.png" border="1" width="100%" height="100%" />
+  <img src="pics/input.png" />
   <figcaption>Original snapshot of finger showing fingerprint.</figcaption>
 </figure>
+</div>
 
 
-<br>
+<div class="imgfig">
 <figure>
-  <img src="pics/gradient.png" border="1" width="100%" height="100%" />
+  <img src="pics/gradient.png" />
   <figcaption>Gradient computation showing tangents & normals.</figcaption>
 </figure>
+</div>
 
-
-<br>
+<div class="imgfig">
 <figure>
-  <img src="pics/output.png" border="1" width="100%" height="100%" />
+  <img src="pics/output.png" />
   <figcaption>Gaussian blur followed by Laplacian, then
               a specialized thresholding.
   </figcaption>
 </figure>
+</div>
 
-
-<br>
+<div class="imgfig">
 <figure>
-  <img src="pics/fmask.png" border="1" width="100%" height="100%" />
+  <img src="pics/fmask.png" />
   <figcaption>Strength of computed orientation field
               allows us to mask off areas of the
               image that are not of interest.
   </figcaption>
 </figure>
+</div>
 
-
-<br>
+<div class="imgfig">
 <figure>
-  <img src="pics/zebra.png" border="1" width="100%" height="100%" />
+  <img src="pics/zebra.png" />
   <figcaption>
     This stable image results from repeatedly
     feeding back the output image as input.
   </figcaption>
 </figure>
-
+</div>
 
 That the image is a fixed point of this iterated function system
 suggests that it might be useful to make contraction mappings
