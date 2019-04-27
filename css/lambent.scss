@@ -52,8 +52,8 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 
 /* CV */
-.cv { margin: 0px 0px 60px; }
-.cv address, .cv p { font-size: 1.3em; }
+.cv { margin: 0px 0px 60px; font-family: "Times New Roman", Times, serif;}
+.cv address, .cv p {font-family: "Times New Roman", Times, serif; font-size: 1.3em; }
 
 .imgfig { margin-top: 0em; margin-bottom: 1em; }
 .imgfig figure img { width: 75%; height: auto; border: 1px solid black; }
