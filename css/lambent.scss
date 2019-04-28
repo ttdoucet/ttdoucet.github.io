@@ -54,10 +54,12 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
     text-indent: -40px;
 }
 
-.eulerdocs + ul > li:first-child{
+cite { font-style: normal; }
+
+.eulerdocs + ul > li:first-child {
            margin-top: -0.6em;
 }
-.eulerdocs + ul > li:not(:last-child){
+.eulerdocs + ul > li:not(:last-child) {
            padding-bottom: 0.8em;
 }
 /*.eulerdocs + ul li a {text-decoration: none; color: maroon }*/
