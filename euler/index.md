@@ -2,28 +2,27 @@
 layout: default
 title: Euler papers translated to English.
 ---
-# Leonhard Euler
+## Leonhard Euler
 I have translated into English several works of the great mathematician Leonhard Euler:
 
-* e170 [Investigations on the imaginary roots of equations.][e170] Plus a translator's [introduction][e170intro].
-* e175 [Discovery of a most extraordinary law of numbers, relating to the sum of their divisors.][e175]
-* e309 [A solution to a curious problem which seems not subjected to any analysis.][e309]
-* e310 [A new method for eliminating unknown quantities from equations.][e310]
-* e334 [General investigations on the mortality and the multiplication of man.][e334]
-* e335 [On life annuities.][e335]
-* e461 [Extract of a letter from Mr. Euler to Mr. Bernoulli.][e461]
-* e498 [Extract of a letter from Mr. Euler to Mr. Beguelin.][e498]
-* e807 [On the logarithms of negative and imaginary numbers.][e807]
-* e343 In progress: [Letters to a Princess.][e343]
+<div class="eulerdocs"></div>
+* e170 [<cite>Investigations on the imaginary roots of equations.</cite>][e170] Plus a translator's [introduction][e170intro].
+* e175 [<cite>Discovery of a most extraordinary law of numbers, relating to the sum of their divisors.</cite>][e175]
+* e309 [<cite>A solution to a curious problem which seems not subjected to any analysis.</cite>][e309]
+* e310 [<cite>A new method for eliminating unknown quantities from equations.</cite>][e310]
+* e334 [<cite>General investigations on the mortality and the multiplication of man.</cite>][e334]
+* e335 [<cite>On life annuities.</cite>][e335]
+* e461 [<cite>Extract of a letter from Mr. Euler to Mr. Bernoulli.</cite>][e461]
+* e498 [<cite>Extract of a letter from Mr. Euler to Mr. Beguelin.</cite>][e498]
+* e807 [<cite>On the logarithms of negative and imaginary numbers.</cite>][e807]
+* e343 In progress: [<cite>Letters to a Princess.</cite>][e343]
 
 <hr style="width: 50%" />
 
 I have also processed and uploaded to archive.org well over a hundred [scans][euler-orig]
 of original 18th-century articles published by Euler.
 
-While I was at it, I processed and uploaded
-the [journals][berlin] that these articles appeared in.
-
+While I was at it, I processed and uploaded the [journals][berlin] that these articles appeared in.
 
 [e170]: translations/e170-en.pdf
 [e170intro]: translations/e170intro.pdf
