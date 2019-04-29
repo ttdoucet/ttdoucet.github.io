@@ -16,7 +16,7 @@ I have also [translated][euler-translations] several of them.
     {{item[0]}}
     <a href="{{item[1].url}}"><cite>{{item[1].title}}</cite></a>
     <br>
-    <em style="font-size: 0.8em">{{item[1].citation | smartify}}</em>
+    <span class="journal">{{item[1].citation | smartify}}</span>
   </li>
 {% endfor %}
 </ul>
