@@ -1,0 +1,582 @@
+---
+EulerIndex:
+  e082:
+    title: De la force de percussion et de sa véritable mesure
+    citation: Mémoires de l'académie des sciences de Berlin 1 (1745) 1746, pp. 21--53
+    url: https://archive.org/details/euler-e082
+
+  e083:
+    title: Sur quelques propriétés des sections coniques, qui conviennent à une infinité d'autres lignes courbes
+    citation: Mémoires de l'académie des sciences de Berlin 1 (1745) 1746, pp. 71--98
+    url: https://archive.org/details/euler-e083
+
+  e103:
+    title: Recherches physiques sur la cause de la queüe des comètes, de la lumière boréale, et de la lumière zodiacale
+    citation: Mémoires de l'académie des sciences de Berlin 2 (1746) 1748, pp. 117--140
+    url: https://archive.org/details/euler-e103
+
+  e104:
+    title: Mémoire sur l'effet de la propagation successive de la lumière dans l'apparition tant des planètes que des comètes
+    citation: Mémoires de l'académie des sciences de Berlin 2 (1746) 1748, pp. 141--181
+    url: https://archive.org/details/euler-e104
+
+  e105:
+    title: Mémoire sur la plus grande équation des planètes
+    citation: Mémoires de l'académie des sciences de Berlin 2 (1746) 1748, pp. 225--248
+    url: https://archive.org/details/euler-e105
+
+  e112:
+    title: Recherches sur le mouvement des corps célestes en géneral
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 93--143
+    url: https://archive.org/details/euler-e112
+
+  e113:
+    title: Méthode pour trouver les vrais momens tant des nouvelles que des pleines lunes
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 154--173
+    url: https://archive.org/details/euler-e113
+
+  e114:
+    title: Méthode de trouver le vrai lieu géocentrique de la lune par l'observation de l'occulation d'une étoile fixe
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 174--177
+    url: https://archive.org/details/euler-e114
+
+  e115:
+    title: Méthode de déterminer la longitude des lieux par l'observation d'occultations des étoiles fixes par la lune
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 178--179
+    url: https://archive.org/details/euler-e115
+
+  e116:
+    title: Mémoire sur la force des rames
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 180--213
+    url: https://archive.org/details/euler-e116
+
+  e117:
+    title: Réflexions sur la dernière éclipse du Soleil du 25 juillet a. 1748
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 250--273
+    url: https://archive.org/details/euler-e117
+
+  e118:
+    title: Sur la perfection des verres objectifs des lunettes
+    citation: Mémoires de l'académie des sciences de Berlin 3 (1747) 1749, pp. 274--296
+    url: https://archive.org/details/euler-e118
+
+  e140:
+    title: Sur la vibration des cordes
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 69--85
+    url: https://archive.org/details/euler-e140
+
+  e141:
+    title: Sur l'accord des deux dernières éclipses du soleil et de la lune avec mes tables pour trouver les vrais momens des pléni-lunes et novilunes
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 86--98
+    url: https://archive.org/details/euler-e141
+
+  e142:
+    title: Sur l'atmosphère de la lune prouvée par la dernière éclipse annulaire du soleil
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 103--121
+    url: https://archive.org/details/euler-e142
+
+  e143:
+    title: Sur le frottement des corps solides
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 122--132
+    url: https://archive.org/details/euler-e143
+
+  e144:
+    title: Sur la diminution de la résistance du frottement
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 133--148
+    url: https://archive.org/details/euler-e144
+
+  e145:
+    title: Recherches sur les plus grands et les plus petits qui se trouvent dans les actions des forces
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 149--188
+    url: https://archive.org/details/euler-e145
+
+  e146:
+    title: Réflexions sur quelques loix générales de la nature qui s'observent dans les effets des forces quelconques
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 189--218
+    url: https://archive.org/details/euler-e146
+
+  e147:
+    title: Sur une contradiction apparente dans la doctrine des lignes courbes
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 219--233
+    url: https://archive.org/details/euler-e147
+
+  e148:
+    title: Démonstration sur le nombre des points, où deux lignes des ordres quelconques peuvent se couper
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 234--248
+    url: https://archive.org/details/euler-e148
+
+  e149:
+    title: Réflexions sur l'espace et le tems
+    citation: Mémoires de l'académie des sciences de Berlin 4 (1748) 1750, pp. 324--333
+    url: https://archive.org/details/euler-e149
+
+  e168:
+    title: De la controverse entre Mrs. Leibnitz and Bernoulli sur les logarithmes des nombres négatifs and imaginaires
+    citation: Mémoires de l'académie des sciences de Berlin 5 (1749) 1751, pp. 139--179
+    url: https://archive.org/details/euler-e168
+
+  e169:
+    title: Sur le point de rebroussement de la seconde espèce de Mr. le Marquis de L'Hôpital
+    citation: Mémoires de l'académie des sciences de Berlin 5 (1749) 1751, pp. 203--221
+    url: https://archive.org/details/euler-e169
+
+  e170:
+    title: Recherches sur les racines imaginaires des équations
+    citation: Mémoires de l'académie des sciences de Berlin 5 (1749) 1751, pp. 222--288
+    url: https://archive.org/details/euler-e170
+
+  e171:
+    title: Recherches sur la précession des équinoxes, et sur la nutation de l'axe de la terre
+    citation: Mémoires de l'académie des sciences de Berlin 5 (1749) 1751, pp. 289--325
+    url: https://archive.org/details/euler-e171
+
+  e172:
+    title: De la parallaxe de la lune tant par rapport à sa hauteur qu'à son azimuth, dans l'hypothèse de la terre sphéroidique
+    citation: Mémoires de l'académie des sciences de Berlin 5 (1749) 1751, pp. 326--338
+    url: https://archive.org/details/euler-e172
+
+  e176:
+    title: Exposé concernant l'examen de la lettre de Mr. de Leibnitz, alleguée par M. le prof. Koenig, dans le mois de mars, 1751. des Actes de Leipzig, à l'occasion du principe de la moindre action
+    citation: Histoire de l'académie des sciences de Berlin 6 (1750) 1752, pp. 52--64
+    url: https://archive.org/details/euler-e176
+
+  e177:
+    title: Découverte d'un nouveau principe de mécanique
+    citation: Mémoires de l'académie des sciences de Berlin 6 (1750) 1752, pp. 185--217
+    url: https://archive.org/details/euler-e177
+
+  e178:
+    title: Réflexions sur les divers degrés de lumière du soleil et des autres corps céleste
+    citation: Mémoires de l'académie des sciences de Berlin 6 (1750) 1752, pp. 280--310
+    url: https://archive.org/details/euler-e178
+
+  e179:
+    title: Recherches sur l'effet d'une machine hydraulique proposée par Mr. Segner professeur à Göttingue
+    citation: Mémoires de l'académie des sciences de Berlin 6 (1750) 1752, pp. 311--354
+    url: https://archive.org/details/euler-e179
+
+  e180:
+    title: Avertissement au sujet des recherches sur la précession des équinoxes
+    citation: Mémoires de l'académie des sciences de Berlin 6 (1750) 1752, p. 412
+    url: https://archive.org/details/euler-e180
+
+  e181:
+    title: Recherches sur l'origine des forces
+    citation: Mémoires de l'académie des sciences de Berlin 6 (1750) 1752, pp. 419--447
+    url: https://archive.org/details/euler-e181
+
+  e182:
+    title: Lettre de M. Euler à M. Merian
+    citation: Mémoires de l'académie des sciences de Berlin 6 (1750) 1752, pp. 520--532
+    url: https://archive.org/details/euler-e182
+
+  e197:
+    title: Harmonie entre les principes généraux de repos et de mouvement de M. de Maupertuis
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 169--198
+    url: https://archive.org/details/euler-e197
+
+  e198a:
+    title: Sur le principe de la moindre action
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 199--218
+    url: https://archive.org/details/euler-e198a
+
+  e199a:
+    title: Examen de la dissertation de M. le professeur Koenig, insérée dans les Actes de Leipzig, pour le mois de mars 1751
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 219--245
+    url: https://archive.org/details/euler-e199a
+
+  e200:
+    title: Essai d'une démonstration métaphysique du principe général de l'equilibre
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 246--254
+    url: https://archive.org/details/euler-e200
+
+  e201:
+    title: Calcul de la probabilité dans le jeu de rencontre
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 255--270
+    url: https://archive.org/details/euler-e201
+
+  e202:
+    title: Application de la machine hydraulique de M. Segner à toutes sortes d'ouvrages et de ses avantages sur les autres machines hydrauliques dont on se sert ordinairement
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 271--304
+    url: https://archive.org/details/euler-e202
+
+  e203:
+    title: Recherche sur une nouvelle manière d'élever de l'eau proposée par M. de Mour
+    citation: Mémoires de l'académie des sciences de Berlin 7 (1751) 1753, pp. 305--330
+    url: https://archive.org/details/euler-e203
+
+  e206:
+    title: Sur le mouvement de l'eau par des tuyaux de conduite
+    citation: Mémoires de l'académie des sciences de Berlin 8 (1752) 1754, pp. 111--148
+    url: https://archive.org/details/euler-e206
+
+  e207:
+    title: Discussion plus particulière de diverses manières d'élever de l'eau par le moyen des pompes avec le plus grand avantage
+    citation: Mémoires de l'académie des sciences de Berlin 8 (1752) 1754, pp. 149--184
+    url: https://archive.org/details/euler-e207
+
+  e208:
+    title: Maximes pour arranger le plus avantageusement les machines destinées à élever de l'eau par the moyen des pompes.
+    citation: Mémoires de l'académie des sciences de Berlin 8 (1752) 1754, pp. 185--232
+    url: https://archive.org/details/euler-e208
+
+  e209:
+    title: Essai d'une explication physique des couleurs engendrées sur des surface extrémement minces
+    citation: Mémoires de l'académie des sciences de Berlin 8 (1752) 1754, pp. 262--282
+    url: https://archive.org/details/euler-e209
+
+  e213:
+    title: Remarques sur les mémoires précédens de M. Bernoulli
+    citation: Mémoires de l'académie des sciences de Berlin 9 (1753) 1755, pp. 196--222
+    url: https://archive.org/details/euler-e213
+
+  e214:
+    title: Principes de la trigonométrie sphérique tirés de la méthode des plus grands et plus petits
+    citation: Mémoires de l'académie des sciences de Berlin 9 (1753) 1755, pp. 223--257
+    url: https://archive.org/details/euler-e214
+
+  e215:
+    title: Élémens de la trigonométrie sphéroïdique tirés de la méthode des plus grands et plus petits
+    citation: Mémoires de l'académie des sciences de Berlin 9 (1753) 1755, pp. 258--293
+    url: https://archive.org/details/euler-e215
+
+  e216:
+    title: Examen d'une controverse sur la loi de réfraction des rayons de différentes couleurs par rapport à la diversité des milieux transparens par lesquels ils sont transmis
+    citation: Mémoires de l'académie des sciences de Berlin 9 (1753) 1755, pp. 294--309
+    url: https://archive.org/details/euler-e216
+
+  e217:
+    title: Recherches sur la véritable courbe que décrivent les corps jettés dans l'air ou dans un autre fluide quelconque
+    citation: Mémoires de l'académie des sciences de Berlin 9 (1753) 1755, pp. 321--352
+    url: https://archive.org/details/euler-e217
+
+  e219:
+    title: De la réfraction de la lumière en passant par l'atmosphère selon les divers degrés tant de la chaleur que de l'élasticité de l'air
+    citation: Mémoires de l'académie des sciences de Berlin 10 (1754) 1756, pp. 131--172
+    url: https://archive.org/details/euler-e219
+
+  e220:
+    title: Réflexions sur un problème de géométrie traité par quelques géomètres, et qui est néanmoins impossible
+    citation: Mémoires de l'académie des sciences de Berlin 10 (1754) 1756, pp. 173--199
+    url: https://archive.org/details/euler-e220
+
+  e221:
+    title: Recherches physiques sur la diverse réfrangibilité dey rayons de lumière
+    citation: Mémoires de l'académie des sciences de Berlin 10 (1754) 1756, pp. 200--226
+    url: https://archive.org/details/euler-e221
+
+  e222:
+    title: Théorie plus complette des machines qui sont mises en mouvement par la réaction de l'eau
+    citation: Mémoires de l'académie des sciences de Berlin 10 (1754) 1756, pp. 227--295
+    url: https://archive.org/details/euler-e222
+
+  e223:
+    title: De la variation de la latitude des étoiles fixes et de l'obliquité de l'écliptique
+    citation: Mémoires de l'académie des sciences de Berlin 10 (1754) 1756, pp. 296--336
+    url: https://archive.org/details/euler-e223
+
+  e224:
+    title: Avertissement
+    citation: Mémoires de l'académie des sciences de Berlin 10 (1754) 1756, pp. 346
+    url: https://archive.org/details/euler-e224
+
+  e225:
+    title: Principes généraux de l'état d'équilibre des fluides
+    citation: Mémoires de l'académie des sciences de Berlin 11 (1755) 1757, pp. 217--273
+    url: https://archive.org/details/euler-e225
+
+  e226:
+    title: Principes généraux du mouvement des fluides
+    citation: Mémoires de l'académie des sciences de Berlin 11 (1755) 1757, pp. 274--315
+    url: https://archive.org/details/euler-e226
+
+  e227:
+    title: Continuation des recherches sur la théorie du mouvement des fluides
+    citation: Mémoires de l'académie des sciences de Berlin 11 (1755) 1757, pp. 316--361
+    url: https://archive.org/details/euler-e227
+
+  e233:
+    title: Recherches plus exactes sur l'effet des moulins à vent
+    citation: Mémoires de l'académie des sciences de Berlin 12 (1756) 1758, pp. 165--234
+    url: https://archive.org/details/euler-e233
+
+  e234:
+    title: Expériences pour déterminer la réfraction de toutes sortes de liqueurs transparentes
+    citation: Mémoires de l'académie des sciences de Berlin 12 (1756) 1758, pp. 235--266
+    url: https://archive.org/details/euler-e234
+
+  e235:
+    title: Sur l'action des scies
+    citation: Mémoires de l'académie des sciences de Berlin 12 (1756) 1758, pp. 267--291
+    url: https://archive.org/details/euler-e235
+
+  e236:
+    title: Exposition de quelques paradoxes dans le calcul intégral
+    citation: Mémoires de l'académie des sciences de Berlin 12 (1756) 1758, pp. 300--321
+    url: https://archive.org/details/euler-e236
+
+  e237:
+    title: Recherches sur la déclinaison de l'aiguille aimantée
+    citation: Mémoires de l'académie des sciences de Berlin 13 (1757) 1759, pp. 175--251
+    url: https://archive.org/details/euler-e237
+
+  e238:
+    title: Sur la force des colonnes
+    citation: Mémoires de l'académie des sciences de Berlin 13 (1757) 1759, pp. 252--282
+    url: https://archive.org/details/euler-e238
+
+  e239:
+    title: Règles générales pour la construction des télescopes et des microscopes, de quelque nombre de verres qu'ils soient composés
+    citation: Mémoires de l'académie des sciences de Berlin 13 (1757) 1759, pp. 283--322
+    url: https://archive.org/details/euler-e239
+
+  e240:
+    title: Recherches sur les lunettes à trois verres qui représentent les objets renversés
+    citation: Mémoires de l'académie des sciences de Berlin 13 (1757) 1759, pp. 323--372
+    url: https://archive.org/details/euler-e240
+
+  e291:
+    title: Recherches sur la connoissance mécanique des corps
+    citation: Mémoires de l'académie des sciences de Berlin 14 (1758) 1765, pp. 131--153
+    url: https://archive.org/details/euler-e291
+
+  e292:
+    title: Du mouvement de rotation des corps solides autour d'un axe variable
+    citation: Mémoires de l'académie des sciences de Berlin 14 (1758) 1765, pp. 154--193
+    url: https://archive.org/details/euler-e292
+
+  e293:
+    title: Remarques générales sur le mouvement diurne des planètes
+    citation: Mémoires de l'académie des sciences de Berlin 14 (1758) 1765, pp. 194--218
+    url: https://archive.org/details/euler-e293
+
+  e305:
+    title: De la propagation du son
+    citation: Mémoires de l'académie des sciences de Berlin 15 (1759) 1766, pp. 185--209
+    url: https://archive.org/details/euler-e305
+
+  e306:
+    title: Supplément aux recherches sur la propagation du son
+    citation: Mémoires de l'académie des sciences de Berlin 15 (1759) 1766, pp. 210--240
+    url: https://archive.org/details/euler-e306
+
+  e307:
+    title: Continuation des recherches sur la propagation du son
+    citation: Mémoires de l'académie des sciences de Berlin 15 (1759) 1766, pp. 241--264
+    url: https://archive.org/details/euler-e307
+
+  e308:
+    title: Recherches sur le mouvement de rotation des corps célestes
+    citation: Mémoires de l'académie des sciences de Berlin 15 (1759) 1766, pp. 265--309
+    url: https://archive.org/details/euler-e308
+
+  e309:
+    title: Solution d'une question curieuse qui ne paroit soumise à aucune analyse
+    citation: Mémoires de l'académie des sciences de Berlin 15 (1759) 1766, pp. 310--337
+    url: https://archive.org/details/euler-e309
+
+  e310:
+    title: Nouvelle méthode d'éliminer les quantités inconnues des équations
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 91--104
+    url: https://archive.org/details/euler-e310
+
+  e311:
+    title: Recherches sur les microscopes simples et les moyens de les perfectionner
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 105--116
+    url: https://archive.org/details/euler-e311
+
+  e312:
+    title: Recherches sur les microscopes à trois verres, et les moyens de les perfectionner
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 117--143
+    url: https://archive.org/details/euler-e312
+
+  e313:
+    title: Sur l'avantage du banquier au jeu de Pharaon
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 144--164
+    url: https://archive.org/details/euler-e313
+
+  e314:
+    title: Conjecture sur la raison de quelques dissonances généralement reçues dans la musique
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 165--173
+    url: https://archive.org/details/euler-e314
+
+  e315:
+    title: Du véritable caractère de la musique moderne
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 174--199
+    url: https://archive.org/details/euler-e315
+
+  e316:
+    title: Des lunettes à trois verres qui représentent les objets debout
+    citation: Mémoires de l'académie des sciences de Berlin 20 (1764) 1766, pp. 200--239
+    url: https://archive.org/details/euler-e316
+
+  e332:
+    title: Recherches sur le mouvement des rivières
+    citation: Mémoires de l'académie des sciences de Berlin 16 (1760) 1767, pp. 101--118
+    url: https://archive.org/details/euler-e332
+
+  e333:
+    title: Recherches sur la courbure des surfaces
+    citation: Mémoires de l'académie des sciences de Berlin 16 (1760) 1767, pp. 119--143
+    url: https://archive.org/details/euler-e333
+
+  e334:
+    title: Recherches générales sur la mortalité et la multiplication du genre humain
+    citation: Mémoires de l'académie des sciences de Berlin 16 (1760) 1767, pp. 144--164
+    url: https://archive.org/details/euler-e334
+
+  e335:
+    title: Sur les rentes viagères
+    citation: Mémoires de l'académie des sciences de Berlin 16 (1760) 1767, pp. 165--175
+    url: https://archive.org/details/euler-e335
+
+  e336:
+    title: Du mouvement d'un corps solide quelconque lorsqu'il tourne autour d'un axe mobile
+    citation: Mémoires de l'académie des sciences de Berlin 16 (1760) 1767, pp. 176--227
+    url: https://archive.org/details/euler-e336
+
+  e337:
+    title: Un corps étant attiré en raison réciproque quarrée des distances vers deux point fixes donnés, trouver les cas où la courbe décrite par ce corps sera algébrique
+    citation: Mémoires de l'académie des sciences de Berlin 16 (1760) 1767, pp. 228--249
+    url: https://archive.org/details/euler-e337
+
+  e339:
+    title: Sur le mouvement d'une corde, qui au commencement n'a été ébranlée que dans une partie
+    citation: Mémoires de l'académie des sciences de Berlin 21 (1765) 1767, pp. 307--334
+    url: https://archive.org/details/euler-e339
+
+  e340:
+    title: Éclaircissements plus détaillés sur la génération et la propagation du son, et sur la formation de l'echo
+    citation: Mémoires de l'académie des sciences de Berlin 21 (1765) 1767, pp. 335--363
+    url: https://archive.org/details/euler-e340
+
+  e353:
+    title: Recherches sur la confusion des verres dioptriques causée par leur ouverture
+    citation: Mémoires de l'académie des sciences de Berlin 17 (1761) 1768, pp. 107--146
+    url: https://archive.org/details/euler-e353
+
+  e354:
+    title: Recherches sur les moyen de diminuer ou de réduire même à rien la confusion causée par l'ouverture des verres
+    citation: Mémoires de l'académie des sciences de Berlin 17 (1761) 1768, pp. 147--180
+    url: https://archive.org/details/euler-e354
+
+  e355:
+    title: Nouvelle manière de perfectionner les verres objectifs des lunettes
+    citation: Mémoires de l'académie des sciences de Berlin 17 (1761) 1768, pp. 181--190
+    url: https://archive.org/details/euler-e355
+
+  e356:
+    title: Détermination du champ apparent que découvrent, tant les télescopes que les microscopes
+    citation: Mémoires de l'académie des sciences de Berlin 17 (1761) 1768, pp. 191--200
+    url: https://archive.org/details/euler-e356
+
+  e357:
+    title: Règles générales pour la construction des télescopes et des microscopes
+    citation: Mémoires de l'académie des sciences de Berlin 17 (1761) 1768, pp. 201--211
+    url: https://archive.org/details/euler-e357
+
+  e358:
+    title: Sur la perfection des lunettes astronomiques, qui représentent les objets renversés
+    citation: Mémoires de l'académie des sciences de Berlin 17 (1761) 1768, pp. 212--230
+    url: https://archive.org/details/euler-e358
+
+  e359:
+    title: Construction des objectifs composés de deux différentes sortes de verre qui ne produisent aucune confusion, ni par leur ouverture, ni par la différente réfrangibilité des rayons, avec la manière la plus avantageuse  d'en faire des lunettes
+    citation: Mémoires de l'académie des sciences de Berlin 22 (1766) 1768, pp. 119--170
+    url: https://archive.org/details/euler-e359
+
+  e360:
+    title: Construction des objectifs composés, propres à détruire toute la confusion dans les lunettes
+    citation: Mémoires de l'académie des sciences de Berlin 22 (1766) 1768, pp. 171--201
+    url: https://archive.org/details/euler-e360
+
+  e361:
+    title: Réflexions sur la manière d'examiner la réfraction du verre par le moyen des prismes
+    citation: Mémoires de l'académie des sciences de Berlin 22 (1766) 1768, pp. 202--212
+    url: https://archive.org/details/euler-e361
+
+  e362:
+    title: Corrections nécessaires pour la théorie de la déclinaison magnétique, proposée dans le XIII volume des Mémoires
+    citation: Mémoires de l'académie des sciences de Berlin 22 (1766) 1768, pp. 213--264
+    url: https://archive.org/details/euler-e362
+
+  e376:
+    title: Considérations sur les difficultés qu'on rencontre dans l'exécution des verres objectifs délivrés de toute confusion
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 117--142
+    url: https://archive.org/details/euler-e376
+
+  e377:
+    title: Recherches sur les télescopes à la réflexion et les moyens de les perfectionner
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 143--184
+    url: https://archive.org/details/euler-e377
+
+  e378:
+    title: Recherches sur une autre construction des télescopes à réflexion
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 185--194
+    url: https://archive.org/details/euler-e378
+
+  e379:
+    title: Sur la confusion que cause dans les instruments dioptriques la diverse réfrangibilité des rayons
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 195--225
+    url: https://archive.org/details/euler-e379
+
+  e380:
+    title: Considérations sur les nouvelles lunettes d'Angleterre de Mr. Dolland, et sur le principe qui en est le fondement.
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 226--248
+    url: https://archive.org/details/euler-e380
+
+  e381:
+    title: Sur les avantages des verres objectifs composés de deux verres simples
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 249--264
+    url: https://archive.org/details/euler-e381
+
+  e382:
+    title: Remarques sur l'effet du frottement dans l'équilibre
+    citation: Mémoires de l'académie des sciences de Berlin 18 (1762) 1769, pp. 265--278
+    url: https://archive.org/details/euler-e382
+
+  e383:
+    title: Méthode pour porter les verres objectifs des lunettes à un plus haut degré de perfection
+    citation: Mémoires de l'académie des sciences de Berlin 23 (1767) 1769, pp. 131--164
+    url: https://archive.org/details/euler-e383
+
+  e398:
+    title: Nouvelle méthode de déterminer les dérangemens dans le mouvement des corps célestes, causés par leur action mutuelle.
+    citation: Mémoires de l'académie des sciences de Berlin 19 (1763) 1770, pp. 141--179
+    url: https://archive.org/details/euler-e398
+
+  e399:
+    title: Réflexions sur les diverse manières dont on peut représenter le mouvement de la lune
+    citation: Mémoires de l'académie des sciences de Berlin 19 (1763) 1770, pp. 180--193
+    url: https://archive.org/details/euler-e399
+
+  e400:
+    title: Considérations sur le problème des trois corps
+    citation: Mémoires de l'académie des sciences de Berlin 19 (1763) 1770, pp. 194--220
+    url: https://archive.org/details/euler-e400
+
+  e401:
+    title: Nouvelle manière de comparer les observations de la lune avec la théorie
+    citation: Mémoires de l'académie des sciences de Berlin 19 (1763) 1770, pp. 221--234
+    url: https://archive.org/details/euler-e401
+
+  e402:
+    title: Du mouvement des absides des satellites de Jupiter
+    citation: Mémoires de l'académie des sciences de Berlin 19 (1763) 1770, pp. 311--338
+    url: https://archive.org/details/euler-e402
+
+  e412:
+    title: Solution d'une question très difficile dans le calcul des probabilités
+    citation: Mémoires de l'académie des sciences de Berlin 25 (1769) 1771, pp. 285--302
+    url: https://archive.org/details/euler-e412
+
+  e461:
+    title: Extrait d'une lettre de M. Euler le père à M. Bernoulli, concernant le Mémoire imprimé parmi ceux de 1771.  p. 318
+    citation: Nouveaux mémoires de l'académie des sciences de Berlin 1772 printed 1774, pp. 35--36
+    url: https://archive.org/details/euler-e461
+
+  e498:
+    title: Extrait d'une lettre de M. Euler à M. Beguelin, en Mai 1778.
+    citation: Nouveaux mémoires de l'académie des sciences de Berlin 1776 printed 1779, pp. 337--339
+    url: https://archive.org/details/euler-e498
+
