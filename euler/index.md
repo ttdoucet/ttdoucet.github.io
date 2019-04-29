@@ -19,8 +19,8 @@ I have translated into English several works of the great mathematician Leonhard
 
 <hr style="width: 50%" />
 
-I have also processed and uploaded to archive.org well over a hundred [scans][euler-orig]
-of original 18th-century articles published by Euler.
+I have also processed and uploaded to archive.org well over a hundred scans
+of [original][euler-orig] 18th-century articles published by Euler.
 
 While I was at it, I processed and uploaded the [journals][berlin] that these articles appeared in.
 
@@ -35,5 +35,6 @@ While I was at it, I processed and uploaded the [journals][berlin] that these ar
 [e498]: translations/e498-en.pdf
 [e807]: translations/e807.pdf
 [e343]: translations/e343-en.pdf
-[euler-orig]: https://archive.org/details/@tdoucet?and%5B%5D=creator%3A%22leonhard+euler%22&sort=titleSorter
+[euler-orig-old]: https://archive.org/details/@tdoucet?and%5B%5D=creator%3A%22leonhard+euler%22&sort=titleSorter
+[euler-orig]: /eulerindex
 [berlin]: https://archive.org/details/@tdoucet?sort=titleSorter&and%5B%5D=creator%3A%22l%27acad%C3%A9mie+royale+des+sciences+et+des+belles+lettres+de+berlin%22
