@@ -9,18 +9,18 @@ I have processed the following original publications
 by Leonhard Euler, and made them permanently available on archive.org.
 I have also [translated][euler-translations] several of them.
 
-<div class="EulerIndex">
-<ul>
+
+<ul class="EulerIndex">
 {% for item in site.data.EulerIndex.EulerIndex %}
   <li>
     {{item[0]}}
     <a href="{{item[1].url}}"><cite>{{item[1].title}}</cite></a>
     <br>
-    <journal>{{item[1].citation | smartify}}</journal>
+    <em style="font-size: 0.8em">{{item[1].citation | smartify}}</em>
   </li>
 {% endfor %}
 </ul>
-</div>
+
 
 [euler-translations]: /euler
 
