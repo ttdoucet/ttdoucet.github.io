@@ -15,7 +15,7 @@ I have translated into English several works of the great mathematician Leonhard
 * e461 [<cite>Extract of a letter from Mr. Euler to Mr. Bernoulli.</cite>][e461]
 * e498 [<cite>Extract of a letter from Mr. Euler to Mr. Beguelin.</cite>][e498]
 * e807 [<cite>On the logarithms of negative and imaginary numbers.</cite>][e807]
-* e343 In progress: [<cite>Letters to a Princess.</cite>][e343]
+* e343 in progress: [<cite>Letters to a Princess.</cite>][e343]
 
 <hr style="width: 50%" />
 

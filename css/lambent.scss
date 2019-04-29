@@ -64,6 +64,16 @@ cite { font-style: normal; }
 }
 /*.eulerdocs + ul li a {text-decoration: none; color: maroon }*/
 
+
+.EulerIndex li { list-style: none;
+                 font-size: 0.8em;
+                 line-height: 1.1em;
+                 padding-left: 40px;
+                 text-indent: -40px;
+             padding-bottom: 0.8em;
+}
+
+
 /* CV */
 .cv { margin: 0px 0px 60px; font-family: "Times New Roman", Times, serif;}
 .cv address, .cv p {font-family: "Times New Roman", Times, serif; font-size: 1.3em; }
