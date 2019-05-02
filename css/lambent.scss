@@ -6,6 +6,8 @@
   zoom: 1.0 ;
 }
 body { margin: 60px auto; width: 70%; }
+body.eulerindex { margin: 60px auto; width: 90%; }
+
 @media screen and (max-width:500px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
     body { margin: 60px auto; width: 95%; }
