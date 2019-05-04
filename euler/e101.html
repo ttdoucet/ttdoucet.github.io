@@ -1,0 +1,155 @@
+---
+layout: default
+title: E101
+---
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+\(
+\def\ovr{\over\displaystyle}
+\def\dst{\displaystyle\strut}
+\def\tailfrac{\rlap{\dst \rlap{\phantom{\dst 1\ovr2}}\cdots}}
+\def\cfr#1#2#3{#1 \ovr #2 + \rlap{\dst #3}  }
+\def\ncfr#1#2{#1 \ovr \dst #2}
+\)
+
+\(
+\def\cofrac#1#2#3{\rlap{\dfrac{#1}{\phantom{#2}}} \genfrac{}{}{0pt}{0}{}{#2+#3}}
+\)
+
+<h4 style="font-family: Times New Roman, Times, serif">DE FRACTIONIBUS CONTINUIS</h3>
+
+<div style="font-size: 0.9em">
+<p>356.
+Quoniam in praecedentibus capitibus plura,
+cum de seriebus infinitis,
+tum de productis ex infinitis factoribus conflatis disserui,
+non incongruum fore visum est,
+si etiam nonnulla de tertio quodam expressionum infinitarum genere addidero,
+quod continuous fractionibus vel divisionibus continetur.
+Quanquam enim hoc genus parum adhuc est excultum,
+tamen non dubitamus,
+quin ex eo amplissimus usus in analysin infinitorum aliquando sit redundaturus.
+Exhibui enim iam aliquoties eiusmodi specimina,
+quibus haec expectatio non parum probabilis redditur.  
+Imprimis vero ad ipsam arithmeticam et algebram communem
+non contemnenda subsidia affert ista speculatio,
+quae hoc capite breviter indicare atque exponere constitui.
+
+<p>357.
+Fractionem autem continuam voco eiusmodi fractionem, cuius denominator
+constat ex numero integro cum fractione, cuius denommator denuo
+est aggregatum ex integro et fractione, quae porro simili modo sit comparata,
+sive ista affectio in infinitum progrediatur sive alicubi sistatur. Huiusmodi
+ergo fractio continua erit sequens expressio
+
+\begin{equation}
+{a + {\cofrac 1 b {\cofrac 1 c {\cofrac 1 d {\cofrac 1 e {\cofrac 1 f \tailfrac }}}}}}
+\hbox{vel}\qquad\qquad
+{a + {\cofrac \alpha b {\cofrac \beta c {\cofrac \gamma d {\cofrac \delta e {\cofrac \varepsilon f \tailfrac }}}}}}
+\end{equation}
+
+in quarum forma priori omnes fractionum numeratores sunt unitates, quam
+potissimum hic contemplabor, in altera vero forma sunt numeratores numeri
+quicunque.
+
+
+<p>358.
+Exposita ergo fractionum harum continuarum forma,
+primum videndum est,
+quemadmodum earum significatio consueto more expressa inveniri queat.
+Quae ut facilius inveniri possit,
+progrediamur per gradus,
+abrumpendo illas fractiones primo in prima,
+tum in secunda,
+post in tertia et ita porro fractione;
+quo facto patebit fore
+
+\begin{aligned}
+a &= a\cr\cr
+{a + {1\over b}} &= { {ab + 1} \over {b}} \cr\cr
+{a + {\cofrac 1 b {\dfrac{1}{c}}}} &= { {abc + a + c} \over {bc + 1}} \cr\cr
+{a + {\cofrac 1 b {\cofrac 1 c {\dfrac{1}{d}}}}} &= { {abcd + ab + ad + cd + 1} \over {bcd + b + d}} \cr\cr
+{a + {\cofrac 1 b {\cofrac 1 c {\cofrac 1 d {\dfrac{1}{e}}}}}} &= { {abcde + abe + ade + cde + abe + a + c + e} 
+                                                            \over 
+                                                        {bcde + be + de + bc + 1}}\cr\cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+
+
+<p>
+359.
+Etsi in his fractionibus ordinariis non facile lex,
+secundum quam numerator ac denominator ex litteris \(a\), \(b\), \(c\), \(d\) etc.,
+componantur, perspicitur, tamen attendenti statim patebit,
+quemadmodum quaelibet fractio ex praecedentibus formari queat.
+Quilibet enim numerator est aggregatum ex numeratore
+ultimo per novam litteram multiplicato,
+et ex numeratore penultimo simplici;
+eademque lex in denominatoribus observatur.
+Scriptis ergo ordine litteris
+\(a\), \(b\), \(c\), \(d\) etc.,
+ex iis fractiones inventae facile formabuntur hoc modo
+
+\begin{array}{ccccc}
+a\phantom{\,;} & b\phantom{\,;} & c\phantom{\,;} & d\phantom{\,;} & e \\
+\displaystyle{1 \over 0}\,;
+& \displaystyle{a \over 1}\,;
+& \displaystyle{ {ab + 1}\over b}\,;
+& \displaystyle{ {abc + a + c}\over {bc + 1}}\,;
+& \displaystyle{ {abcd + ab + ad + cd + 1}\over {bcd + b + d}} \\
+\end{array}
+
+ubi quilibet numerator invenitur,
+si praecedentium ultimus per indicem supra
+scriptum multiplicetur atque ad productum antepenultimus addatur;
+quae eadem lex pro denominatoribus valet.
+Quo autem hac lege ab ipso initio uti liceat,
+praefixi fractionem \(1\over 0\) quae,
+etiamsi e fractione continua non oriatur,
+tamen progressionis legem clariorem efficit.
+Quaelibet autem fractio exhibet valorem fractionis continuae usque ad eam litteram,
+quae antecedenti imminet,
+inclusive continuatae.
+
+
+<br>
+<br>
+<br>
+
+<p>
+380. Cum igitur fractiones continuae tam utiliter ad extractionem
+radicis quadratae adhiberi queant, simul inservient aequationibus
+quadratis resolvendis;
+quod quidem ex ipso calculo est
+manifestum, dum \(x\) per aequationem quadraticam affectam determinatur.
+Potest autem vicissim facile cuiusque aequationis
+quadratae radix per fractionem continuam hoc modo exprimi.
+Sit proposita ista aequatio
+
+\begin{equation}
+xx=ax+b\,,
+\end{equation}
+
+ex qua, cum sit
+
+\begin{equation}
+x=a+{b\over x}\,,
+\end{equation}
+
+substituatur in ultimo termino loco \(x\) valor idem iam inventus, eritque
+
+
+\begin{equation}
+x=a+{\cofrac b a {\dfrac{b}{x}}}
+\end{equation}
+
+simili ergo modo procedendo, erit per fractionem continuam infinitam
+
+\begin{equation}
+x = a+{\cofrac b a {\cofrac b a {\cofrac b a \ldots}} }
+\end{equation}
+
+quae autem, cum numeratores \(b\) non sint unitates, non tam commode adhiberi potest.
+  
+</div>
