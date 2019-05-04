@@ -18,7 +18,7 @@ title: E101
 
 <h4 style="font-family: Times New Roman, Times, serif">DE FRACTIONIBUS CONTINUIS</h3>
 
-<div style="font-size: 0.9em">
+<div style="font-size: 0.8em">
 <p>356.
 Quoniam in praecedentibus capitibus plura,
 cum de seriebus infinitis,
@@ -431,11 +431,11 @@ x = {1\over m} - {1\over m+n} + {1\over m+2n} - {1\over m+3n} + \cdots
 
 
 \begin{equation}
-x = {\cfr 1 m {\cfr {mm} n {\cfr {(m+n)^2} n {\cfr {(m+2n)^2} n {\cfr {(m+3n)^2} n \tailfrac}}}}}
+x = {\cofrac 1 m {\cofrac {mm} {\phantom{n}n} {\cofrac {(m+n)^2} {\phantom{m+n}n} {\cofrac {(m+2n)^2} {\phantom{m+2n}n} {\cofrac {(m+3n)^2} {\phantom{nn}n} \tailfrac}}}}}
 \end{equation}
 
 \begin{equation}
-{1\over x} - m = {\cfr {mm} n {\cfr {(m+n)^2} n {\cfr {(m+2n)^2} n {\cfr {(m+3n)^2} n \tailfrac } } } }
+{1\over x} - m = {\cofrac {mm} {\phantom{n}n} {\cofrac {(m+n)^2} {\phantom{m+n}n} {\cofrac {(m+2n)^2} {\phantom{mm+n}n} {\cofrac {(m+3n)^2} {\phantom{nn}n} \tailfrac } } } }
 \end{equation}
 
 \example{Example IV.}
@@ -453,15 +453,16 @@ Therefore, ...
 A=m;\quad B=n-m;\quad C=n+m;\quad D=2n-m;\quad \cdots
 \end{equation}
 
+
 \begin{equation}
 {\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
   =
-{\cfr 1 m 
-      {\cfr {mm} {n-2m} 
-            {\cfr {(n-m)^2} {2m} 
-                  {\cfr {(n+m)^2} {n-2m} 
-                        {\cfr {(2n-m)^2} {2m} 
-                              {\cfr {(2n+m)^2} {n-2m} \tailfrac}}}}}}
+{\cofrac 1 m 
+      {\cofrac {mm} {n-2m} 
+            {\cofrac {(n-m)^2} {\phantom{2m+}2m} 
+                  {\cofrac {(n+m)^2} {n-2m} 
+                        {\cofrac {(2n-m)^2} {\phantom{2m+}2m} 
+                              {\cofrac {(2n+m)^2} {n-2m} \tailfrac}}}}}}
 \end{equation}
 
 
