@@ -210,9 +210,15 @@ x = a + {\alpha \over b} - {\alpha\beta \over b(bc+\beta)} + {\alpha\beta\gamma 
 quae series toties abrumpitur, quoties fractio continua non in infinitum progreditur.
 
 <p>364.
+Modum ergo invenimus fractionem continuam quamcunque in seriem
+terminorum, quorum signa alternantur, convertendi, si quidem
+prima littera \(a\) evanescat. Si enim fuerit
+
 \begin{equation}
 x = {\cofrac \alpha b {\cofrac \beta c {\cofrac \gamma d {\cofrac \delta e {\cofrac \varepsilon f \tailfrac }}}}}
 \end{equation}
+
+erit per ea, quae modo invenimus,
 
 \begin{equation}
 x = {a \over b} 
@@ -222,13 +228,22 @@ x = {a \over b}
     + \cdots
 \end{equation}
 
-quae series toties abrumpitur, quoties fractio continua non in infinitum progreditur.
+Unde, si \(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc. fuerint numeri non
+crescentes, uti omnes unitates,
+denominatores vero \(a\), \(b\), \(c\), \(d\) etc. numeri integri quicunque affirmativi,
+valor fractionis continuae exprimetur per seriem terminorum maxime convergentem.
 
 <p>365.
+His probe consideratis, poterit vicissim series quaecunque terminorum
+alternantium in fractionem continuam converti, seu fractio continua inveniri,
+cuius valor aequalis sit summae seriei propositae. Sit enim proposita haec
+series
 
 \begin{equation}
-x = A - B + C - D + E - F + \cdots
+x = A - B + C - D + E - F + \cdots \,,
 \end{equation}
+
+erit, singulis terminis cum serie ex fractione continua orta comparandis
 
 \begin{array}{llll}
 \displaystyle{A={\alpha\over\beta}} &&&  \displaystyle{\alpha = A\beta} \\
@@ -236,53 +251,54 @@ x = A - B + C - D + E - F + \cdots
 \displaystyle { {C\over B} ={\gamma b \over bcd + \beta d + \gamma b}} &&&   \displaystyle \gamma = { {Cd(bc+\beta)}\over b(B-C)} \\
 \displaystyle { {D\over C} ={\delta (bc + \beta) \over bcde + \beta d e + \gamma b e + \delta b c + \beta\delta}} &&&
   \displaystyle{\delta = {De(bcd + \beta d + \gamma b)\over (bc+\beta)(C-D)}} \\
+&&\hbox{etc.}
 \end{array}
 
-
-
-\begin{equation}
-\beta = {Bbc\over A - B}
-\end{equation}
-
-
+At, cum sit
 
 \begin{equation}
-bc + \beta = {Abc\over A-B}
+\beta = {Bbc\over A - B}\,,
 \end{equation}
 
-
+erit
 
 \begin{equation}
-\gamma = {ACcd \over {(A-B)(C-D)}}
+bc + \beta = {Abc\over A-B}\,;
 \end{equation}
 
-
+unde
 
 \begin{equation}
-bcd + \beta d + \gamma b = 
-(bc+\beta)d + \gamma b = 
-{Abcd \over A - B} + {ACbcd \over (A-B)(B-C)} =
-{ABbcd \over(A-B)(B-C)}
+\gamma = {ACcd \over {(A-B)(C-D)}}\,.
 \end{equation}
 
+Porro fit
 
+\begin{aligned}
+bcd + \beta d + \gamma b &= 
+(bc+\beta)d + \gamma b \cr
+&= {Abcd \over A - B} + {ACbcd \over (A-B)(B-C)} \cr
+&= {ABbcd \over(A-B)(B-C)} \,,
+\end{aligned}
 
-\begin{equation}
-{bcd + \beta d + \gamma b \over bc + \beta} = {Bd \over B-C}
-\end{equation}
+unde erit
 
+\begin{array}{ccc}
+\displaystyle{bcd + \beta d + \gamma b \over bc + \beta} = {Bd \over B-C} &
+\quad\hbox{et}\quad &
+\displaystyle\delta = {BDde \over (B-C)(C-D) }\,;
+\end{array}
 
-
-\begin{equation}
-\delta = {BDde \over (B-C)(C-D) }
-\end{equation}
+simili modo reperietur
 
 \begin{equation}
 \varepsilon = {CEef \over (C-D)(D-E)}
 \end{equation}
 
+et ita porro.
 
 <p>366.
+Quo ista lex clarius appareat, ponamus esse
 
 \begin{aligned}
 P &= b\,, \cr
@@ -294,15 +310,18 @@ V &= bcdefg + \cdots\,, \cr
 &\hbox{etc.}\cr
 \end{aligned}
 
+erit ex lege harum expressionum
 
 \begin{aligned}
-Q &= Pc + \beta \cr
-R &= Qd + \gamma P \cr
-S &= Re + \delta Q \cr
-T &= Sf + \varepsilon R \cr
-V &= Tg + \xi S \cr
+Q &= Pc + \beta \,,\cr
+R &= Qd + \gamma P \,,\cr
+S &= Re + \delta Q \,,\cr
+T &= Sf + \varepsilon R \,,\cr
+V &= Tg + \xi S \,,\cr
 &\hbox{etc.}\cr
 \end{aligned}
+
+Cum igitur his adhibendis litteris fit
 
 \begin{equation}
 x = {\alpha\over P} - 
@@ -310,26 +329,29 @@ x = {\alpha\over P} -
     {\alpha\beta\gamma\over QR} -
     {\alpha\beta\gamma\delta\over RS} +
     {\alpha\beta\gamma\delta\varepsilon\over ST} -
-    \cdots
+    \cdots \,.
 \end{equation}
 
 
 <p>367.
+Quoniam ergo ponimus esse
 
 \begin{equation}
-x = A-B+C-D+E-F+\cdots
+x = A-B+C-D+E-F+\cdots\,,
 \end{equation}
 
+erit
 
 \begin{array}{ccc}
-\displaystyle{A={\alpha\over P}}\,, &  \displaystyle{\alpha = AP} \cr
-\displaystyle{ {B\over A} = {\beta\over{Q}}}\,, &   \displaystyle{\beta = {BQ\over A}} \cr
-\displaystyle { {C\over B} ={\gamma P \over R}}\,, &   \displaystyle \gamma = {CR\over BP} \cr
-\displaystyle { {D\over C} ={\delta Q \over S}}\,, &   \displaystyle \delta = {DS\over CQ} \cr
+\displaystyle{A={\alpha\over P}}\,, &  \displaystyle{\alpha = AP} \,,\cr
+\displaystyle{ {B\over A} = {\beta\over{Q}}}\,, &   \displaystyle{\beta = {BQ\over A}} \,,\cr
+\displaystyle { {C\over B} ={\gamma P \over R}}\,, &   \displaystyle \gamma = {CR\over BP} \,,\cr
+\displaystyle { {D\over C} ={\delta Q \over S}}\,, &   \displaystyle \delta = {DS\over CQ} \,,\cr
 \displaystyle { {E\over D} ={\varepsilon R \over T}}\,, &   \displaystyle \varepsilon = {ET\over DR} \cr
 \hbox{etc.} & \hbox{etc.} \cr
 \end{array}
 
+Porro vero differentiis sumendis habebitur
 
 \begin{aligned}
 A-B &= {\alpha(Q-\beta)\over PQ} = {\alpha c \over Q} = {APc \over Q} \cr
@@ -339,43 +361,59 @@ D-E &= {\alpha\beta\gamma\delta(T-\varepsilon R)\over RST} = {\alpha\beta\gamma\
 &\hbox{etc.}\cr
 \end{aligned}
 
-
+Si bini igitur in se invicem ducantur, fiet
 
 \begin{array}{ccc}
-\displaystyle{(A-B)(B-C)=ABcd{P\over R}} & \hbox{et} &  \displaystyle{R\over P} = {ABcd \over (A-B)(B-C)} \cr
-\displaystyle{(B-C)(C-D)=BCde{Q\over S}} & \hbox{et} &  \displaystyle{S\over Q} = {BCde \over (B-C)(C-D)} \cr
-\displaystyle{(C-D)(D-E)=CDef{R\over T}} & \hbox{et} &  \displaystyle{T\over R} = {CDef \over (C-D)(D-E)} \cr
+\displaystyle{(A-B)(B-C)=ABcd\cdot{P\over R}} & \hbox{et} &  \displaystyle{R\over P} = {ABcd \over (A-B)(B-C)} \cr
+\displaystyle{(B-C)(C-D)=BCde\cdot{Q\over S}} & \hbox{et} &  \displaystyle{S\over Q} = {BCed \over (B-C)(C-D)} \cr
+\displaystyle{(C-D)(D-E)=CDef\cdot{R\over T}} & \hbox{et} &  \displaystyle{T\over R} = {CDef \over (C-D)(D-E)} \cr
 \hbox{etc.}\cr
 \end{array}
 
 
+Unde, cum sit
+
+\begin{equation}
+P=b\,, \\
+Q={\alpha c\over A-B} = {Abc\over{A-B}},
+\end{equation}
+
+erit
 
 \begin{aligned}
-\alpha &= {AB} \cr
-\beta &= {Bbc \over A - B} \cr
-\gamma &= {ACcd \over (A-B)(B-C) } \cr
-\delta &= {BDde \over (B-C)(C-D) } \cr
+\alpha &= {Ab} \,,\cr
+\beta &= {Bbc \over A - B} \,,\cr
+\gamma &= {ACcd \over (A-B)(B-C) } \,,\cr
+\delta &= {BDde \over (B-C)(C-D) } \,,\cr
 \varepsilon &= {CEef \over (C-D)(D-E)} \cr
 &\hbox{etc.}\cr
 \end{aligned}
 
 
 <p>368.
+Inventis ergo valoribus numeratorum \(\alpha\), \(\beta\), \(\gamma\), \(\delta\),  etc. denominatores
+\(b\), \(c\), \(d\), \(e\), etc., arbitrio nostro relinquuntur; ita autem eos assumi convenit,
+ut, cum ipsi sint numeri integri, tum valores integros pro \(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc.,
+exhibeant. Hoc vero pendet quoque a natura numerorum \(A\), \(B\), \(C\) etc.,
+utrum sint integri an fracti. Ponamus esse numeros integros atque quaesito
+satisfiet statuendo
 
-\begin{array}{ccc}
+\begin{array}{lll}
 \displaystyle{b = 1} &  &  \displaystyle{\alpha = A} \cr
 \displaystyle{c = A-B} & &  \displaystyle{\beta = B} \cr
 \displaystyle{d = B-C} & \quad\hbox{unde fit}\quad &  \displaystyle{\gamma = AC} \cr
 \displaystyle{e = C-D} & & \displaystyle{\delta = BD} \cr
 \displaystyle{f = D-E} & & \displaystyle{\varepsilon = CE} \cr
-\hbox{etc.} & & \hbox{etc.}\cr
+\quad\hbox{etc.} & & \quad\hbox{etc.}\cr
 \end{array}
 
+Quocirca, si fuerit,
 
 \begin{equation}
 x = A-B+C-D+E-F+\cdots
 \end{equation}
 
+idem ipsius \(x\) valor per fractionem continuam ita exprimi poterit, ut sit
 
 \begin{equation}
 x = {\cofrac A 1 {\cofrac B {A-B} {\cofrac {AC} {B-C} {\cofrac {BD} {C-D} {\cofrac {CE} {D-E} \tailfrac }}}}}
@@ -383,76 +421,127 @@ x = {\cofrac A 1 {\cofrac B {A-B} {\cofrac {AC} {B-C} {\cofrac {BD} {C-D} {\cofr
 
 
 <p>369.
+Sin autem omnes termini seriei sint numeri fracti, ita ut fuerit
 
 \begin{equation}
 x = {1\over A} - {1\over B} + {1\over C} - {1\over D} + {1\over E} - \cdots
 \end{equation}
 
+habebuntur pro \(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc. sequentes valores
 
 \begin{aligned}
-\alpha &= {b\over A} \cr
-\beta &= {Abc\over B-A} \cr
-\gamma &= {B^2cd\over (B-A)(C-B)} \cr
-\delta &= {C^2de\over (C-B)(D-C)} \cr
+\alpha &= {b\over A} \,,\cr
+\beta &= {Abc\over B-A} \,,\cr
+\gamma &= {B^2cd\over (B-A)(C-B)} \,,\cr
+\delta &= {C^2de\over (C-B)(D-C)} \,,\cr
 \varepsilon &= {D^2ef\over (D-C)(E-D)} \cr
 &\hbox{etc.}\cr
 \end{aligned}
 
-
+Ponatur ergo ut sequitur
 
 \begin{array}{lll}
-\displaystyle{b = A} & \quad\hbox{unde fit}\quad & \displaystyle{\alpha = 1} \cr
-\displaystyle{c = B-A} & & \displaystyle{\beta = AA} \cr
-\displaystyle{d = C-B} & & \displaystyle{\gamma = BB} \cr
+\displaystyle{b = A} & \quad\hbox{unde fit}\quad & \displaystyle{\alpha = 1} \,,\cr
+\displaystyle{c = B-A} & & \displaystyle{\beta = AA} \,,\cr
+\displaystyle{d = C-B} & & \displaystyle{\gamma = BB} \,,\cr
 \displaystyle{e = D-C} & & \displaystyle{\delta = CC} \cr
-\hbox{etc.} & & \hbox{etc.} \cr
+&\quad\hbox{etc.} \cr
 \end{array}
 
+eritque per fractionem continuuam
 
 \begin{equation}
 x = {\cofrac 1 A {\cofrac {AA} {B-A} {\cofrac {BB} {C-B} {\cofrac {CC} {D-C} \tailfrac}}}}
 \end{equation}
 
 
+<p style="text-align:center">
+EXEMPLUM I.
+</p>
+
+<p><em>Transformetur haec series infinita</em>
 
 \begin{equation}
 x = 1 - {1\over 2} + {1\over 3} - {1\over 4} + {1\over 5}  - \cdots
 \end{equation}
 
+<em>in fractionem continuam.</em>
+
+<p>
+Erit ergo \(A=1\), \(B=2\), \(C=3\), \(D=4\), etc., atque, cum seriei propositae valor sit \({}=\log 2\), erit
 
 \begin{equation}
 \log 2 = {\cofrac 1 1 {\cofrac 1 1 {\cofrac 4 1 {\cofrac 9 1 {\cofrac {16} 1 {\cofrac {25} 1 \tailfrac}}}}}}
 \end{equation}
 
+
+<p style="text-align:center">
+EXEMPLUM II.
+</p>
+
+<p><em>Transformetur haec series infinita</em>
+
 \begin{equation}
 {\pi\over4} = 1 - {1\over 3} + {1\over 5} - {1\over 7} + {1\over 9} - \cdots
 \end{equation}
+
+<em>
+ubi \(\pi\) denotat peripheriam circuli, cuius diameter \({}=1\), in fractionem continuam.
+</em>
+
+<p>
+Substitutis \(A\), \(B\), \(C\), \(D\), etc. numeris \(1\), \(3\), \(5\), \(7\), etc. orietur
 
 \begin{equation}
 {\pi\over 4} = {\cofrac 1 1 {\cofrac 1 2 {\cofrac 9 2 {\cofrac {25} 2 {\cofrac {49} 2 \tailfrac}}}}}
 \end{equation}
 
+hincque, invertendo fractionem, erit
 
 \begin{equation}
 {4\over\pi} = 1 + {\cofrac 1 2 {\cofrac 9 2 {\cofrac {25} 2 {\cofrac {49} 2 \tailfrac}}}}
 \end{equation}
 
+quae est expressio, quam Brounckerus primum pro quadratura circuli protulit.
+
+
+<p style="text-align:center">
+EXEMPLUM III.
+</p>
+
+<p>
+Si proposita ista series infinita 
 
 \begin{equation}
 x = {1\over m} - {1\over m+n} + {1\over m+2n} - {1\over m+3n} + \cdots
 \end{equation}
 
+quae, ob
+
+\begin{equation}
+A=m,\quad B=m+n,\quad C=m+2n,\quad \hbox{etc.},
+\end{equation}
+
+in hanc fractionem continuam mutatur
 
 \begin{equation}
 x = {\cofrac 1 m {\cofrac {mm} {\phantom{n}n} {\cofrac {(m+n)^2} {\phantom{m+n}n} {\cofrac {(m+2n)^2} {\phantom{m+2n}n} {\cofrac {(m+3n)^2} {\phantom{nn}n} \tailfrac}}}}}
 \end{equation}
 
+ex qua sit, invertendo,
+
 \begin{equation}
 {1\over x} - m = {\cofrac {mm} {\phantom{n}n} {\cofrac {(m+n)^2} {\phantom{m+n}n} {\cofrac {(m+2n)^2} {\phantom{mm+n}n} {\cofrac {(m+3n)^2} {\phantom{nn}n} \tailfrac } } } }
 \end{equation}
 
-\example{Example IV.}
-We have previously found (art. 178) the equation
+
+<p style="text-align:center">
+EXEMPLUM IV.
+</p>
+
+<p>
+Quoniam supra (§ 178) invenimus esse
+
 
 \begin{equation}
 {\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
@@ -460,12 +549,13 @@ We have previously found (art. 178) the equation
  {1\over m} - {1\over n-m} + {1\over n+m} - {1\over 2n-m} + {1\over 2n+m} - \cdots
 \end{equation}
 
-Therefore, ...
+erit, pro fractione continuanda,
 
 \begin{equation}
-A=m;\quad B=n-m;\quad C=n+m;\quad D=2n-m;\quad \cdots
+A=m,\quad B=n-m,\quad C=n+m,\quad D=2n-m,\quad \cdots
 \end{equation}
 
+unde fiet
 
 \begin{equation}
 {\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
