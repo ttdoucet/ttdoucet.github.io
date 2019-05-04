@@ -138,7 +138,7 @@ a\phantom{\,;} & b\phantom{\,;} & c\phantom{\,;} & d\phantom{\,;} & e \\
 & \displaystyle{ {ab + \alpha}\over b}\,;
 & \displaystyle{ {abc + \beta a + \alpha c}\over {bc + \beta}}\,;
 & \displaystyle{ {abcd + \beta ad + \alpha cd + \gamma ab + \alpha\gamma}\over {bcd + \beta d + \gamma b}} \\
-\alpha\phantom{\,;} & \beta\phantom{\,;} & \gamma\phantom{\,;} & \delta\phantom{\,;} & \epsilon \\
+\alpha\phantom{\,;} & \beta\phantom{\,;} & \gamma\phantom{\,;} & \delta\phantom{\,;} & \varepsilon \\
 \end{array}
 
 <p>361.
@@ -178,6 +178,294 @@ etiamsi fractio continua in infinitum progrediatur,
 dummodo numeratores \(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc. non nimis crescant;
 sin autem omnes isti numeratores fuerint unitates,
 tum appropinquatio nulli incommodo est obnoxia.
+
+<p>363.
+
+\begin{equation}
+{} = {a \over b}
+\end{equation}
+
+\begin{equation}
+{\alpha\beta \over b(bc+\beta)}
+\end{equation}
+
+\begin{equation}
+{\alpha\beta\gamma \over (bc + \beta)(bcd + \beta d + \gamma b)}
+\end{equation}
+
+\begin{equation}
+x = a + {a \over b} - {\alpha\beta \over b(bc+\beta)} + {\alpha\beta\gamma \over (bc + \beta)(bcd + \beta d + \gamma b)} - \cdots
+\end{equation}
+
+<p>364.
+\begin{equation}
+x = {\cofrac \alpha b {\cofrac \beta c {\cofrac \gamma d {\cofrac \delta e {\cofrac \varepsilon f \tailfrac }}}}}
+\end{equation}
+
+\begin{equation}
+x = {a \over b} 
+    - {\alpha\beta \over b(bc+\beta)} 
+    + {\alpha\beta\gamma \over (bc + \beta)(bcd + \beta d + \gamma b)} \\
+    - {\alpha\beta\gamma\delta \over (bcd + \beta d + \gamma b)(bcde + \beta d e + \gamma b e + \delta b c + \beta\delta)}
+    + \cdots
+\end{equation}
+
+
+<p>365.
+
+\begin{equation}
+x = A - B + C - D + E - F + \cdots
+\end{equation}
+
+\begin{array}{llll}
+\displaystyle{A={\alpha\over\beta}} &&&  \displaystyle{\alpha = A\beta} \\
+\displaystyle{ {B\over A} = {\beta\over{bc+\beta}}} &&&   \displaystyle{\beta = {Bbc\over{A-B}}} \\
+\displaystyle { {C\over B} ={\gamma b \over bcd + \beta d + \gamma b}} &&&   \displaystyle \gamma = { {Cd(bc+\beta)}\over b(B-C)} \\
+\displaystyle { {D\over C} ={\delta (bc + \beta) \over bcde + \beta d e + \gamma b e + \delta b c + \beta\delta}} &&&
+  \displaystyle{\delta = {De(bcd + \beta d + \gamma b)\over (bc+\beta)(C-D)}} \\
+\end{array}
+
+
+
+\begin{equation}
+\beta = {Bbc\over A - B}
+\end{equation}
+
+
+
+\begin{equation}
+bc + \beta = {Abc\over A-B}
+\end{equation}
+
+
+
+\begin{equation}
+\gamma = {ACcd \over {(A-B)(C-D)}}
+\end{equation}
+
+
+
+\begin{equation}
+bcd + \beta d + \gamma b = 
+(bc+\beta)d + \gamma b = 
+{Abcd \over A - B} + {ACbcd \over (A-B)(B-C)} =
+{ABbcd \over(A-B)(B-C)}
+\end{equation}
+
+
+
+\begin{equation}
+{bcd + \beta d + \gamma b \over bc + \beta} = {Bd \over B-C}
+\end{equation}
+
+
+
+\begin{equation}
+\delta = {BDde \over (B-C)(C-D) }
+\end{equation}
+
+\begin{equation}
+\varepsilon = {CEef \over (C-D)(D-E)}
+\end{equation}
+
+
+<p>366.
+
+\begin{aligned}
+P &= b\,, \cr
+Q &= bc + \beta\,, \cr
+R &= bcd + \beta d + \gamma b\,, \cr
+S &= bcde + \beta de + \gamma be + \delta bc + \beta\delta\,, \cr
+T &= bcdef + \cdots\,, \cr
+V &= bcdefg + \cdots\,, \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+
+\begin{aligned}
+Q &= Pc + \beta \cr
+R &= Qd + \gamma P \cr
+S &= Re + \delta Q \cr
+T &= Sf + \varepsilon R \cr
+V &= Tg + \xi S \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+\begin{equation}
+x = {\alpha\over P} - 
+    {\alpha\beta\over PQ} + 
+    {\alpha\beta\gamma\over QR} -
+    {\alpha\beta\gamma\delta\over RS} +
+    {\alpha\beta\gamma\delta\varepsilon\over ST} -
+    \cdots
+\end{equation}
+
+
+<p>367.
+
+\begin{equation}
+x = A-B+C-D+E-F+\cdots
+\end{equation}
+
+
+\begin{array}{ccc}
+\displaystyle{A={\alpha\over P}}\,, &  \displaystyle{\alpha = AP} \cr
+\displaystyle{ {B\over A} = {\beta\over{Q}}}\,, &   \displaystyle{\beta = {BQ\over A}} \cr
+\displaystyle { {C\over B} ={\gamma P \over R}}\,, &   \displaystyle \gamma = {CR\over BP} \cr
+\displaystyle { {D\over C} ={\delta Q \over S}}\,, &   \displaystyle \delta = {DS\over CQ} \cr
+\displaystyle { {E\over D} ={\varepsilon R \over T}}\,, &   \displaystyle \varepsilon = {ET\over DR} \cr
+\hbox{etc.} & \hbox{etc.} \cr
+\end{array}
+
+
+\begin{aligned}
+A-B &= {\alpha(Q-\beta)\over PQ} = {\alpha c \over Q} = {APc \over Q} \cr
+B-C &= {\alpha\beta(R-\gamma P)\over PQR} = {\alpha\beta d \over PR} = {BQd \over R} \cr
+C-D &= {\alpha\beta\gamma(S-\delta Q)\over QRS} = {\alpha\beta\gamma e \over QS} = {CRe \over S} \cr
+D-E &= {\alpha\beta\gamma\delta(T-\varepsilon R)\over RST} = {\alpha\beta\gamma\delta f \over RT} = {DSf \over T} \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+
+
+\begin{array}{ccc}
+\displaystyle{(A-B)(B-C)=ABcd{P\over R}} & \hbox{et} &  \displaystyle{R\over P} = {ABcd \over (A-B)(B-C)} \cr
+\displaystyle{(B-C)(C-D)=BCde{Q\over S}} & \hbox{et} &  \displaystyle{S\over Q} = {BCde \over (B-C)(C-D)} \cr
+\displaystyle{(C-D)(D-E)=CDef{R\over T}} & \hbox{et} &  \displaystyle{T\over R} = {CDef \over (C-D)(D-E)} \cr
+\hbox{etc.}\cr
+\end{array}
+
+
+
+\begin{aligned}
+\alpha &= {AB} \cr
+\beta &= {Bbc \over A - B} \cr
+\gamma &= {ACcd \over (A-B)(B-C) } \cr
+\delta &= {BDde \over (B-C)(C-D) } \cr
+\varepsilon &= {CEef \over (C-D)(D-E)} \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+
+<p>368.
+
+\begin{array}{ccc}
+\displaystyle{b = 1} &  &  \displaystyle{\alpha = A} \cr
+\displaystyle{c = A-B} & &  \displaystyle{\beta = B} \cr
+\displaystyle{d = B-C} & \quad\hbox{unde fit}\quad &  \displaystyle{\gamma = AC} \cr
+\displaystyle{e = C-D} & & \displaystyle{\delta = BD} \cr
+\displaystyle{f = D-E} & & \displaystyle{\varepsilon = CE} \cr
+\hbox{etc.} & & \hbox{etc.}\cr
+\end{array}
+
+
+\begin{equation}
+x = A-B+C-D+E-F+\cdots
+\end{equation}
+
+
+\begin{equation}
+x = {\cofrac A 1 {\cofrac B {A-B} {\cofrac {AC} {B-C} {\cofrac {BD} {C-D} {\cofrac {CE} {D-E} \tailfrac }}}}}
+\end{equation}
+
+
+<p>369.
+
+\begin{equation}
+x = {1\over A} - {1\over B} + {1\over C} - {1\over D} + {1\over E} - \cdots
+\end{equation}
+
+
+\begin{aligned}
+\alpha &= {b\over A} \cr
+\beta &= {Abc\over B-A} \cr
+\gamma &= {B^2cd\over (B-A)(C-B)} \cr
+\delta &= {C^2de\over (C-B)(D-C)} \cr
+\varepsilon &= {D^2ef\over (D-C)(E-D)} \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+
+
+\begin{array}{lll}
+\displaystyle{b = A} & \quad\hbox{unde fit}\quad & \displaystyle{\alpha = 1} \cr
+\displaystyle{c = B-A} & & \displaystyle{\beta = AA} \cr
+\displaystyle{d = C-B} & & \displaystyle{\gamma = BB} \cr
+\displaystyle{e = D-C} & & \displaystyle{\delta = CC} \cr
+\hbox{etc.} & & \hbox{etc.} \cr
+\end{array}
+
+
+\begin{equation}
+x = {\cofrac 1 A {\cofrac {AA} {B-A} {\cofrac {BB} {C-B} {\cofrac {CC} {D-C} \tailfrac}}}}
+\end{equation}
+
+
+
+\begin{equation}
+x = 1 - {1\over 2} + {1\over 3} - {1\over 4} + {1\over 5}  - \cdots
+\end{equation}
+
+
+\begin{equation}
+\log 2 = {\cofrac 1 1 {\cofrac 1 1 {\cofrac 4 1 {\cofrac 9 1 {\cofrac {16} 1 {\cofrac {25} 1 \tailfrac}}}}}}
+\end{equation}
+
+\begin{equation}
+{\pi\over4} = 1 - {1\over 3} + {1\over 5} - {1\over 7} + {1\over 9} - \cdots
+\end{equation}
+
+\begin{equation}
+{\pi\over 4} = {\cofrac 1 1 {\cofrac 1 2 {\cofrac 9 2 {\cofrac {25} 2 {\cofrac {49} 2 \tailfrac}}}}}
+\end{equation}
+
+
+\begin{equation}
+{4\over\pi} = 1 + {\cofrac 1 2 {\cofrac 9 2 {\cofrac {25} 2 {\cofrac {49} 2 \tailfrac}}}}
+\end{equation}
+
+
+\begin{equation}
+x = {1\over m} - {1\over m+n} + {1\over m+2n} - {1\over m+3n} + \cdots
+\end{equation}
+
+
+\begin{equation}
+x = {\cfr 1 m {\cfr {mm} n {\cfr {(m+n)^2} n {\cfr {(m+2n)^2} n {\cfr {(m+3n)^2} n \tailfrac}}}}}
+\end{equation}
+
+\begin{equation}
+{1\over x} - m = {\cfr {mm} n {\cfr {(m+n)^2} n {\cfr {(m+2n)^2} n {\cfr {(m+3n)^2} n \tailfrac } } } }
+\end{equation}
+
+\example{Example IV.}
+We have previously found (art. 178) the equation
+
+\begin{equation}
+{\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
+  =
+ {1\over m} - {1\over n-m} + {1\over n+m} - {1\over 2n-m} + {1\over 2n+m} - \cdots
+\end{equation}
+
+Therefore, ...
+
+\begin{equation}
+A=m;\quad B=n-m;\quad C=n+m;\quad D=2n-m;\quad \cdots
+\end{equation}
+
+\begin{equation}
+{\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
+  =
+{\cfr 1 m 
+      {\cfr {mm} {n-2m} 
+            {\cfr {(n-m)^2} {2m} 
+                  {\cfr {(n+m)^2} {n-2m} 
+                        {\cfr {(2n-m)^2} {2m} 
+                              {\cfr {(2n+m)^2} {n-2m} \tailfrac}}}}}}
+\end{equation}
+
+
+
 
 <br>
 <br>
