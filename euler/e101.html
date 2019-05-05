@@ -1143,25 +1143,163 @@ x = a+{\cofrac b a {\cofrac b a {\cofrac b a \ldots}} }
 quae autem, cum numeratores \(b\) non sint unitates, non tam commode adhiberi potest.
   
 <p>381.
+Ut autem usus in arithmetica ostendatur, primum notandum est
+omnem fractionem ordinariam in fractionem continuam converti posse. Sit
+enim proposita fractio
+
+\begin{equation}
+x={A\over B}\,,
+\end{equation}
+
+in qua sit \(A > B\); dividatur \(A\) per \(B\), sitque quotus \({}=a\) et residuum \(C\);
+tum per hoc residuum \(C\) dividatur praecedens divisor \(B\), prodeatque quotus \(b\)
+et relinquatur residuum \(D\), per quod denuo praecedens divisor \(C\) dividatur;
+sicque haec operatio, quae vulgo ad maximum communem divisorem numerorum
+\(A\) et \(B\) investigandum usurpari solet, continuetur, donec ipsa finiatur;
+sequenti modo
+
+
+<pre style="font-size: 1.4em">
+TBD: Long Division figure 1
+</pre>
+  
+<p>eritque per naturam divisionis
+
+\begin{array}{lll}
+\displaystyle{A=\alpha B+C}\,, & \quad\hbox{unde}\quad & \displaystyle{ {A\over B}=a+{C\over B }}\,,
+\phantom{\,,\quad \displaystyle{ {C\over B}= {1\over b+{D\over C}}}}\cr
+\displaystyle{B=bC+D}\,, & & \displaystyle{ {B\over C}=b+{D\over C}}\,,\quad \displaystyle{ {C\over B}= {1\over b+{D\over C}}} \,,  \cr
+
+\displaystyle{C=cD+E}\,, & & \displaystyle{ {C\over D}=c+{E\over D}}\,,\quad \displaystyle{ {D\over C}= {1\over c+{E\over D}}} \,,  \cr
+
+\displaystyle{D=dE+F}\,, & & \displaystyle{ {D\over E}=e+{F\over E}}\,,\quad \displaystyle{ {E\over D}= {1\over d+{F\over E}}} \,,  \cr
+
+&\quad\hbox{etc.} \cr
+\end{array}
+
+<p>hinc, sequentes valores in praecedentibus substituendo, erit
+
+\begin{equation}
+x = {A\over B} = a + {C\over B} = a + {\cofrac 1 b { {D\over C}}} = a + {\cofrac 1 b {\cofrac 1 c { {E\over D}}}}
+\end{equation}
+
+unde tandem \(x\) per meros quotos inventos \(a\), \(b\), \(c\), \(d\), etc., sequentem in modum
+exprimetur, ut sit
+
+\begin{equation}
+x = {a + {\cofrac 1 b {\cofrac 1 c {\cofrac 1 d {\cofrac 1 e {\cofrac 1 f \tailfrac }}}}}}
+\end{equation}
 
 <p style="text-align:center">
 EXEMPLUM I.
 </p>
 
-<p>Sit proposita
+<p>
+Sit proposita ista fractio \(1461\over 59\), quae sequenti modo in fractionem continuam
+transmutabitur, cuius omnes numeratores erunt unitates.
+Instituatur scilicet eadem operatio, qua maximus communis divisor
+numerorum \(59\) et \(1461\) quaeri solet.
+
+<pre style="font-size: 1.4em">
+TBD: Long Division figure 2
+</pre>
+
+<p>
+Hinc ergo ex quotis fiet
+
+\begin{equation}
+{1461\over 59} = {24 + {\cofrac 1 1 {\cofrac 1 3 {\cofrac 1 4 {\cofrac 1 1 {\displaystyle {1\over 2}} }}}}}
+\end{equation}
 
 <p style="text-align:center">
 EXEMPLUM II.
 </p>
 
-<p>Fractiones quoque...
+<p>
+Fractiones quoque decimales eodem modo transmutari poterunt;
+sit enim proposita
+
+\begin{equation}
+\sqrt 2 = 1.41421356 = {1.41421356\over 100\,000\,000}
+\end{equation}
+
+unde haec operatio instituatur
+
+\begin{array}{r|r|r}
+100000000 & 1.41421356 & 1 \cr
+82842712  & 100000000 & 2 \cr
+\hline
+17157288  & 41421356  & 2 \cr
+14213560  & 34314576  & 2 \cr
+\hline
+2943728   & 7106780   & 2 \cr
+2438648   & 5887456   & 2 \cr
+\hline
+505080    & 1219324   & 2 \cr
+418728    & 1010160   & 2\cr
+\hline
+\hbox{etc.}\;\; & 209364
+\end{array}
+
+Ex qua operatione iam patet omnes denominatores esse \(2\), atque
+adeo esse
+
+\begin{equation}
+\sqrt 2 = {1 + {\cofrac 1 2 {\cofrac 1 2 {\cofrac 1 2 {\cofrac 1 2 \tailfrac }}}}}
+\end{equation}
+
+cuius expressionis ratio iam ex superioribus patet.
 
 
 <p style="text-align:center">
 EXEMPLUM III.
 </p>
 
-<p>Imprimis vero
+<p>
+Imprimis vero etiam hic attentione dignus est numerus \(e\), cuius logarithmus
+est \({}= 1\), qui est
+
+\begin{equation}
+e=2.718281828459 \,,
+\end{equation}
+
+unde oritur
+
+\begin{equation}
+{e-1\over2} = 0.8591409142295 \,,
+\end{equation}
+
+quae fractio decimalis, si superiori modo tractetur, dabit quotos sequentes
+
+\begin{array}{r|r|r}
+8591409142295  & 10000000000000 &  1 \cr
+8451545146224 &   8591409142295 &  6 \cr
+\hline
+ 139863996071 &   1408590857704 & 10 \cr
+ 139312557916 &   1398639960710 & 14 \cr
+\hline
+    551438155 &      9950896994 & 18 \cr
+    550224488 &      9925886790 & 22 \cr
+\hline
+      1213667 &        25010204 \cr
+\hbox{etc.}\;\;
+\end{array}
+
+
+si ist calculus exactius adhuc, assumpto valore ipsius \(e\), ulterius
+continuetur, tum prodibunt isti quoti
+
+\begin{equation}
+1,\quad   6,\quad  10,\quad  14,\quad  18,\quad 22,\quad  26,\quad  30,\quad  34,\quad \cdots
+\end{equation}
+
+qui, dempto primo, progressionem arithmeticam constituunt, unde patet fore
+
+\begin{equation}
+{e-1\over 2} = {\cofrac 1 1 {\cofrac 1 6 {\cofrac 1 {10} {\cofrac 1 {14} {\cofrac 1 {18} {\cofrac 1 {22} {\displaystyle{1\over\hbox{etc.}}}}}}}}}
+\end{equation}
+
+cuius fractionis ratio ex calculo infinitesimale dari potest.
 
 
 <p>382.
@@ -1177,7 +1315,8 @@ Exprimatur ratio...
 
 <p style="text-align:center">
 EXEMPLUM II.
-</p>
+
+
 
 <p>
 Exprimatur ratio diei ad annum...
