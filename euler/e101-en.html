@@ -1,0 +1,90 @@
+---
+layout: eulerarticle
+title: Continued Fractions
+---
+\(
+\def\ovr{\over\displaystyle}
+\def\dst{\displaystyle\strut}
+\def\tailfrac{\rlap{\dst \rlap{\phantom{\dst 1\ovr2}}\cdots}}
+\def\cofrac#1#2#3{\rlap{\dfrac{#1}{\phantom{#2+}}} \genfrac{}{}{0pt}{0}{}{#2+#3}}
+\)
+
+<p>
+<etitle>
+Introduction to Analysis of the Infinite<br>
+Leonhard Euler<br>
+Book One<br><br>
+
+Chapter 18<br>
+Continued Fractions
+</etitle>
+
+<div>
+<p><esec>356.</esec>
+Having treated at length in the preceding chapters both infinite
+series, and products combining infinitely many factors, it would seem
+appropriate to say a few words about a third kind of infinite expression,
+those containing continued fractions or divisions.
+Though this kind of expression has indeed been hardly developed thus far,
+we nevertheless do not doubt that it will find ample use in the analysis of the infinite.
+In fact I have already shown several examples of this kind,
+which reinforces this expectation in no small way.
+But in this chapter, it is principally applications to arithmetic and common algebra
+that I set out to briefly indicate and explain.
+
+<p><esec>357.</esec>
+By a continued fraction, I mean a fraction whose denominator is made
+up of a whole number added to a fraction, which itself has for a denominator
+a whole number and fractional part formed in the same manner as the preceding,
+and so on in sequence, whether there be an infinite number of such
+fractions, or a finite number of them.
+
+<p>Such are the following expressions:
+
+\begin{equation}
+{a + {\cofrac 1 b {\cofrac 1 c {\cofrac 1 d {\cofrac 1 e {\cofrac 1 f \tailfrac }}}}}}
+\hbox{or}\qquad\qquad
+{a + {\cofrac \alpha b {\cofrac \beta c {\cofrac \gamma d {\cofrac \delta e {\cofrac \varepsilon f \tailfrac }}}}}}
+\end{equation}
+
+<p>In the first, the numerators of all the fractions are unity.  Those are the ones we
+will principally consider.  In the second, the numerators are arbitrary numbers.
+
+
+<p><esec>380.</esec>
+Since continued fractions can be so usefully employed to extract
+square roots, they will serve at the same time to solve equations of the
+second degree; this is clear by the calculation itself, since \(x\) is
+determined by an equation of this degree; and conversely the root
+of a second-degree equation can be easily represented by a continued
+fraction, in the following way.
+
+<p>Given the equation
+
+\begin{equation}
+xx=ax+b\,,
+\end{equation}
+
+since
+
+\begin{equation}
+x=a+{b\over x}\,,
+\end{equation}
+
+by substituting into the last term the value of \(x\) already found, we will get
+
+\begin{equation}
+x=a+{\cofrac b a {\dfrac{b}{x}}}
+\end{equation}
+
+and proceding in the same way, we will find an infinite continued fraction
+
+\begin{equation}
+x = a+{\cofrac b a {\cofrac b a {\cofrac b a \ldots}} }
+\end{equation}
+
+which, however, because the numerators \(b\) are not equal to unity, is not so
+convenient to use.
+
+
+</div>
