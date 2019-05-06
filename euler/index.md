@@ -19,10 +19,25 @@ I have translated into English several works of the great mathematician Leonhard
 
 <hr style="width: 50%" />
 
-I have also processed and uploaded to archive.org well over a hundred scans
-of [original][euler-orig] 18th-century articles published by Euler.
+All of the above translations are from original French Euler publications.
+But most of what he wrote was in Latin.  I am developing my Latin
+skills and have started to translate one chapter of Euler's magnficient
+<em>Introduction to Analysis of the Infinite</em>, in particular the chapter on continued fractions.
 
-While I was at it, I processed and uploaded the [journals][berlin] that these articles appeared in.
+This one is presented entirely in the web browser, using MathJax and a bit
+of CSS.  It was initially an experiment to see how well this would work, and the answer is it works
+very well indeed.  It turns out that 18th-century mathematical works are very web friendly.  Who
+would have known?
+
+Here is the complete [Latin version][e101], and here is the start of my [translation][e101-en].
+
+<hr style="width: 50%" />
+
+I have also processed and uploaded to archive.org well over a hundred scans
+of [original][euler-orig] 18th-century articles published by Euler.  These are
+all in French and written while he was at the Berlin Academy.
+
+While I was at it, I processed and uploaded the [journals][berlin] that these articles appeared in too.
 
 [e170]: translations/e170-en.pdf
 [e170intro]: translations/e170intro.pdf
@@ -38,3 +53,5 @@ While I was at it, I processed and uploaded the [journals][berlin] that these ar
 [euler-orig-old]: https://archive.org/details/@tdoucet?and%5B%5D=creator%3A%22leonhard+euler%22&sort=titleSorter
 [euler-orig]: /eulerindex
 [berlin]: https://archive.org/details/@tdoucet?sort=titleSorter&and%5B%5D=creator%3A%22l%27acad%C3%A9mie+royale+des+sciences+et+des+belles+lettres+de+berlin%22
+[e101-en]: e101-en.html
+[e101]: e101.html
