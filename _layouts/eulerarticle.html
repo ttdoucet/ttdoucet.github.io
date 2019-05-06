@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{% if page.language %}
+<html lang="{{ page.language }}">
+{% else %}
 <html lang="en">
+{% endif %}
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>

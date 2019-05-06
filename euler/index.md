@@ -21,12 +21,12 @@ I have translated into English several works of the great mathematician Leonhard
 
 All of the above translations are from original French Euler publications.
 But most of what he wrote was in Latin.  I am developing my Latin
-skills and have started to translate one chapter of Euler's magnficient
+skills and have started to translate one chapter of Euler's magnificient
 <em>Introduction to Analysis of the Infinite</em>, in particular the chapter on continued fractions.
 
 This one is presented entirely in the web browser, using MathJax and a bit
 of CSS.  It was initially an experiment to see how well this would work, and the answer is it works
-very well indeed.  It turns out that 18th-century mathematical works are very web friendly.  Who
+very well indeed.  It turns out that 18th-century mathematical works are very web friendly—who
 would have known?
 
 Here is the complete [Latin version][e101], and here is the start of my [translation][e101-en].
