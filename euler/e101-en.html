@@ -9,7 +9,7 @@ title: Continued Fractions
 \def\cofrac#1#2#3{\rlap{\dfrac{#1}{\phantom{#2+}}} \genfrac{}{}{0pt}{0}{}{#2+#3}}
 \)
 
-<p>
+<p></p>
 <etitle>
 Introduction to Analysis of the Infinite<br>
 Leonhard Euler<br>
@@ -33,9 +33,10 @@ But in this chapter, it is principally applications to arithmetic and common alg
 that I set out to briefly point out and explain.
 
 <p><esec>357.</esec>
-By a continued fraction, I mean a fraction whose denominator is made
-up of a whole number added to a fraction, which itself has for a denominator
-a whole number and fractional part formed in the same manner as the preceding,
+By a continued fraction, I mean a fraction whose denominator consists
+of a whole number added to a fraction, which itself in turn
+has for a denominator a whole number and fractional part formed in the
+same manner as the preceding,
 and so on in sequence, whether there be an infinite number of such
 fractions, or a finite number of them.
 
@@ -51,15 +52,13 @@ fractions, or a finite number of them.
 will principally consider.  In the second, the numerators are arbitrary numbers.
 
 <p><esec>358.</esec>
-Exposita ergo fractionum harum continuarum forma,
-primum videndum est,
-quemadmodum earum significatio consueto more expressa inveniri queat.
-Quae ut facilius inveniri possit,
-progrediamur per gradus,
-abrumpendo illas fractiones primo in prima,
-tum in secunda,
-post in tertia et ita porro fractione;
-quo facto patebit fore
+Having shown the form of these continued fractions, the next thing is to
+discover how they might be represented in the way that fractions
+are ordinarily expressed.
+To do this easily, let us proceed to break them off in steps,
+first after one fraction, then after two, then after three, and so on.
+Doing this clearly yields
+
 
 \begin{aligned}
 a &= a\cr\cr
@@ -69,6 +68,99 @@ a &= a\cr\cr
 {a + {\cofrac 1 b {\cofrac 1 c {\cofrac 1 d {\dfrac{1}{e}}}}}} &= { {abcde + abe + ade + cde + abc + a + c + e} 
                                                             \over 
                                                         {bcde + be + de + bc + 1}}\cr\cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+
+<p><esec>366.</esec>
+Quo ista lex clarius appareat, ponamus esse
+
+\begin{aligned}
+P &= b\,, \cr
+Q &= bc + \beta\,, \cr
+R &= bcd + \beta d + \gamma b\,, \cr
+S &= bcde + \beta de + \gamma be + \delta bc + \beta\delta\,, \cr
+T &= bcde\!f + \cdots\,, \cr
+V &= bcde\!fg + \cdots\,, \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+erit ex lege harum expressionum
+
+\begin{aligned}
+Q &= Pc + \beta \,,\cr
+R &= Qd + \gamma P \,,\cr
+S &= Re + \delta Q \,,\cr
+T &= Sf + \varepsilon R \,,\cr
+V &= Tg + \xi S \,,\cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+Cum igitur his adhibendis litteris fit
+
+\begin{equation}
+x = {\alpha\over P} - 
+    {\alpha\beta\over PQ} + 
+    {\alpha\beta\gamma\over QR} -
+    {\alpha\beta\gamma\delta\over RS} +
+    {\alpha\beta\gamma\delta\varepsilon\over ST} -
+    \cdots \,.
+\end{equation}
+
+
+<p><esec>367.</esec>
+Quoniam ergo ponimus esse
+
+\begin{equation}
+x = A-B+C-D+E-F+\cdots\,,
+\end{equation}
+
+erit
+
+\begin{array}{ccc}
+\displaystyle{A={\alpha\over P}}\,, &  \displaystyle{\alpha = AP} \,,\cr
+\displaystyle{ {B\over A} = {\beta\over{Q}}}\,, &   \displaystyle{\beta = {BQ\over A}} \,,\cr
+\displaystyle { {C\over B} ={\gamma P \over R}}\,, &   \displaystyle \gamma = {CR\over BP} \,,\cr
+\displaystyle { {D\over C} ={\delta Q \over S}}\,, &   \displaystyle \delta = {DS\over CQ} \,,\cr
+\displaystyle { {E\over D} ={\varepsilon R \over T}}\,, &   \displaystyle \varepsilon = {ET\over DR} \cr
+\hbox{etc.} & \hbox{etc.} \cr
+\end{array}
+
+Porro vero differentiis sumendis habebitur
+
+\begin{aligned}
+A-B &= {\alpha(Q-\beta)\over PQ} = {\alpha c \over Q} = {APc \over Q} \cr
+B-C &= {\alpha\beta(R-\gamma P)\over PQR} = {\alpha\beta d \over PR} = {BQd \over R} \cr
+C-D &= {\alpha\beta\gamma(S-\delta Q)\over QRS} = {\alpha\beta\gamma e \over QS} = {CRe \over S} \cr
+D-E &= {\alpha\beta\gamma\delta(T-\varepsilon R)\over RST} = {\alpha\beta\gamma\delta f \over RT} = {DSf \over T} \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+Si bini igitur in se invicem ducantur, fiet
+
+\begin{array}{ccc}
+\displaystyle{(A-B)(B-C)=ABcd\cdot{P\over R}} & \hbox{et} &  \displaystyle{R\over P} = {ABcd \over (A-B)(B-C)} \cr
+\displaystyle{(B-C)(C-D)=BCde\cdot{Q\over S}} & \hbox{et} &  \displaystyle{S\over Q} = {BCed \over (B-C)(C-D)} \cr
+\displaystyle{(C-D)(D-E)=CDef\cdot{R\over T}} & \hbox{et} &  \displaystyle{T\over R} = {CDef \over (C-D)(D-E)} \cr
+\hbox{etc.}\cr
+\end{array}
+
+
+Unde, cum sit
+
+\begin{equation}
+P=b\,, \\
+Q={\alpha c\over A-B} = {Abc\over{A-B}},
+\end{equation}
+
+erit
+
+\begin{aligned}
+\alpha &= {Ab} \,,\cr
+\beta &= {Bbc \over A - B} \,,\cr
+\gamma &= {ACcd \over (A-B)(B-C) } \,,\cr
+\delta &= {BDde \over (B-C)(C-D) } \,,\cr
+\varepsilon &= {CEef \over (C-D)(D-E)} \cr
 &\hbox{etc.}\cr
 \end{aligned}
 
