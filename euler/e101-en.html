@@ -184,7 +184,7 @@ Let us set \(x\) to be the true value of the continued fraction
 Then it is clear that the first fraction \(1\over 0\) is greater than
 \(x\), but the second \(a\over 1\) will be less than \(x\),
 and the third \(a+{\alpha\over b}\) will again be greater,
-the fourth once again less, and so forth, where these
+the fourth once again less, and so on, where these
 fractions will alternate being greater, then less, than \(x\).
 
 Furthermore, it is clear that
@@ -196,6 +196,40 @@ numerators \(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc. do
 not grow excessively.
 However, if all those numerators are unity, then the approximation
 is subject to no such inconvenience.
+
+
+<p><esec>363.</esec>
+In order to better understand the reason this approximation
+approaches the true value of the continued fraction, let us
+consider the differences of the above fractions.
+
+Ignoring the first \(1\over 0\), the difference between the second
+and the third is
+
+\begin{equation}
+{\alpha \over b}\,.
+\end{equation}
+
+The fourth subtracted from the third yields
+
+\begin{equation}
+{\alpha\beta \over b(bc+\beta)}\,.
+\end{equation}
+
+The fourth subtracted from the fifth yields
+
+\begin{equation}
+{\alpha\beta\gamma \over (bc + \beta)(bcd + \beta d + \gamma b)}\,,
+\end{equation}
+
+etc. Hence the value of the continued fraction will be expressed
+by an ordinary series of terms as follows
+
+\begin{equation}
+x = a + {\alpha \over b} - {\alpha\beta \over b(bc+\beta)} + {\alpha\beta\gamma \over (bc + \beta)(bcd + \beta d + \gamma b)} - \cdots\,,
+\end{equation}
+
+where the series terminates because the continued fraction does not go on forever.
 
 
 <br><br><br>
