@@ -232,6 +232,34 @@ x = a + {\alpha \over b} - {\alpha\beta \over b(bc+\beta)} + {\alpha\beta\gamma 
 where the series terminates because the continued fraction does not go on forever.
 
 
+<p><esec>364.</esec>
+We just found a way of converting an arbitrary
+continued fraction into a series of terms
+whose signs alternate,
+whenever the first letter \(a\) vanishes.
+For example, if the fraction is
+
+\begin{equation}
+x = {\cofrac \alpha b {\cofrac \beta c {\cofrac \gamma d {\cofrac \delta e {\cofrac \varepsilon f \tailfrac }}}}}
+\end{equation}
+
+by the method above it will be converted to
+
+\begin{equation}
+x = {\alpha \over b}
+    - {\alpha\beta \over b(bc+\beta)} 
+    + {\alpha\beta\gamma \over (bc + \beta)(bcd + \beta d + \gamma b)} \\
+    - {\alpha\beta\gamma\delta \over (bcd + \beta d + \gamma b)(bcde + \beta d e + \gamma b e + \delta b c + \beta\delta)}
+    + \cdots \,,
+\end{equation}
+
+from which it follows that if
+\(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc. are
+non-increasing numbers, for example all ones, 
+but the denominators arbitrary positive integers,
+then the value of the continued fraction will be expressed
+by a quickly-converging  series of terms.
+
 <br><br><br>
 
 <p><esec>366.</esec>
