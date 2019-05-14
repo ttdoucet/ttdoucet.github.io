@@ -260,6 +260,73 @@ but the denominators arbitrary positive integers,
 then the value of the continued fraction will be expressed
 by a quickly-converging  series of terms.
 
+<p><esec>365.</esec>
+That established,
+an arbitrary series of alternating terms will, in turn,
+be able to be converted into a continued fraction,
+meaning a continued fraction can be found whose
+value equals the sum of the given series.
+Let such a series be given,
+
+\begin{equation}
+x = A - B + C - D + E - F + \cdots \,,
+\end{equation}
+
+and by comparing it termwise with the series arising from the continued
+fraction, we will have
+
+\begin{array}{llll}
+\displaystyle{A={\alpha\over b}}\,, &&\hbox{and hence} &  \displaystyle{\alpha = A b}\,, \\
+\displaystyle{ {B\over A} = {\beta\over{bc+\beta}}}\,, && \hbox{from which} &   \displaystyle{\beta = {Bbc\over{A-B}}}\,, \\
+\displaystyle { {C\over B} ={\gamma b \over bcd + \beta d + \gamma b}} \,, &&&   \displaystyle \gamma = { {Cd(bc+\beta)}\over b(B-C)}\,, \\
+\displaystyle { {D\over C} ={\delta (bc + \beta) \over bcde + \beta d e + \gamma b e + \delta b c + \beta\delta}} \,, &&&
+  \displaystyle{\delta = {De(bcd + \beta d + \gamma b)\over (bc+\beta)(C-D)}} \\
+&&\hbox{etc.}
+\end{array}
+
+But since
+
+\begin{equation}
+\beta = {Bbc\over A - B}\,,
+\end{equation}
+
+we will have
+
+\begin{equation}
+bc + \beta = {Abc\over A-B}\,;
+\end{equation}
+
+from which
+
+\begin{equation}
+\gamma = {ACcd \over {(A-B)(B-C)}}\,.
+\end{equation}
+
+Further,
+
+\begin{aligned}
+bcd + \beta d + \gamma b &= 
+(bc+\beta)d + \gamma b \cr
+&= {Abcd \over A - B} + {ACbcd \over (A-B)(B-C)} \cr
+&= {ABbcd \over(A-B)(B-C)} \,,
+\end{aligned}
+
+from which
+
+\begin{array}{ccc}
+\displaystyle{bcd + \beta d + \gamma b \over bc + \beta} = {Bd \over B-C} &
+\quad\hbox{and}\quad &
+\displaystyle\delta = {BDde \over (B-C)(C-D) }\,.
+\end{array}
+
+Similarly, we will find
+
+\begin{equation}
+\varepsilon = {CEef \over (C-D)(D-E)}
+\end{equation}
+
+and so on.
+
 <br><br><br>
 
 <p><esec>366.</esec>
