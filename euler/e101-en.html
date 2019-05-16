@@ -452,6 +452,160 @@ x = {\cofrac A 1 {\cofrac B {A-B} {\cofrac {AC} {B-C} {\cofrac {BD} {C-D} {\cofr
 \end{equation}
 
 
+<p><esec>369.</esec>
+On the other hand, if all the terms of the series are fractional numbers such that
+
+\begin{equation}
+x = {1\over A} - {1\over B} + {1\over C} - {1\over D} + {1\over E} - \cdots
+\end{equation}
+
+then the following values
+for \(\alpha\), \(\beta\), \(\gamma\), \(\delta\), etc., will be obtained:
+
+
+
+\begin{aligned}
+\alpha &= {b\over A} \,,\cr
+\beta &= {Abc\over B-A} \,,\cr
+\gamma &= {B^2cd\over (B-A)(C-B)} \,,\cr
+\delta &= {C^2de\over (C-B)(D-C)} \,,\cr
+\varepsilon &= {D^2ef\over (D-C)(E-D)} \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+Therefore let us set as follows
+
+\begin{array}{lll}
+\displaystyle{b = A} & \quad\hbox{from which}\quad & \displaystyle{\alpha = 1} \,,\cr
+\displaystyle{c = B-A} & & \displaystyle{\beta = AA} \,,\cr
+\displaystyle{d = C-B} & & \displaystyle{\gamma = BB} \,,\cr
+\displaystyle{e = D-C} & & \displaystyle{\delta = CC} \cr
+&\quad\hbox{etc.,} \cr
+\end{array}
+
+and we will get for the continued fraction
+
+\begin{equation}
+x = {\cofrac 1 A {\cofrac {AA} {B-A} {\cofrac {BB} {C-B} {\cofrac {CC} {D-C} \tailfrac}}}}
+\end{equation}
+
+
+<p style="text-align:center">
+EXEMPLUM I.
+</p>
+
+<p><em>Transformetur haec series infinita</em>
+
+\begin{equation}
+x = 1 - {1\over 2} + {1\over 3} - {1\over 4} + {1\over 5}  - \cdots
+\end{equation}
+
+<em>in fractionem continuam.</em>
+
+<p>
+Erit ergo \(A=1\), \(B=2\), \(C=3\), \(D=4\), etc., atque, cum seriei propositae valor sit \({}=\log 2\), erit
+
+\begin{equation}
+\log 2 = {\cofrac 1 1 {\cofrac 1 1 {\cofrac 4 1 {\cofrac 9 1 {\cofrac {16} 1 {\cofrac {25} 1 \tailfrac}}}}}}
+\end{equation}
+
+
+<p style="text-align:center">
+EXEMPLUM II.
+</p>
+
+<p><em>Transformetur haec series infinita</em>
+
+\begin{equation}
+{\pi\over4} = 1 - {1\over 3} + {1\over 5} - {1\over 7} + {1\over 9} - \cdots
+\end{equation}
+
+<em>
+ubi \(\pi\) denotat peripheriam circuli, cuius diameter \({}=1\), in fractionem continuam.
+</em>
+
+<p>
+Substitutis \(A\), \(B\), \(C\), \(D\), etc. numeris \(1\), \(3\), \(5\), \(7\), etc. orietur
+
+\begin{equation}
+{\pi\over 4} = {\cofrac 1 1 {\cofrac 1 2 {\cofrac 9 2 {\cofrac {25} 2 {\cofrac {49} 2 \tailfrac}}}}}
+\end{equation}
+
+hincque, invertendo fractionem, erit
+
+\begin{equation}
+{4\over\pi} = 1 + {\cofrac 1 2 {\cofrac 9 2 {\cofrac {25} 2 {\cofrac {49} 2 \tailfrac}}}}
+\end{equation}
+
+quae est expressio, quam Brounckerus primum pro quadratura circuli protulit.
+
+
+<p style="text-align:center">
+EXEMPLUM III.
+</p>
+
+<p>
+Si proposita ista series infinita 
+
+\begin{equation}
+x = {1\over m} - {1\over m+n} + {1\over m+2n} - {1\over m+3n} + \cdots
+\end{equation}
+
+quae, ob
+
+\begin{equation}
+A=m,\quad B=m+n,\quad C=m+2n,\quad \hbox{etc.},
+\end{equation}
+
+in hanc fractionem continuam mutatur
+
+\begin{equation}
+x = {\cofrac 1 m {\cofrac {mm} {\phantom{n}n} {\cofrac {(m+n)^2} {\phantom{m+n}n} {\cofrac {(m+2n)^2} {\phantom{m+2n}n} {\cofrac {(m+3n)^2} {\phantom{nn}n} \tailfrac}}}}}
+\end{equation}
+
+ex qua sit, invertendo,
+
+\begin{equation}
+{1\over x} - m = {\cofrac {mm} {\phantom{n}n} {\cofrac {(m+n)^2} {\phantom{m+n}n} {\cofrac {(m+2n)^2} {\phantom{mm+n}n} {\cofrac {(m+3n)^2} {\phantom{nn}n} \tailfrac } } } }
+\end{equation}
+
+
+<p style="text-align:center">
+EXEMPLUM IV.
+</p>
+
+<p>
+Quoniam supra (§ 178) invenimus esse
+
+
+\begin{equation}
+{\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
+  =
+ {1\over m} - {1\over n-m} + {1\over n+m} - {1\over 2n-m} + {1\over 2n+m} - \cdots
+\end{equation}
+
+erit, pro fractione continuanda,
+
+\begin{equation}
+A=m,\quad B=n-m,\quad C=n+m,\quad D=2n-m,\quad \cdots
+\end{equation}
+
+unde fiet
+
+\begin{equation}
+{\pi\cos{m\pi\over n} \over n\sin{m\pi\over n} }
+  =
+{\cofrac 1 m 
+      {\cofrac {mm} {n-2m} 
+            {\cofrac {(n-m)^2} {\phantom{2m+}2m} 
+                  {\cofrac {(n+m)^2} {n-2m} 
+                        {\cofrac {(2n-m)^2} {\phantom{2m+}2m} 
+                              {\cofrac {(2n+m)^2} {n-2m} \tailfrac}}}}}}
+\end{equation}
+
+
+
+
 <br><br><br>
 
 <p><esec>380.</esec>
