@@ -607,6 +607,221 @@ from which
 \end{equation}
 
 
+<p><esec>370.</esec>
+If the given series progresses by successive factors, such that
+
+\begin{equation}
+x={1\over A} - {1\over AB} + {1\over ABC} - {1\over ABCD} + {1\over ABCDE} - \cdots\,
+\end{equation}
+
+then the following determinations will be put forth
+
+\begin{aligned}
+\alpha &= {b\over A} \,,\cr
+\beta  &= {bc\over{B-1}} \,,\cr
+\gamma  &= {Bcd\over{(B-1)(C-1)}} \,,\cr
+\delta  &= {Cde\over{(C-1)(D-1)}} \,,\cr
+\varepsilon  &= {Def\over{(D-1)(E-1)}} \cr
+& \hbox{etc.}
+\end{aligned}
+
+Accordingly, let us set as follows
+
+\begin{array}{lll}
+\displaystyle{b = A} & \quad\hbox{from which}\quad & \displaystyle{\alpha = 1} \,,\cr
+\displaystyle{c = B-1} & & \displaystyle{\beta = A} \,,\cr
+\displaystyle{d = C-1} & & \displaystyle{\gamma = B} \,,\cr
+\displaystyle{e = D-1} & & \displaystyle{\delta = C} \cr
+\displaystyle{f = E-1} & & \displaystyle{\varepsilon = D} \cr
+&\quad\hbox{etc.,} \cr
+\end{array}
+
+
+then as a consequence we will have
+
+\begin{equation}
+x = {\cofrac 1 A {\cofrac {A} {B-1} {\cofrac {B} {C-1} {\cofrac {C} {D-1}  {\cofrac {D} {E-1} \tailfrac}}}}}
+\end{equation}
+
+
+<p style="text-align:center">
+EXAMPLE 1
+</p>
+
+<p>
+We previously defined \(e\) to be the number whose logarithm equals \(1\), and found that
+
+\begin{equation}
+{1\over e} = 1 - {1\over 1} + {1\over 1\cdot 2} - {1\over 1\cdot 2\cdot 3} + {1\over 1\cdot 2\cdot 3\cdot 4} - \cdots
+\end{equation}
+
+or alternatively
+
+\begin{equation}
+1 - {1\over e} = {1\over 1} - {1\over 1\cdot 2} + {1\over 1\cdot 2\cdot 3} - {1\over 1\cdot 2\cdot 3\cdot 4} + \cdots
+\end{equation}
+
+This series will be converted into a continued fraction by setting
+
+\begin{equation}
+A=1,\quad B=2,\quad C=3,\quad D=4,\quad \cdots
+\end{equation}
+
+and when this is done we will have
+
+\begin{equation}
+1 - {1\over e} = {\cofrac 1 1 {\cofrac 1 1 {\cofrac 2 2 {\cofrac 3 3 {\cofrac 4 4 {\cofrac 5 5 \tailfrac}}}}}}
+\end{equation}
+
+from which, by eliminating the initial asymmetry, we will get
+
+\begin{equation}
+{1\over {e-1}} = {\cofrac 1 1 {\cofrac 2 2 {\cofrac 3 3 {\cofrac 4 4 {\cofrac 4 4 {\cofrac 5 5 \tailfrac}}}}}}
+\end{equation}
+
+
+
+<p style="text-align:center">
+EXAMPLE 2
+</p>
+
+<p>
+We previously found that the cosine of any arc which equals its chosen radius is
+
+\begin{equation}
+1 - {1\over 2} + {1\over 2\cdot 12} - {1\over 2\cdot 12\cdot 30} + {1\over 2\cdot 12\cdot 30\cdot 56} - \cdots
+\end{equation}
+
+Accordingly, let us set
+
+\begin{equation}
+A=1,\quad B=2,\quad C=12,\quad D=30,\quad E=56, \quad \cdots
+\end{equation}
+
+and also set \(x\) to the cosine of an arc which equals its radius.
+Then we will have
+
+\begin{equation}
+x = {\cofrac 1 1 {\cofrac 1 1 {\cofrac 2 {11} {\cofrac {12} {29} {\cofrac {30} {55} \tailfrac}}}}}
+\end{equation}
+
+or alternatively
+
+\begin{equation}
+{ {1\over x} - 1} = {\cofrac 1 1 {\cofrac 2 {11} {\cofrac {12} {29} {\cofrac {30} {55} \tailfrac}}}}
+\end{equation}
+
+
+<p><esec>371.</esec>
+Sit series insuper cum geometrica coniuncta, scilicet
+
+\begin{equation}
+x = A - Bz + Cz^2 - Dz^3 + Ez^4 - Fz^5 + \cdots \,,
+\end{equation}
+
+erit
+
+\begin{aligned}
+\alpha &= {Ab} \,,\cr
+\beta &= {Bbcz \over A - Bz} \,,\cr
+\gamma &= {ACcdz \over (A-Bz)(B-Cz) } \,,\cr
+\delta &= {BDdez \over (B-Cz)(C-Dz) } \,,\cr
+\varepsilon &= {CEefz \over (C-Dz)(D-Ez)} \cr
+&\hbox{etc.}\cr
+\end{aligned}
+
+Ponatur nunc
+
+\begin{array}{lll}
+\displaystyle{b = 1} & \quad\hbox{erit}\quad & \displaystyle{\alpha = A} \,,\cr
+\displaystyle{c = A-Bz} & & \displaystyle{\beta = Bz} \,,\cr
+\displaystyle{d = B-Cz} & & \displaystyle{\gamma = ACz} \,,\cr
+\displaystyle{e = C-Dz} & & \displaystyle{\delta = BDz} \cr
+&\quad\hbox{etc.} \cr
+\end{array}
+
+unde fiet
+
+\begin{equation}
+x = {\cofrac {A} {1} {\cofrac {Bz} {A-Bz} {\cofrac {ACz} {B-Cz}  {\cofrac {BDz} {C-Dz} \tailfrac}}}}
+\end{equation}
+
+<p><esec>372.</esec>
+Quo autem hoc negotium generalius absolvamus, ponamus esse
+
+\begin{equation}
+x = {A\over L} - {By\over Mz} + {Cy^2\over Nz^2} - {Dy^3\over Oz^3} + {Ey^4\over Pz^4} - \cdots
+\end{equation}
+
+fietque, comparatione instituta,
+
+\begin{aligned}
+\alpha &= {Ab\over L} \,,\cr
+\beta &= {BLbcy \over AMz - BLy} \,,\cr
+\gamma &= {ACM^2cdyz \over (AMz-BLy)(BNz-CMy) } \,,\cr
+\delta &= {BDN^2deyz \over (BNz-CMy)(COz-DNy) } \,,\cr
+&\hbox{etc.,}\cr
+\end{aligned}
+
+statuantur valores \(b\), \(c\), \(d\), etc., sequenti modo
+
+\begin{array}{lll}
+\displaystyle{b = L} & \quad\hbox{erit}\quad & \displaystyle{\alpha = A} \,,\cr
+\displaystyle{c = AMz-BLy} & & \displaystyle{\beta = BLLy} \,,\cr
+\displaystyle{d = BNz-CMy} & & \displaystyle{\gamma = ACM^2yz} \,,\cr
+\displaystyle{e = COz-DNy} & & \displaystyle{\delta = BDN^2yz} \,,\cr
+\displaystyle{f = DPz-EOy} & & \displaystyle{\varepsilon = CDO^2yz} \cr
+&\quad\hbox{etc.} \cr
+\end{array}
+
+unde series proposita per sequentem factionem continuam exprimetur
+
+\begin{equation}
+x = {\cofrac {A} {L} {\cofrac {BLLy} {AMz-BLy} {\cofrac {ACMMyz} {BNz-CMy}  {\cofrac {BDNNyz} {COz-DNy} \tailfrac}}}}
+\end{equation}
+
+<p><esec>373.</esec>
+Habeat denique series proposita huiusmodi formam
+
+\begin{equation}
+x = {A\over L} - {ABy\over LMz} + {ABCy^2\over LMNz^2} - {ABCDy^3\over LMNOz^3} + \cdots
+\end{equation}
+
+atque sequentes valores prodibunt
+
+\begin{aligned}
+\alpha &= {Ab\over L} \,,\cr
+\beta &= {Bbcy \over Mz - By} \,,\cr
+\gamma &= {CMcdyz \over (Mz-By)(Nz-Cy) } \,,\cr
+\delta &= {DNdeyz \over (Nz-Cy)(Oz-Dy) } \,,\cr
+\varepsilon &= {EOefyz \over (Oz-Dy)(Pz-Ey) } \,,\cr
+&\hbox{etc.,}\cr
+\end{aligned}
+
+ad valores ergo integros inveniendos fiat
+
+\begin{array}{lll}
+\displaystyle{b = Lz} & \quad\hbox{erit}\quad & \displaystyle{\alpha = Az} \,,\cr
+\displaystyle{c = Mz-By} & & \displaystyle{\beta = BLyz} \,,\cr
+\displaystyle{d = Nz-Cy} & & \displaystyle{\gamma = CMyz} \,,\cr
+\displaystyle{e = Oz-Dy} & & \displaystyle{\delta = DNyz} \,,\cr
+\displaystyle{f = Pz-Ey} & & \displaystyle{\varepsilon = EOyz} \cr
+&\quad\hbox{etc.} \cr
+\end{array}
+
+Unde valor seriei propositae ita exprimaur, ut sit
+
+\begin{equation}
+x = {\cofrac {Az} {Lz} {\cofrac {BLyz} {Mz-By} {\cofrac {CMyz} {Nz-Cy}  {\cofrac {DNyz} {Oz-Dy} \tailfrac}}}}
+\end{equation}
+
+
+Vel, ut lex progressionis statim a principio fiat manifesta, erit
+
+\begin{equation}
+{Az\over z} - Ay = Lz - Ay + \cofrac {BLyz} {Mz-By} {\cofrac {CMyz} {Nz-Cy}  {\cofrac {DNyz} {Oz-Dy} \tailfrac}}
+\end{equation}
+
 
 
 <br><br><br>
