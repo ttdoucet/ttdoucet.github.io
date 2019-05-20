@@ -838,7 +838,7 @@ immediately be found.
 Although a continued fraction can be transformed into an infinite
 series whose sum may be investigated by known methods, nevertheless,
 for the most part such series which arise are so intricate that their
-sums, although they may be simple enough, are scarcely able to be
+sums, though they may be simple enough, are scarcely able to be
 found.
 
 <p><esec>375.</esec>
@@ -1056,7 +1056,7 @@ where the error is less than \(1\over 1292\cdot 5473\), where
 
 <p><esec>378.</esec>
 But by this method, the roots of other numbers will not be able to be
-produced, unless they be the sum of two squares.
+extracted, unless they be the sum of two squares.
 So in order to extend this approximation to all numbers, let us set
 
 \begin{equation}
@@ -1122,6 +1122,42 @@ But actually it is
 \end{equation}
 
 so that the error is less than \(3\over 10\,000\,000\).
+
+<p><esec>379.</esec>
+Proceeding further, let us set
+
+\begin{equation}
+x = {\cofrac 1 a {\cofrac 1 b {\cofrac 1 c {\cofrac 1 a {\cofrac 1 b {\cofrac 1 c {\cofrac 1 a \tailfrac}}}}}}}
+\end{equation}
+
+We will have
+
+\begin{equation}
+x = {\cofrac 1 a {\cofrac 1 b {\displaystyle{1\over c+x}}}}
+  = {\cofrac 1 a {\displaystyle {c+x\over bx+bc+1}} }
+  = {bx+bc+1 \over (ab+1)x+abc+a+c}\,,
+\end{equation}
+
+from which
+
+\begin{equation}
+(ab+1)xx + (abc+a-b+c)x = bc+1 \,,
+\end{equation}
+
+and so
+
+\begin{equation}
+x = {-abc-a+b-c+\sqrt{(abc+a+b+c)^2+4} \over 2(ab+1)} \,,
+\end{equation}
+
+where the quantity under the radical sign is again the sum of two squares.
+Therefore, this form will not serve to extract the roots of
+other numbers, unless the first form already sufficed.
+
+In a similar way, if the the denominators of the continued fraction
+consisted of the four letters \(a\), \(b\), \(c\), \(d\) being
+continuously repeated, then it will not serve any better than the
+second, which contains only two letters, and so on.
 
 <br><br><br>
 
