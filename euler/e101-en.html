@@ -1194,6 +1194,273 @@ x = a+{\cofrac b a {\cofrac b a {\cofrac b a \ldots}} }
 which, however, because the numerators \(b\) are not equal to unity, is not so
 convenient to use.
 
+<p><esec>381.</esec>
+Ut autem usus in arithmetica ostendatur, primum notandum est
+omnem fractionem ordinariam in fractionem continuam converti posse. Sit
+enim proposita fractio
+
+\begin{equation}
+x={A\over B}\,,
+\end{equation}
+
+in qua sit \(A > B\); dividatur \(A\) per \(B\), sitque quotus \({}=a\) et residuum \(C\);
+tum per hoc residuum \(C\) dividatur praecedens divisor \(B\), prodeatque quotus \(b\)
+et relinquatur residuum \(D\), per quod denuo praecedens divisor \(C\) dividatur;
+sicque haec operatio, quae vulgo ad maximum communem divisorem numerorum
+\(A\) et \(B\) investigandum usurpari solet, continuetur, donec ipsa finiatur;
+sequenti modo
+
+<pre style="font-size: 1.2em; margin-left: 10%">
+B) A (a
+   —
+   C) B (b
+      —
+      D) C (c
+         —
+         E) D (d
+            —
+            F  etc.
+</pre>
+  
+<p>eritque per naturam divisionis
+
+\begin{array}{lll}
+\displaystyle{A=\alpha B+C}\,, & \quad\hbox{unde}\quad & \displaystyle{ {A\over B}=a+{C\over B }}\,,
+\phantom{\,,\quad \displaystyle{ {C\over B}= {1\over b+{D\over C}}}}\cr
+\displaystyle{B=bC+D}\,, & & \displaystyle{ {B\over C}=b+{D\over C}}\,,\quad \displaystyle{ {C\over B}= {1\over b+{D\over C}}} \,,  \cr
+
+\displaystyle{C=cD+E}\,, & & \displaystyle{ {C\over D}=c+{E\over D}}\,,\quad \displaystyle{ {D\over C}= {1\over c+{E\over D}}} \,,  \cr
+
+\displaystyle{D=dE+F}\,, & & \displaystyle{ {D\over E}=d+{F\over E}}\,,\quad \displaystyle{ {E\over D}= {1\over d+{F\over E}}} \,,  \cr
+
+&\quad\hbox{etc.} \cr
+\end{array}
+
+<p>hinc, sequentes valores in praecedentibus substituendo, erit
+
+\begin{equation}
+x = {A\over B} = a + {C\over B} = a + {\cofrac 1 b { {D\over C}}} = a + {\cofrac 1 b {\cofrac 1 c { {E\over D}}}}
+\end{equation}
+
+unde tandem \(x\) per meros quotos inventos \(a\), \(b\), \(c\), \(d\), etc., sequentem in modum
+exprimetur, ut sit
+
+\begin{equation}
+x = {a + {\cofrac 1 b {\cofrac 1 c {\cofrac 1 d {\cofrac 1 e {\cofrac 1 f \tailfrac }}}}}}
+\end{equation}
+
+<p style="text-align:center">
+EXEMPLUM I.
+</p>
+
+<p>
+Sit proposita ista fractio \(1461\over 59\), quae sequenti modo in fractionem continuam
+transmutabitur, cuius omnes numeratores erunt unitates.
+Instituatur scilicet eadem operatio, qua maximus communis divisor
+numerorum \(59\) et \(1461\) quaeri solet.
+
+<pre style="font-size: 1.2em; margin-left: 10%">
+59) 1461 (24
+    118
+    ————
+     281
+     236
+     ———
+      45) 59 (1
+          45
+          ——
+          14) 45 (3
+              42
+              ——
+               3) 14 (4
+                  12
+                  ——
+                   2) 3 (1
+                      2
+                      —
+                      1) 2 (2
+                         2
+                         —
+                         0
+</pre>
+
+
+<p>
+Hinc ergo ex quotis fiet
+
+\begin{equation}
+{1461\over 59} = {24 + {\cofrac 1 1 {\cofrac 1 3 {\cofrac 1 4 {\cofrac 1 1 {\displaystyle {1\over 2}} }}}}}
+\end{equation}
+
+<p style="text-align:center">
+EXEMPLUM II.
+</p>
+
+<p>
+Fractiones quoque decimales eodem modo transmutari poterunt;
+sit enim proposita
+
+\begin{equation}
+\sqrt 2 = 1.41421356 = {1.41421356\over 100\,000\,000}
+\end{equation}
+
+unde haec operatio instituatur
+
+\begin{array}{r|r|r}
+100000000 & 1.41421356 & 1 \cr
+82842712  & 100000000 & 2 \cr
+\hline
+17157288  & 41421356  & 2 \cr
+14213560  & 34314576  & 2 \cr
+\hline
+2943728   & 7106780   & 2 \cr
+2438648   & 5887456   & 2 \cr
+\hline
+505080    & 1219324   & 2 \cr
+418728    & 1010160   & 2\cr
+\hline
+\hbox{etc.}\;\; & 209364
+\end{array}
+
+Ex qua operatione iam patet omnes denominatores esse \(2\), atque
+adeo esse
+
+\begin{equation}
+\sqrt 2 = {1 + {\cofrac 1 2 {\cofrac 1 2 {\cofrac 1 2 {\cofrac 1 2 \tailfrac }}}}}
+\end{equation}
+
+cuius expressionis ratio iam ex superioribus patet.
+
+
+<p style="text-align:center">
+EXEMPLUM III.
+</p>
+
+<p>
+Imprimis vero etiam hic attentione dignus est numerus \(e\), cuius logarithmus
+est \({}= 1\), qui est
+
+\begin{equation}
+e=2.718281828459 \,,
+\end{equation}
+
+unde oritur
+
+\begin{equation}
+{e-1\over2} = 0.8591409142295 \,,
+\end{equation}
+
+quae fractio decimalis, si superiori modo tractetur, dabit quotos sequentes
+
+\begin{array}{r|r|r}
+8591409142295  & 10000000000000 &  1 \cr
+8451545146224 &   8591409142295 &  6 \cr
+\hline
+ 139863996071 &   1408590857704 & 10 \cr
+ 139312557916 &   1398639960710 & 14 \cr
+\hline
+    551438155 &      9950896994 & 18 \cr
+    550224488 &      9925886790 & 22 \cr
+\hline
+      1213667 &        25010204 & \quad\hbox{etc.}\cr
+\end{array}
+
+
+si iste calculus exactius adhuc, assumpto valore ipsius \(e\), ulterius
+continuetur, tum prodibunt isti quoti
+
+\begin{equation}
+1,\quad   6,\quad  10,\quad  14,\quad  18,\quad 22,\quad  26,\quad  30,\quad  34,\quad \cdots
+\end{equation}
+
+qui, dempto primo, progressionem arithmeticam constituunt, unde patet fore
+
+\begin{equation}
+{e-1\over 2} = {\cofrac 1 1 {\cofrac 1 6 {\cofrac 1 {10} {\cofrac 1 {14} {\cofrac 1 {18} {\cofrac 1 {22} \tailfrac }}}}}}
+\end{equation}
+
+
+cuius fractionis ratio ex calculo infinitesimale dari potest.
+
+
+<p><esec>382.</esec>
+Cum igitur ex huiusmodi expressionibus fractiones erui queant, quae
+quam citissime ad verum valorem expressionis deducant, haec methodus adhiberi
+poterit ad fractiones decimales per ordinarias fractiones, quae ad ipsas
+proxime accedant, exprimendas. Quin etiam, si fractio fuerit proposita, cuius
+numerator et denominator sint numeri valde magni, fractiones ex minoribus
+numeris constantes inveniri poterunt quae, etiamsi propositae non sint
+penitus aequales, tamen ab ea quam minime discrepent. Hincque problema a
+Wallisio olim tractatum facile resolvi potest, quo quaeruntur fractiones
+minoribus numeris expressae, quae tam prope exhauriant valorem fractionis
+cuiuspiam in numeris maioribus propositae, quantum fieri poterit numeris
+non maioribus. Fractiones autem nostra hac methodo ortae tam prope ad
+valorem fractionis continuae, ex qua eliciuntur, accedunt, ut nullae numeris
+non maioribus constantes dentur, quae propius accedant.
+
+<p style="text-align:center">
+EXEMPLUM I.
+</p>
+
+<p>
+Exprimatur ratio diametri ad peripheriam numeris tam exiguis, ut accuratior
+exhiberi nequeat, nisi numeri maiores adhibeantur.
+Si fractio decimalis cognita
+
+\begin{equation}
+3.1415926535\cdots
+\end{equation}
+
+modo exposito per divisionem continuam evolvatur, reperientur sequentes quoti
+
+\begin{equation}
+3,\quad   7,\quad  15,\quad  1,\quad  292,\quad 1,\quad  1,\quad \cdots \,,
+\end{equation}
+
+ex quibus sequentes fractiones formabuntur
+
+\begin{equation}
+{1\over 0},\quad {3\over 1},\quad {22\over 7},\quad  {333\over 106},\quad {355\over 113},\quad {103993\over 33102},\quad \cdots \,,
+\end{equation}
+
+secunda fractio iam ostendit esse diametrum ad peripheriam ut \(1:3\), neque
+certe numeris non maioribus accuratius dari poterit. Tertia fractio dat
+rationem Archimedeam  \(7:22\), at quinta Metianam, quae ad verum tam
+prope accedit, ut error minor sit parte \({1\over 113\cdot 33102}\).
+Ceterum hae fractiones alternatim vero sunt maiores minoresque.
+
+<p style="text-align:center">
+EXEMPLUM II.
+</p>
+
+<p>
+Exprimatur ratio diei ad annum solarem medium in numeris minimis
+proxime.  Cum annus iste sit \(\,365^d\,5^h\,48'\,55''\) continebit
+in fractione annus unus
+
+\begin{equation}
+365 {\textstyle{20935\over 86400}}
+\end{equation}
+
+dies. Tantum ergo opus est ut haec fractio evolvatur, quae dabit sequentes
+quotos
+
+\begin{equation}
+4,\quad   7,\quad  1,\quad  6,\quad  1,\quad 2,\quad  2,\quad 4
+\end{equation}
+
+unde istae eliciuntur fractiones
+
+\begin{equation}
+{0\over 1},\quad {1\over 4},\quad {7\over 29},\quad  {8\over 33},\quad {55\over 227},\quad {63\over 260},\quad {181\over 747},\quad \cdots
+\end{equation}
+
+Horae ergo cum minutis primis et secundis, quae supra \(365\) dies adsunt,
+quatuor annis unum diem circiter faciunt, unde calendarium Julianum originem
+habet. Exactius autem \(33\) annis \(8\) dies implentur, vel \(747\) annis \(181\)
+dies; unde sequitur quadringentis annis abundare \(97\) dies. Quare, cum hoc
+intervallo calendarium Julianum inserat \(100\) dies, Gregorianum quaternis seculis
+tres annos bissextiles in communes convertit.
 
 
 </div>
