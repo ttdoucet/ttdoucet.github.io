@@ -3,7 +3,19 @@ layout: default
 title: Euler papers translated to English.
 ---
 ## Leonhard Euler
-I have translated into English several works of the great mathematician Leonhard Euler:
+
+I have started translation of Leonhard Euler's magnificient
+<em>Introduction to Analysis of the Infinite</em> from the original
+Latin, and have completed the first draft of the chapter on continued
+fractions.
+
+The [PDF of my translation][e101-en] is available, as well
+as an online version of the [original][e101].
+
+<hr style="width: 50%" />
+
+I have previously translated into English the following works of Euler
+which he originally wrote in French:
 
 <div class="eulerdocs"></div>
 * e170 [<cite>Investigations on the imaginary roots of equations.</cite>][e170] Plus a translator's [introduction][e170intro].
@@ -16,22 +28,6 @@ I have translated into English several works of the great mathematician Leonhard
 * e498 [<cite>Extract of a letter from Mr. Euler to Mr. Beguelin.</cite>][e498]
 * e807 [<cite>On the logarithms of negative and imaginary numbers.</cite>][e807]
 * e343 in progress: [<cite>Letters to a Princess.</cite>][e343]
-
-<hr style="width: 50%" />
-
-All of the above translations are from original French Euler publications.
-
-But most of what he wrote was in Latin.  I have started to
-to translate Euler's magnificient
-<em>Introduction to Analysis of the Infinite</em>, and have
-completed the first draft of the chapter on continued fractions.
-
-This one is presented entirely in the web browser, using MathJax and a bit
-of CSS.  It was initially an experiment to see how well this would work, and the answer is it works
-very well indeed.  It turns out that 18th-century mathematical works are very web friendly—who
-would have known?
-
-Here is the complete [Latin version][e101], and here is the first draft of my [translation][e101-en].
 
 <hr style="width: 50%" />
 
@@ -55,5 +51,5 @@ While I was at it, I processed and uploaded the [journals][berlin] that these ar
 [euler-orig-old]: https://archive.org/details/@tdoucet?and%5B%5D=creator%3A%22leonhard+euler%22&sort=titleSorter
 [euler-orig]: /eulerindex
 [berlin]: https://archive.org/details/@tdoucet?sort=titleSorter&and%5B%5D=creator%3A%22l%27acad%C3%A9mie+royale+des+sciences+et+des+belles+lettres+de+berlin%22
-[e101-en]: e101-en.html
+[e101-en]: translations/e101-ch18-en.pdf
 [e101]: e101.html
