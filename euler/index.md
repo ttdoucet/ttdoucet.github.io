@@ -10,7 +10,7 @@ Latin, and have completed the first draft of the chapter on continued
 fractions.
 
 The [PDF of my translation][e101-en] is available, as well
-as an online version of the [original][e101].
+as a scan of the [original Latin][e101-ch18].
 
 <hr style="width: 50%" />
 
@@ -52,4 +52,4 @@ While I was at it, I processed and uploaded the [journals][berlin] that these ar
 [euler-orig]: /eulerindex
 [berlin]: https://archive.org/details/@tdoucet?sort=titleSorter&and%5B%5D=creator%3A%22l%27acad%C3%A9mie+royale+des+sciences+et+des+belles+lettres+de+berlin%22
 [e101-en]: translations/e101-ch18-en.pdf
-[e101]: e101.html
+[e101-ch18]: original/e101-ch18.pdf
