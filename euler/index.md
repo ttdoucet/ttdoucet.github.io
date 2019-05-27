@@ -6,8 +6,7 @@ title: Euler papers translated to English.
 
 I have started translation of Leonhard Euler's magnificient
 <em>Introduction to Analysis of the Infinite</em> from the original
-Latin, and have completed the first draft of the chapter on continued
-fractions.
+Latin, and have completed the chapter on continued fractions.
 
 The [PDF of my translation][e101-en] is available, as well
 as a scan of the [original Latin][e101-ch18].
