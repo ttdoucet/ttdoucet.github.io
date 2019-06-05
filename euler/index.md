@@ -6,10 +6,11 @@ title: Euler papers translated to English.
 
 I have started translation of Leonhard Euler's magnificient
 <em>Introduction to Analysis of the Infinite</em> from the original
-Latin, and have completed the chapter on continued fractions.
+Latin.
 
-The [PDF of my translation][e101-en] is available, as well
-as a scan of the [original Latin][e101-ch18].
+<div class="eulerdocs"></div>
+* Chapter 18: [Continued Fractions][e101-ch18-en]. Translation complete.  And [original][e101-ch18].
+* Chapter 2: [Transformation of Functions][e101-ch02-en].  Translation in progress.  And [original][e101-ch02].
 
 <hr style="width: 50%" />
 
@@ -50,5 +51,7 @@ While I was at it, I processed and uploaded the [journals][berlin] that these ar
 [euler-orig-old]: https://archive.org/details/@tdoucet?and%5B%5D=creator%3A%22leonhard+euler%22&sort=titleSorter
 [euler-orig]: /eulerindex
 [berlin]: https://archive.org/details/@tdoucet?sort=titleSorter&and%5B%5D=creator%3A%22l%27acad%C3%A9mie+royale+des+sciences+et+des+belles+lettres+de+berlin%22
-[e101-en]: translations/e101-ch18-en.pdf
+[e101-ch18-en]: translations/e101-ch18-en.pdf
+[e101-ch02-en]: translations/e101-ch02-en.pdf
 [e101-ch18]: original/e101-ch18.pdf
+[e101-ch02]: original/e101-ch02.pdf
