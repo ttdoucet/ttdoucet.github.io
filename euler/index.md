@@ -10,7 +10,6 @@ Latin.
 
 <div class="eulerdocs"></div>
 * Chapter 18: [Continued Fractions][e101-ch18-en]. Translation complete.  And [original][e101-ch18].
-* Chapter 2: [Transformation of Functions][e101-ch02-en].  Translation in progress.  And [original][e101-ch02].
 
 <hr style="width: 50%" />
 
