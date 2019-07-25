@@ -4,7 +4,7 @@ title: Euler papers translated to English.
 ---
 ## Leonhard Euler
 
-I have started translation of Leonhard Euler's magnificient
+I have started translation of Leonhard Euler's magnificent
 <em>Introduction to Analysis of the Infinite</em> from the original
 Latin.
 
