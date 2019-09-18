@@ -3,7 +3,7 @@ layout: default
 title: Fingerprints
 ---
 
-[repo]: https://bitbucket.org/lambent/image/src
+[repo]: https://github.com/ttdoucet/image
 
 # Fingerprints
 
