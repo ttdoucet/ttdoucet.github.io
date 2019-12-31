@@ -94,7 +94,7 @@ the grass, the thicket, and the fruit tree wild,
 &nbsp;&nbsp;&nbsp;&nbsp;
 white hawthorn, and the pastoral eglantine,  
 &nbsp;&nbsp;&nbsp;&nbsp;
-fast fading violets covered up in leaves,  
+fast-fading violets covered up in leaves,  
 and mid May’s eldest child,  
 &nbsp;&nbsp;
 the coming musk rose, full of sweetest wine,  
@@ -161,7 +161,7 @@ Fled is that music — do I wake or sleep?
 The above arrangement is based on the [original manuscript][keats-orig] of 1819
 by John Keats, and on the [manuscript of his brother][keats-brother] written shortly
 thereafter.  There are numerous and interesting differences from the first print edition.
-Even the title is slightly different.
+Even the title is a little different.
 Enjoy!
 
 [keats-orig]: docs/keats-original.pdf
