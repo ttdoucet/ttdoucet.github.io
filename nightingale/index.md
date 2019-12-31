@@ -145,7 +145,7 @@ Forlorn! The very word is like a bell
 to toll me back from thee unto myself.  
 Adieu! The fancy cannot cheat so well  
 &nbsp;&nbsp;
-as she is fain’d to do, deceitful elf!  
+as she is fain’d to do, deceiving elf!  
 Adieu! Adieu!  Thy plaintive anthem fades  
 &nbsp;&nbsp;
 past the near meadows, over the still stream,  
