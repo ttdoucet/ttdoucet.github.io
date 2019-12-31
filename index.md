@@ -15,3 +15,4 @@ Jottings:
   * [Color](/color)
   * [Doppler](/doppler)
   * [Sum angle](/sumangle.html)
+  * [Nightingale](/nightingale)
