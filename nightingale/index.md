@@ -133,7 +133,7 @@ through the sad heart of Ruth, where sick for home
 she stood in tears amid the alien corn;  
 The same that oftimes hath  
 &nbsp;&nbsp;
-charmed magic casements opening on the foam  
+charm’d magic casements opening on the foam  
 &nbsp;&nbsp;
 of perilous seas, in fairy lands forlorn.
 
