@@ -74,7 +74,7 @@ Already with thee! Tender is the night
 &nbsp;&nbsp;
 and haply the Queen moon is on her throne  
 &nbsp;&nbsp;&nbsp;&nbsp;
-clustered around by all her starry fays.  
+cluster’d around by all her starry fays.  
 But here there is no light,  
 &nbsp;&nbsp;
 save what from heaven is with the breezes blown  
