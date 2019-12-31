@@ -3,9 +3,9 @@ layout: poetry
 title: Ode to the Nightingale
 ---
 
-*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Ode to the Nightingale*
+<div style="padding-left: 5em; font-size: 1.3em; font-style: italic; margin-bottom: 1em;">
+Ode to the Nightingale
+</div>
 
 <div style="font-size: 1.0em; padding-left: 12em; margin-bottom: -1em;"> 1 </div>
 
@@ -155,4 +155,14 @@ in the next valley’s glades.
 Was it a vision real or a waking dream?  
 Fled is that music — do I wake or sleep?  
 
+<div style="margin-top: 3em; margin-bottom: 1em;">
+<hr align="center" width="80%">
+</div>
+The above arrangement is based on the [original manuscript][keats-orig] of 1819
+by John Keats, and on the [manuscript of his brother][keats-brother] written shortly
+thereafter.  There are numerous and interesting differences from the first print edition.
+Even the title is slightly different.
+Enjoy!
 
+[keats-orig]: docs/keats-original.pdf
+[keats-brother]: docs/keats-brother.pdf
