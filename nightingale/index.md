@@ -95,7 +95,7 @@ the grass, the thicket, and the fruit tree wild,
 white hawthorn, and the pastoral eglantine,  
 &nbsp;&nbsp;&nbsp;&nbsp;
 fast-fading violets covered up in leaves,  
-and mid May’s eldest child,  
+and mid-May’s eldest child,  
 &nbsp;&nbsp;
 the coming musk rose, full of sweetest wine,  
 the murmurous haunt of flies on summer eves.  
