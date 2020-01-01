@@ -38,18 +38,18 @@ O, for a beaker full of the warm south,
 full of the true and blissful Hippocrene  
 with cluster’d bubbles winking at the brim  
 &nbsp;&nbsp;
-and purple stained mouth,  
+and purple-stained mouth,  
 that I might drink and leave the world unseen  
 &nbsp;&nbsp;
 and with thee fade away into the forest dim.  
 
 <div style="font-size: 1.0em; padding-left: 12em; margin-bottom: -1em;"> 3 </div>
 
-Fade far away, dissolve, and quite forget  
+Fade far away, dissolve and quite forget  
 &nbsp;&nbsp;
 what thou among the leaves hast never known,  
 &nbsp;&nbsp;&nbsp;&nbsp;
-the weariness, the fever, and the fret;  
+the weariness, the fever and the fret;  
 Here, where men sit and hear each other groan,  
 &nbsp;&nbsp;
 where palsy shakes a few sad last grey hairs,  
@@ -57,7 +57,7 @@ where palsy shakes a few sad last grey hairs,
 where youth grows pale, and spectre-thin, and dies;  
 Where but to think is to be full of sorrow  
 &nbsp;&nbsp;
-and leaden-eyed despair;  
+and leaden-eyed despairs;  
 Where beauty cannot keep her lustrous eyes,  
 &nbsp;&nbsp;
 or new love pine at them beyond tomorrow.  
@@ -122,13 +122,13 @@ for thy high requiem, become a sod.
 
 Thou wast not born for death, immortal bird,  
 &nbsp;&nbsp;
-no heavy generations tread thee down.  
+no hungry generations tread thee down.  
 The voice I hear this passing night was heard  
 &nbsp;&nbsp;
 in ancient days by Emperor and Clown,  
 perhaps the selfsame song that found a path  
 &nbsp;&nbsp;
-through the sad heart of Ruth, where sick for home  
+through the sad heart of Ruth, when sick for home  
 &nbsp;&nbsp;
 she stood in tears amid the alien corn;  
 The same that oftimes hath  
