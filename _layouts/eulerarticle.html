@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% if page.language %}
+<html lang="{{ page.language }}">
+{% else %}
+<html lang="en">
+{% endif %}
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/lambent.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+  </head>
+
+  <body class="eulerarticle">
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+</ul>
+    </nav>
+<div class="container">
+
+  {{ content }}
+
+</div>
+  
+  <footer>
+   <ul>
+   <li><a href="https://github.com/ttdoucet">github.com/ttdoucet</a></li>
+   </ul>
+  </footer>
+  </body>
+
+</html>

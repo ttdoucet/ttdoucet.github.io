@@ -1,0 +1,95 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+body { margin: 60px auto; width: 70%; }
+body.eulerindex { margin: 60px auto; width: 90%; }
+
+@media screen and (max-width:500px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+    body { margin: 60px auto; width: 95%; }
+}
+
+a { text-decoration: none; color:#428bca; }
+a:hover { text-decoration: underline; }
+
+p, ul { font-size: 1.3em; line-height: 1.4em; font-family: "Times New Roman", Times, serif}
+ul ul { font-size: 100%; }
+p + ul { font-size: 1.3em; line-height: 1.4em; margin-top: -15px;}
+
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 2.0em;  }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.5em; }
+
+nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+                    padding: 0px; list-style: none; font-weight: bold; }
+nav ul li, footer ul li { display: inline; margin-right: 20px; }
+
+footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+.displaybox {
+        font-size: 0.8em;
+        background-color: cornsilk;
+        border: 1px solid black;
+        padding-left: 1em;
+        padding-right: 1em;
+}
+
+.displaybox2 {
+        font-size: 0.8em;
+        background-color: #dcf0ff;
+        border: 1px solid black;
+        padding-left: 1em;
+        padding-right: 1em;
+}
+
+.eulerdocs + ul > li {
+    list-style: none;
+    font-size: 0.8em;
+    line-height: 1.1em;
+    padding-left: 40px;
+    text-indent: -40px;
+}
+
+cite { font-style: normal; }
+
+.eulerdocs + ul > li:first-child {
+           margin-top: -0.6em;
+}
+.eulerdocs + ul > li:not(:last-child) {
+           padding-bottom: 0.8em;
+}
+/*.eulerdocs + ul li a {text-decoration: none; color: maroon }*/
+
+.EulerIndex li { list-style: none;
+                 font-size: 0.8em;
+                 line-height: 1.1em;
+                 padding-left: 40px;
+                 text-indent: -40px;
+                 padding-bottom: 0.8em;
+}
+
+.eulerarticle p { font-size: 1.2em; text-align: justify  }
+.eulerarticle esec { font-weight: bold}
+
+
+
+
+.eulerarticle etitle { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; font-size: 1.2em; font-weight: bold}
+
+.journal { font-style: italic; font-size: 0.8em; }
+
+/* CV */
+.cv { margin: 0px 0px 60px; font-family: "Times New Roman", Times, serif;}
+.cv address, .cv p {font-family: "Times New Roman", Times, serif; font-size: 1.3em; }
+
+.imgfig { margin-top: 0em; margin-bottom: 1em; }
+.imgfig figure img { width: 75%; height: auto; border: 1px solid black; }
+.imgfig figure figcaption { font-family: "Times New Roman", Times, serif; font-size: 1.0em; width: 75%}
+
+@import "highlight"

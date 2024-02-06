@@ -1,0 +1,6 @@
+name: Todd Doucet
+markdown: kramdown
+url: http://www.lambentresearch.com
+plugins:
+  - jekyll-sitemap
+  

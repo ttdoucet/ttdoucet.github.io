@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+body { margin: 60px auto; width: 80%; }
+
+@media screen and (max-width:600px) {
+  /* CSS for screens that are 600 pixels or less will be put in this section */
+    body { margin: 60px auto; width: 95%; font-size: 0.7em;}
+}
+
+a { text-decoration: none; color:#428bca; }
+a:hover { text-decoration: underline; }
+
+p, ul { font-size: 1.3em; line-height: 1.4em; font-family: "Times New Roman", Times, serif}
+ul ul { font-size: 100%; }
+p + ul { font-size: 1.3em; line-height: 1.4em; margin-top: -15px;}
+
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 2.0em;  }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.5em; }
+
+nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+                    padding: 0px; list-style: none; font-weight: bold; }
+nav ul li, footer ul li { display: inline; margin-right: 20px; }
+
+footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+/* CV */
+.cv { margin: 0px 0px 60px; font-family: "Times New Roman", Times, serif;}
+.cv address, .cv p {font-family: "Times New Roman", Times, serif; font-size: 1.3em; }
+
+.table-indent {
+  margin-left: 20px;
+}
+
+@import "highlight"
