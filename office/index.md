@@ -5,7 +5,7 @@ title: Office
 
 [repo]: https://github.com/ttdoucet/image
 
-# Office
+## Office
 
 <div class="imgfig">
 <figure>
