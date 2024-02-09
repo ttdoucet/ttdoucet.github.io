@@ -26,3 +26,6 @@ Poetry:
   * [Dickinson](/dickinson)
   * [Poems in 5-7-5](/bulrush/bulrush.pdf)
 
+Other:
+  * [Office](/office)
+  * [Books](/books)
