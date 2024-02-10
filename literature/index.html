@@ -7,7 +7,7 @@ title: Literature
     <h2>{{ page.title }}</h2>
     <ul>
         {% for book in site.data.literature %}
-        <li>{{ book.author }} - {{ book.title }}</li>
+        <li>{{ book.author }} - <em>{{ book.title }}</em></li>
         {% endfor %}
     </ul>
 </div>
