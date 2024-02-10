@@ -10,63 +10,70 @@ title: Office
 <div class="imgfig">
 <figure>
   <img src="pics/across3.jpg" />
-  <figcaption>Walking into the office from an adjoining room.</figcaption>
+  <figcaption><em>Walking into the office from an adjoining room</em>.</figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/two-desks.jpg" />
   <figcaption>
-    Computer desk and writing desk.
+    <em>Computer desk and writing desk.</em>
   </figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/across.jpg" />
-  <figcaption>View from the writing desk.</figcaption>
+  <figcaption><em>View from the writing desk.</em></figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/across2.jpg" />
-  <figcaption>Another view from the writing desk.</figcaption>
+  <figcaption><em>Another view from the writing desk.</em></figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/chair.jpg" />
   <figcaption>
-    Chair across sunroom from computer desk.
+    <em>Chair across sunroom from computer desk.</em>
   </figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/computer-desk.jpg" />
   <figcaption>
-    Monitor stand and mostly wireless.
+    <em>Monitor stand and mostly wireless.</em>
   </figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/printer.jpg" />
-  <figcaption>Printer, 5G Internet, books.</figcaption>
+  <figcaption><em>Printer, 5G Internet, books.</em></figcaption>
 </figure>
 </div>
+<br>
 
 <div class="imgfig">
 <figure>
   <img src="pics/sewing.jpg" />
   <figcaption>
-    Sewing machine from 1962 tucked in there.
+    <em>Sewing machine from 1962 tucked in there.</em>
   </figcaption>
 </figure>
 </div>
