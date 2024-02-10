@@ -37,7 +37,7 @@ locations with little blocks.  Right-click on a picture for full resolution.
 <figure>
   <img src="pics/books-621.3-800.jpg" />
   <figcaption>
-    <em>Electronics, arts, literature, poetry.</em>
+    <em>Electronics, then some literature and poetry.  Most of <a href="/literature">literature</a> is not on these shelves.</em>
   </figcaption>
 </figure>
 </div>
@@ -49,3 +49,5 @@ locations with little blocks.  Right-click on a picture for full resolution.
   <figcaption><em>Oversize.</em></figcaption>
 </figure>
 </div>
+
+[literature]: /literature

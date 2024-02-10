@@ -1,0 +1,13 @@
+---
+layout: default
+title: Literature
+---
+
+<div class="book-list">
+    <h2>{{ page.title }}</h2>
+    <ul>
+        {% for book in site.data.literature %}
+        <li>{{ book.author }} - {{ book.title }}</li>
+        {% endfor %}
+    </ul>
+</div>

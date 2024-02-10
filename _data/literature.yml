@@ -1,0 +1,584 @@
+- title: "Flatland"
+  author: "Abbott"
+
+- title: "The hitchhiker’s guide to the galaxy"
+  author: "Adams"
+
+- title: "The restaurant at the end of the universe"
+  author: "Adams"
+
+- title: "Life, the universe and everything"
+  author: "Adams"
+
+- title: "So long, and thanks for all the fish"
+  author: "Adams"
+
+- title: "Mostly harmless"
+  author: "Adams"
+
+- title: "Dirk Gently’s holistic detective agency"
+  author: "Adams"
+
+- title: "The long dark tea time of the soul"
+  author: "Adams"
+
+- title: "The handmaid’s tale"
+  author: "Atwood"
+
+- title: "Emma"
+  author: "Austen"
+
+- title: "Pride and prejudice"
+  author: "Austen"
+
+- title: "The mezzanine"
+  author: "Baker"
+
+- title: "Seize the day"
+  author: "Bellow"
+
+- title: "Midnight in the garden of good and evil"
+  author: "Berendt"
+
+- title: "The demolished man"
+  author: "Bester"
+
+- title: "The Decameron"
+  author: "Boccaccio"
+
+- title: "Collection--Bowl of cherries, Motherhood, Septic tank"
+  author: "Bombeck"
+
+- title: "Wuthering heights"
+  author: "Brontë"
+
+- title: "A clockwork orange"
+  author: "Burgess"
+
+- title: "For kings and planets"
+  author: "Canin"
+
+- title: "The palace thief"
+  author: "Canin"
+
+- title: "In cold blood"
+  author: "Capote"
+
+- title: "Alice’s adventures in Wonderland"
+  author: "Carroll"
+
+- title: "The annotated Alice"
+  author: "Carroll"
+
+- title: "Through the looking-glass"
+  author: "Carroll"
+
+- title: "A model world and other stories"
+  author: "Chabon"
+
+- title: "Summerland"
+  author: "Chabon"
+
+- title: "The amazing adventures of Kavalier and Clay"
+  author: "Chabon"
+
+- title: "The mysteries of Pittsburgh"
+  author: "Chabon"
+
+- title: "Werewolves in their youth"
+  author: "Chabon"
+
+- title: "Wonder boys"
+  author: "Chabon"
+
+- title: "The stories of John Cheever"
+  author: "Cheever"
+
+- title: "Short fiction"
+  author: "Chopin"
+
+- title: "The awakening"
+  author: "Chopin"
+
+- title: "Patriot games"
+  author: "Clancy"
+
+- title: "Heart of darkness"
+  author: "Conrad"
+
+- title: "The last of the Mohicans"
+  author: "Cooper"
+
+- title: "The red badge of courage"
+  author: "Crane"
+
+- title: "The Andromeda strain"
+  author: "Crichton"
+
+- title: "How Proust can change your life"
+  author: "De Botton"
+
+- title: "The consolations of philosophy"
+  author: "De Botton"
+
+- title: "A Christmas carol"
+  author: "Dickens"
+
+- title: "A tale of two cities"
+  author: "Dickens"
+
+- title: "Bleak house"
+  author: "Dickens"
+
+- title: "Deliverance"
+  author: "Dickey"
+
+- title: "The man in the high castle"
+  author: "Dick"
+
+- title: "Billy Bathgate"
+  author: "Doctorow"
+
+- title: "Ragtime"
+  author: "Doctorow"
+
+- title: "The book of Daniel"
+  author: "Doctorow"
+
+- title: "The waterworks"
+  author: "Doctorow"
+
+- title: "Crime and punishment"
+  author: "Dostoevsky"
+
+- title: "The adventures of Sherlock Holmes"
+  author: "Doyle"
+
+- title: "The hound of the Baskervilles"
+  author: "Doyle"
+
+- title: "The memoirs of Sherlock Holmes"
+  author: "Doyle"
+
+- title: "The return of Sherlock Holmes"
+  author: "Doyle"
+
+- title: "Silas Marner"
+  author: "Eliot"
+
+- title: "Like water for chocolate"
+  author: "Esquivel"
+
+- title: "Selected short stories"
+  author: "Faulkner"
+
+- title: "The great Gatsby"
+  author: "Fitzgerald"
+
+- title: "Madame Bovary"
+  author: "Flaubert"
+
+- title: "Extremely loud and incredibly close"
+  author: "Foer"
+
+- title: "Howards End"
+  author: "Forster"
+
+- title: "Cold mountain"
+  author: "Frazier"
+
+- title: "The liar"
+  author: "Fry"
+
+- title: "Of Love and Other Demons"
+  author: "García Márquez"
+
+- title: "One hundred years of solitude"
+  author: "García Márquez"
+
+- title: "The yellow wallpaper and other writings"
+  author: "Gilman"
+
+- title: "Lord of the flies"
+  author: "Golding"
+
+- title: "The Tin Drum"
+  author: "Grass"
+
+- title: "Jude the obscure"
+  author: "Hardy"
+
+- title: "The scarlet letter"
+  author: "Hawthorne"
+
+- title: "Into the forest"
+  author: "Hegland"
+
+- title: "Stranger in a strange land"
+  author: "Heinlein"
+
+- title: "Gilgamesh--a new translation"
+  author: "Helle"
+
+- title: "All creatures great and small"
+  author: "Herriot"
+
+- title: "All things bright and beautiful"
+  author: "Herriot"
+
+- title: "All things wise and wonderful"
+  author: "Herriot"
+
+- title: "The Lord God made them all"
+  author: "Herriot"
+
+- title: "Siddhartha"
+  author: "Hesse"
+
+- title: "The Tao of Pooh"
+  author: "Hoff"
+
+- title: "Brave new world"
+  author: "Huxley"
+
+- title: "A Prayer for Owen Meany"
+  author: "Irving"
+
+- title: "A son of the circus"
+  author: "Irving"
+
+- title: "A widow for one year"
+  author: "Irving"
+
+- title: "The Cider House rules"
+  author: "Irving"
+
+- title: "The world according to Garp"
+  author: "Irving"
+
+- title: "Trying to save Piggy Sneed"
+  author: "Irving"
+
+- title: "The beast in the jungle"
+  author: "James"
+
+- title: "The autobiography of an ex-colored man"
+  author: "Johnson"
+
+- title: "A portrait of the artist as a young man"
+  author: "Joyce"
+
+- title: "Dubliners"
+  author: "Joyce"
+
+- title: "Ulysses"
+  author: "Joyce"
+
+- title: "The metamorphosis"
+  author: "Kafka"
+
+- title: "A philosophical investigation"
+  author: "Kerr"
+
+- title: "A separate peace"
+  author: "Knowles"
+
+- title: "The painted bird"
+  author: "Kosiński"
+
+- title: "The book of laughter and forgetting"
+  author: "Kundera"
+
+- title: "The unbearable lightness of being"
+  author: "Kundera"
+
+- title: "Blue Highways"
+  author: "Least Heat-Moon"
+
+- title: "Equal affections"
+  author: "Leavitt"
+
+- title: "To kill a mockingbird"
+  author: "Lee"
+
+- title: "The cyberiad"
+  author: "Lem"
+
+- title: "The lion, the witch and the wardrobe"
+  author: "Lewis"
+
+- title: "The magician’s nephew"
+  author: "Lewis"
+
+- title: "Wolf Hall"
+  author: "Mantel"
+
+- title: "Shopgirl"
+  author: "Martin"
+
+- title: "Melmoth the wanderer"
+  author: "Maturin"
+
+- title: "Mr Darwin’s shooter"
+  author: "McDonald"
+
+- title: "Moby Dick"
+  author: "Melville"
+
+- title: "Utopia"
+  author: "More"
+
+- title: "Mutant message down under"
+  author: "Morgan"
+
+- title: "Lolita"
+  author: "Nabokov"
+
+- title: "Half a life"
+  author: "Naipaul"
+
+- title: "Animal farm"
+  author: "Orwell"
+
+- title: "Nineteen eighty-four"
+  author: "Orwell"
+
+- title: "The bell jar"
+  author: "Plath"
+
+- title: "Tales of mystery and imagination"
+  author: "Poe"
+
+- title: "Do black patent leather shoes really reflect up"
+  author: "Powers"
+
+- title: "Du côté de chez Swann"
+  author: "Proust"
+
+- title: "In search of lost time"
+  author: "Proust"
+
+- title: "Mason & Dixon"
+  author: "Pynchon"
+
+- title: "After Dachau"
+  author: "Quinn"
+
+- title: "A newcomer’s guide to the afterlife"
+  author: "Quinn and Whalen"
+
+- title: "Ishmael"
+  author: "Quinn"
+
+- title: "The story of B"
+  author: "Quinn"
+
+- title: "Atlas shrugged"
+  author: "Rand"
+
+- title: "The fountainhead"
+  author: "Rand"
+
+- title: "Interview with the vampire"
+  author: "Rice"
+
+- title: "Portnoy’s complaint"
+  author: "Roth"
+
+- title: "Sabbath’s theater"
+  author: "Roth"
+
+- title: "Harry Potter and the philosopher’s stone"
+  author: "Rowling"
+
+- title: "Harry Potter and the chamber of secrets"
+  author: "Rowling"
+
+- title: "Harry Potter and the prisoner of Azkaban"
+  author: "Rowling"
+
+- title: "Harry Potter and the goblet of fire"
+  author: "Rowling"
+
+- title: "Harry Potter and the Order of the Phoenix"
+  author: "Rowling"
+
+- title: "Harry Potter and the half-blood prince"
+  author: "Rowling"
+
+- title: "Harry Potter and the deathly hallows"
+  author: "Rowling"
+
+- title: "East, West stories"
+  author: "Rushdie"
+
+- title: "Fury"
+  author: "Rushdie"
+
+- title: "Haroun and the sea of stories"
+  author: "Rushdie"
+
+- title: "The Moor’s last sigh"
+  author: "Rushdie"
+
+- title: "The Satanic Verses"
+  author: "Rushdie"
+
+- title: "Le petit prince"
+  author: "Saint-Exupéry"
+
+- title: "Franny and Zooey"
+  author: "Salinger"
+
+- title: "Raise high the roof beam, carpenters and Seymour"
+  author: "Salinger"
+
+- title: "The catcher in the rye"
+  author: "Salinger"
+
+- title: "The laughing sutra"
+  author: "Salzman"
+
+- title: "A suitable boy"
+  author: "Seth"
+
+- title: "The jungle"
+  author: "Sinclair"
+
+- title: "Walden Two"
+  author: "Skinner"
+
+- title: "Gorky Park"
+  author: "Smith"
+
+- title: "One day in the life of Ivan Denisovich"
+  author: "Solzhenitsyn"
+
+- title: "The man who fell in love with the moon"
+  author: "Spanbauer"
+
+- title: "Angle of repose"
+  author: "Stegner"
+
+- title: "Of mice and men"
+  author: "Steinbeck"
+
+- title: "Anathem"
+  author: "Stephenson"
+
+- title: "Quicksilver"
+  author: "Stephenson"
+
+- title: "The confusion"
+  author: "Stephenson"
+
+- title: "The system of the world"
+  author: "Stephenson"
+
+- title: "Cryptonomicon"
+  author: "Stephenson"
+
+- title: "Snow crash"
+  author: "Stephenson"
+
+- title: "The diamond age"
+  author: "Stephenson"
+
+- title: "The life and opinions of Tristram Shandy, gentleman"
+  author: "Sterne"
+
+- title: "The strange case of Dr. Jekyll and Mr. Hyde"
+  author: "Stevenson"
+
+- title: "Dracula"
+  author: "Stoker"
+
+- title: "Gulliver’s travels"
+  author: "Swift"
+
+- title: "Walden"
+  author: "Thoreau"
+
+- title: "The Hobbit"
+  author: "Tolkien"
+
+- title: "The lord of the rings"
+  author: "Tolkien"
+
+- title: "A confederacy of dunces"
+  author: "Toole"
+
+- title: "A Connecticut Yankee in King Arthur’s court"
+  author: "Twain"
+
+- title: "Adventures of Huckleberry Finn"
+  author: "Twain"
+
+- title: "Breathing lessons"
+  author: "Tyler"
+
+- title: "Dinner at the homesick restaurant"
+  author: "Tyler"
+
+- title: "The accidental tourist"
+  author: "Tyler"
+
+- title: "Rabbit, run"
+  author: "Updike"
+
+- title: "Toward the end of time"
+  author: "Updike"
+
+- title: "The city and the pillar"
+  author: "Vidal"
+
+- title: "Bagombo snuff box"
+  author: "Vonnegut"
+
+- title: "Breakfast of champions"
+  author: "Vonnegut"
+
+- title: "Cat’s cradle"
+  author: "Vonnegut"
+
+- title: "Galapagos"
+  author: "Vonnegut"
+
+- title: "Slaughterhouse-Five"
+  author: "Vonnegut"
+
+- title: "Timequake"
+  author: "Vonnegut"
+
+- title: "The color purple"
+  author: "Walker"
+
+- title: "Decline and Fall"
+  author: "Waugh"
+
+- title: "The loved one"
+  author: "Waugh"
+
+- title: "Ethan Frome"
+  author: "Wharton"
+
+- title: "Charlotte’s web"
+  author: "White"
+
+- title: "The picture of Dorian Gray"
+  author: "Wilde"
+
+- title: "A man in full"
+  author: "Wolfe"
+
+- title: "Hooking up"
+  author: "Wolfe"
+
+- title: "The bonfire of the vanities"
+  author: "Wolfe"
+
+- title: "The right stuff"
+  author: "Wolfe"
+
+- title: "Kitchen"
+  author: "Yoshimoto"
