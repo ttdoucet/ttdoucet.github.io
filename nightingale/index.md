@@ -18,11 +18,11 @@ one minute past, and Lethe-wards had sunk;
 ’Tis not through envy of thy happy lot,  
 &nbsp;&nbsp;
 but being too happy in thine happiness  
-that thou, light-winged Dryad of the trees,  
+that thou, light-winged Dryad of the trees  
 &nbsp;&nbsp;&nbsp;&nbsp;
-in some melodious plot of beechen green,  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-and shadows numberless,  
+in some melodious plot  
+&nbsp;&nbsp;&nbsp;&nbsp;
+of beechen green, and shadows numberless,  
 singest of summer in full-throated ease.  
 
 <div style="font-size: 1.0em; padding-left: 12em; margin-bottom: -1em;"> 2 </div>
