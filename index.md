@@ -12,7 +12,7 @@ Projects:
   * [SoftRock](/softrock)
 
 Jottings:
-  * [Unsigned naivety](/quiz)
+  * [Unsigned *naïveté*](/quiz)
   * [Direction finding](/df)
   * [Speeding bullet](/timer)
   * [Color](/color)
