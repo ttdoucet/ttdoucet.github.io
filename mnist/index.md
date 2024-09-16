@@ -5,9 +5,9 @@ title: MNIST
 
 <img src="docs/mnist.png" style="margin-left:1em; border: 0" alt="ambiguous digit"/>
 
-Is it a five written in a hurry?  Or is it a three with a touch of Asian calligraphy?
-Inquiring minds want to know.
+Is it a *five* written in a hurry?  Or is it a *three* with a touch of Asian calligraphy?
 
+Deep models are unsure, as am I.
 To me it looks like a three, but I can flip a mental switch and it looks like nothing
 other than a five.
 
@@ -28,7 +28,7 @@ I want them as with TF2.  Will it come to pass?
 The [code] for my model, and a [runnable Python notebook] which demonstrates it,
 are freely available.  Comments are welcome!
 
-PS: My model thinks it is a three also.
+PS: My model thinks it is a *three* also, and it gets marked wrong for that, alas.
 
 [MNIST]: http://yann.lecun.com/exdb/mnist/
 [code]: https://github.com/ttdoucet/mnist
