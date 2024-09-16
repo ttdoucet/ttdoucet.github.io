@@ -9,13 +9,13 @@ Projects:
   * [Training the neural nets](https://github.com/ttdoucet/bgnets)
   * [Digit recognition using deep models](/mnist)
   * [Fingerprints: those other digits](/fingerprints)
-  * [SoftRock: build and analysis](/softrock)
+  * [SoftRock: Jupyter and hardware](/softrock)
 
 Jottings:
   * [Unsigned *naïveté*](/quiz)
   * [Direction finding and fun with MathJax](/df)
   * [Speeding bullet and the MSP-430](/timer)
-  * [Color, LEDs, and Retinex](/color)
+  * [Color: LEDs and Retinex](/color)
   * [Doppler home movie](/doppler)
 
 Writing:
