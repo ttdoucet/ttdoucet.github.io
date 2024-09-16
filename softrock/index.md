@@ -5,7 +5,7 @@ title: SoftRock
 
 # SoftRock
 
-Tony Parks at [Five Dash] sells a wonderful software-defined radio kit, the SoftRock Ensemble II RX.
+Tony Parks at Five Dash sold a wonderful software-defined radio kit, the SoftRock Ensemble II RX.
 I enjoyed building it and then analyzing in some depth the design of several aspects of the radio.
 
 
@@ -36,7 +36,7 @@ impressive.  I also like that there is not a polarized capacitor anywhere on the
 
 ## Circuit
 
-Tony has a perfectly good schematic on [his site][Five Dash], but I decided to take this
+Tony had a perfectly good schematic on his site, but I decided to take this
 opportunity to learn [KiCad].  So I installed it, went through the tutorials, then learned
 how to use the schematic editor to enter the schematic for this radio.  The project
 is available in this [repo][softrock-kicad], and here is a [PDF][schematic] of the resulting schematic.
@@ -129,5 +129,4 @@ Todd, AE3K
 [QSD]: docs/QSD.png
 [bpf]: https://nbviewer.jupyter.org/github/ttdoucet/impedance/blob/master/impedance.ipynb
 [qsd]: https://nbviewer.jupyter.org/github/ttdoucet/qsd-mixer/blob/master/mixer_nb.ipynb
-[Five Dash]: http://fivedash.com
 [KiCad]: https://www.kicad.org
