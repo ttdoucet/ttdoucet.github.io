@@ -11,7 +11,7 @@ along with my translations of them into English.
 | [Première soirée][soirée] | | | *The invocation of his muse.*     |
 | [Sensation][sensation]    | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]        | | | *On inspiration, art, his place.* |
-| [Venus anadyomène][venus] | | | *A take on a classic scene.* |
+| [Vénus anadyomène][venus] | | | *A take on a classic scene.*      |
 
 These are all from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
