@@ -21,6 +21,7 @@ Jottings:
 Writing:
   * [Catullus](/catullus)
   * [Horacing around](/horace/horace-1-11.pdf)
+  * [Rimbaud](/rimbaud)
   * [*Bulrush*](/bulrush/bulrush.pdf)
   * [*Amilcar*](/amilcar/Amilcar-en.pdf)
   * [Keats](/nightingale)
