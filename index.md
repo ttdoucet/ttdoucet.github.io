@@ -3,7 +3,7 @@ layout: default
 title: Lambent Research
 ---
 
-Projects:
+Technical:
   * [Euler translations from French and Latin](/euler)
   * [Backgammon temporal-difference learning](https://github.com/ttdoucet/backgammon)
   * [Training the neural nets](https://github.com/ttdoucet/bgnets)
@@ -11,20 +11,21 @@ Projects:
   * [Fingerprints: those other digits](/fingerprints)
   * [SoftRock: Jupyter and hardware](/softrock)
 
-Jottings:
-  * [Unsigned *naïveté*](/quiz)
+Playing:
+  * [Doppler home movie](/doppler)
+  * [Color: LEDs and Retinex](/color)
   * [Direction finding and fun with MathJax](/df)
   * [Speeding bullet and the MSP-430](/timer)
-  * [Color: LEDs and Retinex](/color)
-  * [Doppler home movie](/doppler)
+  * [Unsigned *naïveté*](/quiz)
 
-Writing:
+Poetry:
   * [Catullus](/catullus)
   * [Horacing around](/horace/horace-1-11.pdf)
   * [Rimbaud](/rimbaud)
-  * [*Bulrush*](/bulrush/bulrush.pdf)
-  * [*Amilcar*](/amilcar/Amilcar-en.pdf)
   * [Keats](/nightingale)
   * [Dickinson](/dickinson)
-  * [Sonnet 146](/Sonnet146/s146.pdf)
 
+Writing:
+  * [*Bulrush*](/bulrush/bulrush.pdf)
+  * [*Amilcar*](/amilcar/Amilcar-en.pdf)
+  * [*A printerʼs error*](/Sonnet146/s146.pdf)
