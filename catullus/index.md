@@ -4,7 +4,7 @@ title: Catullus poems translated to English.
 ---
 ## Catullus
 
-Here are some poems written by Catullus, along with my
+Here are some Latin poems written by Catullus, along with my
 translations of them into English.
 
 {: .table-indent}
