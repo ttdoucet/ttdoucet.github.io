@@ -14,14 +14,16 @@ along with my translations of them into English.
 | [Vénus anadyomène][venus]    | | | *A take on a classic scene.*      |
 | [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
+| [La Maline][maline       ]   | | | *Malinger?*                       |
 
 These are all from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
 Which is pretty amazing.
 
-[ophélie]: ophélie.pdf
+[soirée]:    soirée.pdf
 [sensation]: sensation.pdf
-[soirée]: soirée.pdf
-[venus]: venus.pdf
-[dormeur]: dormeur.pdf
-[cabaret]: cabaret.pdf
+[ophélie]:   ophélie.pdf
+[venus]:     venus.pdf
+[dormeur]:   dormeur.pdf
+[cabaret]:   cabaret.pdf
+[maline]:    maline.pdf
