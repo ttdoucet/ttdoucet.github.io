@@ -14,7 +14,7 @@ along with my translations of them into English.
 | [Vénus anadyomène][venus]    | | | *A take on a classic scene.*      |
 | [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
-| [La Maline][maline]          | | | *Malingerer?*                     |
+| [La Maline][maline]          | | | *Or maybe a Malingerer?*          |
 
 These are all from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
