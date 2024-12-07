@@ -11,7 +11,7 @@ along with my translations of them into English.
 | [Première soirée][soirée]    | | | *The invocation of his muse.*     |
 | [Sensation][sensation]       | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]           | | | *On inspiration, art, his place.* |
-| [Vénus anadyomène][venus]    | | | *A take on a classic scene.*      |
+| [Venus Anadyomène][venus]    | | | *A take on a classic scene.*      |
 | [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
 | [La Maline][maline]          | | | *Maybe a Malingerer?*             |
