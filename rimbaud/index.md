@@ -12,7 +12,7 @@ along with my translations of them into English.
 | [Sensation][sensation]       | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]           | | | *On inspiration, art, his place.* |
 | [Vénus anadyomène][venus]    | | | *A take on a classic scene.*      |
-| [Le Dormeur du Val][cabaret] | | | *A remembrance.*                  |
+| [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
 
 These are all from his hand-written collection, given to a would-be publisher
@@ -23,4 +23,5 @@ Which is pretty amazing.
 [sensation]: sensation.pdf
 [soirée]: soirée.pdf
 [venus]: venus.pdf
+[dormeur]: dormeur.pdf
 [cabaret]: cabaret.pdf
