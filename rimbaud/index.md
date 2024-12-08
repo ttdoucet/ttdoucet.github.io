@@ -12,6 +12,7 @@ along with my translations of them into English.
 | [Sensation][sensation]       | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]           | | | *On inspiration, art, his place.* |
 | [Venus Anadyomène][venus]    | | | *A take on a classic scene.*      |
+| [Rêvé pour l’hiver][hiver]   | | | *Intention to find.*              |
 | [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
 | [La Maline][maline]          | | | *Maybe a Malingerer?*             |
@@ -24,6 +25,7 @@ Which is pretty amazing.
 [sensation]: sensation.pdf
 [ophélie]:   ophélie.pdf
 [venus]:     venus.pdf
+[hiver]:     hiver.pdf
 [dormeur]:   dormeur.pdf
 [cabaret]:   cabaret.pdf
 [maline]:    maline.pdf
