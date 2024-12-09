@@ -8,7 +8,7 @@ Here are some French poems written by Arthur Rimbaud,
 along with my translations of them into English.
 
 {: .table-indent}
-| [Première soirée][soirée]    | | | *The invocation of his muse.*     |
+| [Première soirée][soirée]    | | | *An invocation of his muse.*      |
 | [Sensation][sensation]       | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]           | | | *On inspiration, art, his place.* |
 | [Venus Anadyomène][venus]    | | | *A take on a classic scene.*      |
