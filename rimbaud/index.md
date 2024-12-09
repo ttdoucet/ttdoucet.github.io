@@ -15,7 +15,7 @@ along with my translations of them into English.
 | [Rêvé pour l’hiver][hiver]   | | | *Intention to find.*              |
 | [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
-| [La Maline][maline]          | | | *Maybe a Malingerer?*             |
+| [La Maline][maline]          | | | *Maybe a Malingerer.*             |
 
 And here are some which I have not yet translated.
 
