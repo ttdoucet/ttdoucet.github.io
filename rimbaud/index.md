@@ -17,16 +17,18 @@ along with my translations of them into English.
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
 | [La Maline][maline]          | | | *Maybe a malingerer.*             |
 | [Ma Bohème][boheme]          | | | *And the beat goes on.*           |
+| [Larme][larme]               | | | *Cry me a river.*                 |
 
-And here are some which I have not yet translated.
+And a couple I'm working on . . .
 
 {: .table-indent}
 | [Le Buffet][buffet]          | | | *Ode to a Cupboard.*  |
 | [Le Mal][mal]                | | | *Evil and loss.*  |
 
-All of the above are from his hand-written collection, given to a would-be publisher
+Most of the above are from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
 Which is pretty amazing.
+
 
 [soirée]:    soirée.pdf
 [sensation]: sensation.pdf
@@ -39,3 +41,4 @@ Which is pretty amazing.
 [buffet]:    buffet.pdf
 [boheme]:    boheme.pdf
 [mal]:       mal.pdf
+[larme]:     larme.pdf
