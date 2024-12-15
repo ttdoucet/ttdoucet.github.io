@@ -19,11 +19,12 @@ along with my translations of them into English.
 | [Ma Bohème][boheme]          | | | *And the beat goes on.*           |
 | [Larme][larme]               | | | *Cry me a river.*                 |
 
-And a couple I'm working on . . .
+And a few I'm working on . . .
 
 {: .table-indent}
-| [Le Buffet][buffet]          | | | *Ode to a Cupboard.*  |
-| [Le Mal][mal]                | | | *Evil and loss.*  |
+| [Le Buffet][buffet]          | | | *Ode to a Cupboard.*       |
+| [Le Mal][mal]                | | | *Evil and loss.*           |
+| [Voyelles][voyelles]         | | | *Relations of relations.*  |
 
 Most of the above are from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
@@ -42,3 +43,4 @@ Which is pretty amazing.
 [boheme]:    boheme.pdf
 [mal]:       mal.pdf
 [larme]:     larme.pdf
+[voyelles]:  voyelles.pdf
