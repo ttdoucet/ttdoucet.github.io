@@ -18,13 +18,13 @@ along with my translations of them into English.
 | [La Maline][maline]          | | | *Maybe a malingerer.*             |
 | [Ma Bohème][boheme]          | | | *And the beat goes on.*           |
 | [Larme][larme]               | | | *Cry me a river.*                 |
+| [Voyelles][voyelles]         | | | *Relations of relations.*         |
 
-And a few I'm working on . . .
+And a couple I'm working on . . .
 
 {: .table-indent}
 | [Le Buffet][buffet]          | | | *Ode to a Cupboard.*       |
 | [Le Mal][mal]                | | | *Evil and loss.*           |
-| [Voyelles][voyelles]         | | | *Relations of relations.*  |
 
 Most of the above are from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
