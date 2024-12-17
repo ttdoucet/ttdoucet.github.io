@@ -12,6 +12,7 @@ along with my translations of them into English.
 | [Sensation][sensation]       | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]           | | | *On inspiration, art, his place.* |
 | [Venus Anadyomène][venus]    | | | *A take on a classic scene.*      |
+| [Le Mal][mal]                | | | *Evil and loss.*                  |
 | [Rêvé pour l’hiver][hiver]   | | | *Intention to find.*              |
 | [Le Dormeur du Val][dormeur] | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]   | | | *Stepping out.*                   |
@@ -20,11 +21,10 @@ along with my translations of them into English.
 | [Larme][larme]               | | | *Cry me a river.*                 |
 | [Voyelles][voyelles]         | | | *Relations of relations.*         |
 
-And a couple I'm working on . . .
+And some I'm working on . . .
 
 {: .table-indent}
 | [Le Buffet][buffet]          | | | *Ode to a Cupboard.*       |
-| [Le Mal][mal]                | | | *Evil and loss.*           |
 
 Most of the above are from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
