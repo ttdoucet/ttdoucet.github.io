@@ -35,7 +35,7 @@ Which is pretty amazing.
 [cabaret]:   cabaret.pdf
 [maline]:    maline.pdf
 [buffet]:    buffet.pdf
-[boheme]:    boheme.pdf
+[boheme]:    bohème.pdf
 [mal]:       mal.pdf
 [larme]:     larme.pdf
 [voyelles]:  voyelles.pdf
