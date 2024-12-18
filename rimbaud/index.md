@@ -21,11 +21,6 @@ along with my translations of them into English.
 | [Larme][larme]               | | | *Cry me a river.*                 |
 | [Voyelles][voyelles]         | | | *Relations of relations.*         |
 
-And some I'm working on . . .
-
-{: .table-indent}
-| [Le Buffet][buffet]          | | | *Ode to a Cupboard.*       |
-
 Most of the above are from his hand-written collection, given to a would-be publisher
 when he was just fifteen years old, or maybe within days of his sixteenth birthday.
 Which is pretty amazing.
