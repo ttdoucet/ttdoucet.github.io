@@ -18,6 +18,7 @@ along with my translations of them into English.
 | [Le Dormeur du Val][dormeur]       | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]         | | | *Stepping out.*                   |
 | [La Maline][maline]                | | | *Maybe a malingerer.*             |
+| [Le Buffet][buffet]                | | | *Doing his best Baudelaire.*      |
 | [Ma Bohème][boheme]                | | | *And the beat goes on.*           |
 | [Larme][larme]                     | | | *Cry me a river.*                 |
 | [Voyelles][voyelles]               | | | *Relations of relations.*         |
@@ -41,3 +42,4 @@ Which is pretty amazing.
 [larme]:     larme.pdf
 [voyelles]:  voyelles.pdf
 [tartufe]:   tartufe.pdf
+[buffet]:    buffet.pdf
