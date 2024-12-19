@@ -11,6 +11,7 @@ along with my translations of them into English.
 | [Première soirée][soirée]    | | | *An invocation of his muse.*      |
 | [Sensation][sensation]       | | | *Ambition and plans.*             |
 | [Ophélie][ophélie]           | | | *On inspiration, art, his place.* |
+| [Le châtiment de Tartufe][tartufe] | | | *Saying his rosary.*  |
 | [Venus Anadyomène][venus]    | | | *A take on a classic scene.*      |
 | [Le Mal][mal]                | | | *Evil and loss.*                  |
 | [Rêvé pour l’hiver][hiver]   | | | *Intention to find.*              |
@@ -39,3 +40,4 @@ Which is pretty amazing.
 [mal]:       mal.pdf
 [larme]:     larme.pdf
 [voyelles]:  voyelles.pdf
+[tartufe]:   tartufe.pdf
