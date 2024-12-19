@@ -13,19 +13,24 @@ along with my translations of them into English.
 | [Ophélie][ophélie]                 | | | *On inspiration, art, his place.* |
 | [Le châtiment de Tartufe][tartufe] | | | *Saying his rosary.*              |
 | [Venus Anadyomène][venus]          | | | *A take on a classic scene.*      |
-| [Le Mal][mal]                      | | | *Evil and loss.*                  |
+| [Le Mal][mal]                      | | | *Really bad stuff.*               |
 | [Rêvé pour l’hiver][hiver]         | | | *Intention to find.*              |
 | [Le Dormeur du Val][dormeur]       | | | *A remembrance.*                  |
 | [Au Cabaret-Vert][cabaret]         | | | *Stepping out.*                   |
 | [La Maline][maline]                | | | *Maybe a malingerer.*             |
 | [Le Buffet][buffet]                | | | *Doing his best Baudelaire.*      |
 | [Ma Bohème][boheme]                | | | *And the beat goes on.*           |
+
+All of the above are from his hand-written collection, given to a would-be publisher
+when he was just fifteen years old, or maybe within days of his sixteenth birthday.
+Which is pretty amazing.
+
+And here are a couple from a short time later.
+
+{: .table-indent}
 | [Larme][larme]                     | | | *Cry me a river.*                 |
 | [Voyelles][voyelles]               | | | *Relations of relations.*         |
 
-Most of the above are from his hand-written collection, given to a would-be publisher
-when he was just fifteen years old, or maybe within days of his sixteenth birthday.
-Which is pretty amazing.
 
 
 [soirée]:    soirée.pdf
