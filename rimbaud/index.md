@@ -13,6 +13,7 @@ along with my translations of them into English.
 | [Ophélie][ophélie]                 | | | *On inspiration, art, his place.* |
 | [Le châtiment de Tartufe][tartufe] | | | *Saying his rosary.*              |
 | [Venus Anadyomène][venus]          | | | *A take on a classic scene.*      |
+| [Roman][roman]                     | | | *Romances!*                       |
 | [Le Mal][mal]                      | | | *Really bad stuff.*               |
 | [Rêvé pour l’hiver][hiver]         | | | *Intention to find.*              |
 | [Le Dormeur du Val][dormeur]       | | | *A remembrance.*                  |
@@ -48,3 +49,4 @@ And here are a couple from a short time later.
 [voyelles]:  voyelles.pdf
 [tartufe]:   tartufe.pdf
 [buffet]:    buffet.pdf
+[roman]:     roman.pdf
