@@ -32,7 +32,7 @@ And here are a couple from a short time later.
 | [Larme][larme]                     | | | *Cry me a river.*                 |
 | [Voyelles][voyelles]               | | | *Relations of relations.*         |
 
-
+More to come.
 
 [soirée]:    soirée.pdf
 [sensation]: sensation.pdf
